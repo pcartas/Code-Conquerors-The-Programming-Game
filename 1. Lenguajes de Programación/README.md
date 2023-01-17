@@ -291,7 +291,12 @@ print(my_function([1,2,3,4,5,6]))
     C) C++
     D) JavaScript
 
+    
+<details>
+<summary>Respuesta</summary>
     D) JavaScript es la opción correcta
+</details>
+<br>
 
 ⭐⭐ ¿Qué es AJAX?
 
@@ -300,7 +305,12 @@ print(my_function([1,2,3,4,5,6]))
     C) Un protocolo de red
     D) Una herramienta de diseño
 
-    B) Una técnica para actualizar partes de una página web sin tener que recargarla completamente es la opción correcta
+
+<details>
+<summary>Respuesta</summary>
+    B) Una técnica para actualizar partes de una página web sin tener que recargarla completamente
+</details>
+<br>
 
 ⭐⭐⭐ ¿Cuál es la diferencia entre una petición GET y una petición POST en HTTP?
 
@@ -309,6 +319,36 @@ print(my_function([1,2,3,4,5,6]))
     C) GET es segura mientras que POST no lo es
     D) GET es más rápida que POST
 
-    B) GET es solo para obtener recursos mientras que POST es solo para enviar información es la opción correcta
+
+<details>
+<summary>Respuesta</summary>
+    B) GET es solo para obtener recursos mientras que POST es solo para enviar información
+</details>
+<br>
 
 ## 122 <a name = "122"></a>
+
+⭐ ¿Cuál es el error en este código?
+
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        int x = 5;
+        int y = "hello";
+        System.out.println(x + y);
+    }
+}
+```
+
+    A) El valor de x y y no están definidos
+    B) No se esta utilizando el operador de suma correcto
+    C) No se esta utilizando el tipo de datos correcto
+    D) El código esta correcto
+
+<details>
+<summary>Respuesta</summary>
+C) No se esta utilizando el tipo de datos correcto
+</details>
+<br>
+    
