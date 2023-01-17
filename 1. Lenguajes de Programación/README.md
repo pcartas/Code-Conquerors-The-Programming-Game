@@ -798,7 +798,7 @@ class A {
 <details>
 <summary>Respuesta</summary>
     B) El acoplamiento que se da entre los módulos o componentes de software en tiempo de diseño es la opción correcta.
-<details>
+</details>
 <br>
 
 ⭐⭐ ¿Qué es el acoplamiento dinámico?
