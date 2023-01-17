@@ -94,16 +94,26 @@
     B) James Gosling
     C) Bjarne Stroustrup
 
-    A. es la opción correcta
+<details>
+<summary>Respuesta</summary>
+    A) Guido van Rossum 
+</details>
+<br>
 
-⭐⭐ ¿Qué tipo de lenguaje de programación es Python?
+⭐⭐ ¿Qué tipos de lenguaje de programación es Python?
 
     A) de bajo nivel
     B) de alto nivel
     C) interpretado
     D) compilado
 
-    B) de alto nivel y C) interpretado son las opciones correctas
+<details>
+<summary>Respuesta</summary>
+    B) de alto nivel y 
+    C) interpretado
+</details>
+<br>
+    
 
 ⭐⭐⭐ ¿Cuál es la diferencia entre una lista y una tupla en Python?
 
@@ -112,7 +122,11 @@
     C) Una lista es utilizada para almacenar datos y una tupla para funciones
     D) Una lista se puede modificar y una tupla no
 
-    A) Una lista es mutable y una tupla es inmutable es la opción correcta
+<details>
+<summary>Respuesta</summary>
+    A) Una lista es mutable y una tupla es inmutable
+</details>
+<br>
 
 ## 112 <a name = "112"></a>
 
@@ -123,7 +137,11 @@
     C) 1997
     D) 2000
 
-    B) 1995 es la opción correcta
+<details>
+<summary>Respuesta</summary>
+    B) 1995
+</details>
+<br>
 
 ⭐⭐ ¿Qué es JRE?
 
@@ -132,7 +150,11 @@
     C) Es un conjunto de librerías de Java
     D) Es una herramienta de desarrollo
 
-    B) Es un entorno de ejecución de Java es la opción correcta
+<details>
+<summary>Respuesta</summary>
+    B) Es un entorno de ejecución de Java
+</details>
+<br>
 
 ⭐⭐⭐ ¿Qué es el Garbage Collector en Java?
 
@@ -141,7 +163,11 @@
     C) Una herramienta para optimizar el rendimiento del código
     D) Una herramienta para encontrar y corregir errores en el código
 
-    B) Una herramienta para recolectar y liberar la memoria no utilizada es la opción correcta
+<details>
+<summary>Respuesta</summary>
+    B) Una herramienta para recolectar y liberar la memoria no utilizada
+</details>
+<br>
 
 ## 113 <a name = "113"></a>
 
@@ -152,7 +178,11 @@
     C) Una clase que implementa una interfaz
     D) Una clase que tiene métodos privados
 
-    A) Una clase que no puede ser instanciada es la opción correcta
+<details>
+<summary>Respuesta</summary>
+    A) Una clase que no puede ser instanciada
+</details>
+<br>
 
 ⭐⭐⭐ ¿Qué es una interfaz en Java?
 
@@ -161,7 +191,11 @@
     C) Una clase que solo puede contener variables y no métodos
     D) Una clase que solo puede ser instanciada una sola vez
 
-    A) Una clase que define un conjunto de métodos que deben ser implementados por las clases que la implementan es la opción correcta
+<details>
+<summary>Respuesta</summary>
+    A) Una clase que define un conjunto de métodos que deben ser implementados por las clases que la implementan
+</details>
+<br>
 
 ⭐⭐⭐ ¿Qué es una clase anidada en Java?
 
@@ -170,7 +204,11 @@
     C) Una clase dentro de un método
     D) Una clase dentro de una interfaz
 
-    A) Una clase dentro de una clase es la opción correcta
+<details>
+<summary>Respuesta</summary>
+    A) Una clase dentro de una clase
+</details>
+<br>
 
 ## 114 <a name = "114"></a>
 
@@ -181,7 +219,11 @@
     C) Una función predefinida
     D) Una estructura de datos
 
-    B) Un espacio en la memoria del ordenador para almacenar un valor es la opción correcta
+<details>
+<summary>Respuesta</summary>
+    B) Un espacio en la memoria del ordenador para almacenar un valor
+</details>
+<br>
 
 ⭐⭐ ¿Qué es una constante en programación?
 
@@ -190,7 +232,11 @@
     C) Una expresión matemática
     D) Una estructura de datos
 
-    A) Un espacio en la memoria del ordenador para almacenar un valor que no puede ser modificado es la opción correcta
+<details>
+<summary>Respuesta</summary>
+    A) Un espacio en la memoria del ordenador para almacenar un valor que no puede ser modificado
+</details>
+<br>
 
 ⭐⭐⭐ ¿Qué es un condicional en programación?
 
@@ -198,8 +244,13 @@
     B) Una función que se ejecuta automáticamente
     C) Una expresión matemática
     D) Una estructura de datos
+    
+<details>
+<summary>Respuesta</summary>
+    A) Una estructura de control que permite ejecutar un bloque de código solo si se cumple una condición
+</details>
+<br>
 
-    A) Una estructura de control que permite ejecutar un bloque de código solo si se cumple una condición es la opción correcta
 
 ## 115 <a name = "115"></a>
 
@@ -217,7 +268,11 @@ print(x + y)
     C) No se esta utilizando el tipo de datos correcto
     D) El código esta correcto
 
-    C) No se esta utilizando el tipo de datos correcto es la opción correcta
+<details>
+<summary>Respuesta</summary>
+    C) No se esta utilizando el tipo de datos correcto
+</details>
+<br>
 
 ⭐⭐ ¿Cuál es el error en este código?
 
@@ -230,8 +285,12 @@ for i in x
     B) El bucle for esta mal escrito
     C) La variable i no esta definida
     D) No se esta utilizando el tipo de datos correcto
-
-    A) Falta el : al final de la línea 3 es la opción correcta
+ 
+<details>
+<summary>Respuesta</summary>
+    A) Falta el : al final de la línea 3
+</details>
+<br>
 
 ⭐⭐⭐ ¿Cuál es el error en este código?
 
@@ -251,7 +310,11 @@ print(my_function([1,2,3,4,5,6]))
     C) La función no esta utilizando el modulo correctamente
     D) La función esta modificando la lista mientras itera sobre ella
 
-    D) La función esta modificando la lista mientras itera sobre ella es la opción correcta
+<details>
+<summary>Respuesta</summary>
+    D) La función esta modificando la lista mientras itera sobre ella 
+</details>
+<br>
 
 ## 116 <a name = "116"></a>
 
@@ -262,16 +325,26 @@ print(my_function([1,2,3,4,5,6]))
     C) Desarrollo de videojuegos
     D) Desarrollo de sistemas empresariales
 
-    B) Ciencia de datos y Machine Learning es la opción correcta
+    B) Ciencia de datos y Machine Learning 
 
-⭐⭐ ¿Qué ventaja tiene C++ sobre C en cuanto a performance?
+<details>
+<summary>Respuesta</summary>
+    B) Ciencia de datos y Machine Learning 
+</details>
+<br>
+
+⭐⭐ ¿Qué ventajas tiene C++ sobre C en cuanto a performance?
 
     A) No tiene ventajas en cuanto a performance
     B) Permite la programación orientada a objetos
     C) Permite el uso de templates
     D) Permite el uso de excepciones
 
+<details>
+<summary>Respuesta</summary>
     B) Permite la programación orientada a objetos y C) Permite el uso de templates son las opciones correctas
+</details>
+<br>
 
 ⭐⭐⭐ ¿Qué diferencia hay entre los paradigmas de programación orientada a objetos y funcional?
 
@@ -280,7 +353,11 @@ print(my_function([1,2,3,4,5,6]))
     C) La programación orientada a objetos se basa en el cambio de estado y la programación funcional en la inmutabilidad
     D) La programación orientada a objetos se basa en la herencia y la programación funcional en la composición
 
-    C) La programación orientada a objetos se basa en el cambio de estado y la programación funcional en la inmutabilidad es la opción correcta
+<details>
+<summary>Respuesta</summary>
+    C) La programación orientada a objetos se basa en el cambio de estado y la programación funcional en la inmutabilidad
+</details>
+<br>
 
 ## 121 <a name = "121"></a>
 
@@ -294,7 +371,7 @@ print(my_function([1,2,3,4,5,6]))
     
 <details>
 <summary>Respuesta</summary>
-    D) JavaScript es la opción correcta
+    D) JavaScript
 </details>
 <br>
 
