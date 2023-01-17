@@ -62,7 +62,7 @@ Cada color del tablero tiene asignada una categoría:
 7. Sistemas operativos: Blanco ⬜
 8. Seguridad: Marrón 🟫 
 9. Inteligencia artificial y machine learning: Negro ⬛
-10. Cloud computing: Mapache 🦝
+10. Infraestructura & Devops: Celeste 🦝
 
 Se utiliza un dado de 6 caras para avanzar en el tablero. Puede ser uno real o utilizando [alguna app de celular](https://play.google.com/store/apps/details?id=fr.sevenpixels.dice&hl=en&gl=US) o [en el browser](https://eslkidsgames.com/Flash/Classroom%20Dice/index.html).
 

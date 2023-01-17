@@ -691,4 +691,313 @@ class Main {
 
 ## 132 <a name = "132"></a>
 
+⭐ ¿Qué es un patrón de diseño?
+
+    A) Una solución común a un problema recurrente en el diseño de software
+    B) Un conjunto de herramientas y librerías que facilitan el desarrollo de aplicaciones
+    C) Una técnica para escribir código limpio
+    D) Una metodología para organizar el proyecto
+
+<details>
+<summary>Respuesta</summary>
+    A) Una solución común a un problema recurrente en el diseño de software es la opción correcta
+</details>
+<br>
+
+⭐⭐ ¿Qué es un patrón Singleton?
+
+    A) Un patrón de diseño que garantiza que solo exista una instancia de una clase en todo el programa
+    B) Un patrón de diseño que se utiliza para crear objetos
+    C) Un patrón de diseño para crear una jerarquía de objetos
+    D) Un patrón de diseño para manejar la concurrencia
+
+<details>
+<summary>Respuesta</summary>
+    A) Un patrón de diseño que garantiza que solo exista una instancia de una clase en todo el programa es la opción correcta
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué es un patrón Factory?
+
+    A) Un patrón de diseño que garantiza que solo exista una instancia de una clase en todo el programa
+    B) Un patrón de diseño que se utiliza para crear objetos
+    C) Un patrón de diseño para crear una jerarquía de objetos
+    D) Un patrón de diseño para manejar la concurrencia
+
+<details>
+<summary>Respuesta</summary>
+    B) Un patrón de diseño que se utiliza para crear objetos es la opción correcta
+</details>
+
+## 133 <a name = "133"></a>
+
+⭐ ¿Qué es el acoplamiento?
+
+    A) La medida de la dependencia entre módulos o componentes de software
+    B) La medida de la interconexión entre módulos o componentes de software
+    C) La medida de la complejidad de un módulo o componente de software
+    D) La medida de la eficiencia de un módulo o componente de software
+
+<details>
+<summary>Respuesta</summary>
+    A) La medida de la dependencia entre módulos o componentes de software es la opción correcta
+</details>
+<br>
+
+⭐⭐ ¿Qué es la alta cohesión?
+    A) La medida de la independencia entre módulos o componentes de software
+    B) La medida de la interconexión entre módulos o componentes de software
+    C) La medida de la complejidad de un módulo o componente de software
+    D) La medida de la eficiencia de un módulo o componente de software
+
+<details>
+<summary>Respuesta</summary>
+A) La medida de la independencia entre módulos o componentes de software es la opción correcta
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué tipo de acoplamiento se utiliza en el siguiente código?
+
+
+```java
+class A {
+    public void doSomething() {
+        B b = new B();
+        b.doSomethingElse();
+    }
+}
+```
+
+    A) Acoplamiento estático
+    B) Acoplamiento dinámico
+    C) Acoplamiento débil
+    D) Acoplamiento fuerte
+
+<details>
+<summary>Respuesta</summary>
+    D) Acoplamiento fuerte es la opción correcta.
+
+    El acoplamiento fuerte se refiere a una alta dependencia entre los módulos o componentes de software, lo que significa que un cambio en un módulo afectará directamente a otros módulos. El acoplamiento fuerte puede hacer que el código sea más difícil de mantener y probar, ya que los cambios en un módulo pueden tener efectos no deseados en otros módulos.
+
+    En el código anterior que se proporcionó, la clase A está fuertemente acoplada a la clase B, ya que la clase A instancia un objeto de la clase B y llama a un método de esa clase. Esto significa que si cambias la clase B, también tendrás que cambiar la clase A, ya que su comportamiento está directamente relacionado con la clase B.
+
+    Para reducir el acoplamiento fuerte en el código, se pueden utilizar patrones de diseño como el patrón de inyección de dependencias, donde se proporciona una interfaz para que las clases puedan interactuar entre sí, en lugar de depender directamente de una clase específica.
+
+</details>
+<br>
+
+## 134 <a name = "134"></a>
+
+⭐ ¿Qué es el acoplamiento estático?
+
+    A) El acoplamiento que se da entre los módulos o componentes de software en tiempo de ejecución
+    B) El acoplamiento que se da entre los módulos o componentes de software en tiempo de diseño
+    C) El acoplamiento que se da entre los módulos o componentes de software en tiempo de compilación
+    D) El acoplamiento que se da entre los módulos o componentes de software en tiempo de análisis
+
+<details>
+<summary>Respuesta</summary>
+    B) El acoplamiento que se da entre los módulos o componentes de software en tiempo de diseño es la opción correcta.
+<details>
+<br>
+
+⭐⭐ ¿Qué es el acoplamiento dinámico?
+
+    A) El acoplamiento en el que las clases se relacionan mediante la herencia o implementación de interfaces
+    B) El acoplamiento en el que las clases se relacionan mediante la creación de objetos
+    C) El acoplamiento en el que las clases se relacionan mediante una dependencia de paquetes
+    D) El acoplamiento en el que las clases se relacionan mediante una dependencia de componentes
+
+<details>
+<summary>Respuesta</summary>
+B) El acoplamiento en el que las clases se relacionan mediante la creación de objetos es la opción correcta
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué es el acoplamiento débil?
+
+    A) El acoplamiento en el que las clases se relacionan mediante una dependencia de paquetes o componentes
+    B) El acoplamiento en el que las clases se relacionan mediante la creación de objetos
+    C) El acoplamiento en el que las clases se relacionan mediante la herencia o implementación de interfaces
+    D) El acoplamiento en el que las clases se relacionan mediante una dependencia de librerías
+
+<details>
+<summary>Respuesta</summary>
+A) El acoplamiento en el que las clases se relacionan mediante una dependencia de paquetes o componentes es la opción correcta
+</details>
+<br>
+
+## 135 <a name = "135"></a>
+
+⭐ ¿Qué es el patrón de diseño facade?
+
+    A) Un patrón que asegura que solo exista una instancia de una clase en todo el programa
+    B) Un patrón que permite crear múltiples instancias de una clase de forma organizada
+    C) Un patrón que permite crear una interfaz simple para un sistema complejo
+    D) Un patrón que permite añadir comportamiento adicional a un objeto
+
+<details>
+<summary>Respuesta</summary>
+    C) Un patrón que permite crear una interfaz simple para un sistema complejo es la opción correcta
+</details>
+<br>
+
+⭐⭐ ¿Qué es el patrón de diseño decorator?
+
+    A) Un patrón que asegura que solo exista una instancia de una clase en todo el programa
+    B) Un patrón que permite crear múltiples instancias de una clase de forma organizada
+    C) Un patrón que permite crear una interfaz simple para un sistema complejo
+    D) Un patrón que permite añadir comportamiento adicional a un objeto dinámicamente
+
+<details>
+<summary>Respuesta</summary>
+    D) Un patrón que permite añadir comportamiento adicional a un objeto dinámicamente es la opción correcta
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué es la inyección de dependencias?
+
+    A) Es una técnica en la cual un objeto es pasado a otro objeto como una dependencia
+    B) Es una técnica en la cual un objeto es creado dentro de otro objeto como una dependencia
+    C) Es una técnica en la cual un objeto es compartido entre varios objetos como una dependencia
+    D) Es una técnica en la cual un objeto es eliminado de un objeto como una dependencia
+
+<details>
+<summary>Respuesta</summary>
+A) Es una técnica en la cual un objeto es pasado a otro objeto como una dependencia es la opción correcta
+</details>
+<br>
+
+## 136 <a name = "136"></a>
+
+⭐ ¿Quién es el creador de Golang?
+
+    A) Ken Thompson
+    B) Rob Pike
+    C) Brian Kernighan
+    D) James Gosling
+
+<details>
+<summary>Respuesta</summary>
+    B) Rob Pike es la opción correcta
+</details>
+<br>
+
+⭐⭐ ¿En qué año fue lanzado Golang?
+    A) 2005
+    B) 2007
+    C) 2009
+    D) 2011
+
+<details>
+<summary>Respuesta</summary>
+    C) 2009 es la opción correcta
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué tipo de programación se puede realizar con Golang?
+    
+        A) Programación orientada a objetos
+        B) Programación funcional
+        C) Programación estructurada
+        D) Todas las anteriores
+
+<details>
+<summary>Respuesta</summary>
+    D) Todas las anteriores es la opción correcta
+</details>
+<br>
+
+## 141 <a name = "141"></a>
+
+⭐ ¿Cuál es la salida del siguiente código en Golang?
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+    i := 1
+    for i <= 3 {
+        fmt.Println(i)
+        i = i + 1
+    }
+}
+```
+
+    A) 1 2 3
+    B) 1 2 3 4
+    C) 0 1 2 3
+    D) Ninguna de las anteriores
+
+<details>
+<summary>Respuesta</summary>
+    A) 1 2 3 es la opción correcta
+</details>
+<br>
+
+⭐⭐ ¿Cuál es el resultado del siguiente código en Golang?
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+    x := []string{"John", "Doe"}
+    y := []string{"Jane", "Doe"}
+    fmt.Println(x == y)
+}
+```
+
+A) true
+B) false
+C) no es posible comparar arreglos en golang
+D) El código no compila
+
+<details>
+<summary>Respuesta</summary>
+    B) false es la opción correcta
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué error tiene el siguiente código en Golang?
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+    x := []int{
+        48,96,86,68
+        57,82,63,70
+        37,34,83,27
+        19,97, 9,17
+    }
+    smallest := x[0]
+    for _, value := range x {
+        if value < smallest {
+            smallest = value
+        }
+    }
+    fmt.Println(smallest)
+}
+```
+
+    A) Falta una como despues de cada valor en la declaración del arreglo x
+    B) El ciclo for debe utilizar un contador en lugar de _
+    C) El valor inicial de smallest debe ser 0 en lugar de x[0]
+    D) No hay errores en el código
+
+<details>
+<summary>Respuesta</summary>
+    A) Falta una como despues de cada valor en la declaración del arreglo x es la opción correcta
+</details>
+<br>
+
+## 142 <a name = "142"></a>
+
+
 
