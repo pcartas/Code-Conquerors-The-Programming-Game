@@ -425,7 +425,270 @@ public class Main {
 
 <details>
 <summary>Respuesta</summary>
-C) No se esta utilizando el tipo de datos correcto
+    C) No se esta utilizando el tipo de datos correcto
 </details>
 <br>
-    
+
+⭐⭐ ¿Cuál es el error en este código?
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        int[] numbers = {1,2,3};
+        for(int i : numbers) {
+            System.out.println(i);
+        }
+    }
+}
+```
+
+    A) El for esta mal escrito
+    B) La variable i no esta definida
+    C) No se esta utilizando el tipo de datos correcto
+    D) El código esta correcto
+
+<details>
+<summary>Respuesta</summary>
+    D) El código esta correcto
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál es el error en este código?
+
+```java
+class Main {
+    public static void main(String[] args) {
+        int[] numbers = {1, 2, 3, 4, 5};
+        for (int i = 0; i < numbers.length; i++) {
+            if (numbers[i] % 2 == 0) {
+                numbers[i] = 0;
+            }
+        }
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.println(numbers[i]);
+        }
+    }
+}
+```
+
+    A) El código no esta imprimiendo los números correctamente
+    B) El código esta modificando el array mientras itera sobre él
+    C) El código esta utilizando el operador de modulo de forma incorrecta
+    D) El código no esta utilizando el tipo de datos correcto
+    E) El código esta correcto
+
+<details>
+<summary>Respuesta</summary>
+    E) El código esta correcto
+</details>
+<br>
+
+## 123 <a name = "123"></a>
+
+⭐ ¿Por qué es importante utilizar nombres descriptivos para las variables?
+
+    A) Es más fácil de leer y entender el código
+    B) Es más fácil de depurar el código
+    C) Es más fácil de mantener el código
+    D) Todas las anteriores
+
+<details>
+<summary>Respuesta</summary>
+    D) Todas las anteriores
+</details>
+<br>
+
+⭐⭐ ¿Qué es el principio de responsabilidad única en programación?
+
+    A) Cada clase debe tener solo una responsabilidad
+    B) Cada función debe tener solo una responsabilidad
+    C) Cada variable debe tener solo una responsabilidad
+    D) Cada línea de código debe tener solo una responsabilidad
+
+<details>
+<summary>Respuesta</summary>
+    A) Cada clase debe tener solo una responsabilidad es la opción correcta
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué es el principio de abierto/cerrado en programación?
+
+    A) Una clase debe estar abierta para extensión y cerrada para modificación
+    B) Una clase debe estar abierta para todos los usuarios y cerrada para el desarrollador
+    C) Una clase debe estar abierta para depuración y cerrada para producción
+    D) Una clase debe estar abierta para la herencia y cerrada para la composición
+
+<details>
+<summary>Respuesta</summary>
+    A) Una clase debe estar abierta para extensión y cerrada para modificación
+</details>
+<br>
+
+## 123 <a name = "124"></a>
+
+⭐ ¿Qué es un framework?
+
+    A) Un conjunto de herramientas y librerías que facilitan el desarrollo de aplicaciones
+    B) Un lenguaje de programación
+    C) Un sistema operativo
+    D) Una herramienta de diseño
+
+<details>
+<summary>Respuesta</summary>
+    A) Un conjunto de herramientas y librerías que facilitan el desarrollo de aplicaciones
+</details>
+<br>
+
+⭐⭐ ¿Qué es AngularJS?
+
+    A) Un framework de JavaScript para desarrollo de aplicaciones web
+    B) Un framework de Python para desarrollo de aplicaciones móviles
+    C) Un framework de Ruby para desarrollo de aplicaciones web
+    D) Un framework de PHP para desarrollo de aplicaciones web
+
+<details>
+<summary>Respuesta</summary>
+    A) Un framework de JavaScript para desarrollo de aplicaciones web es la opción correcta
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué es React?
+
+    A) Un framework de JavaScript para desarrollo de aplicaciones web
+    B) Un framework de Python para desarrollo de aplicaciones móviles
+    C) Un framework de Ruby para desarrollo de aplicaciones web
+    D) Un framework de PHP para desarrollo de aplicaciones web
+
+<details>
+<summary>Respuesta</summary>
+    A) Un framework de JavaScript para desarrollo de aplicaciones web es la opción correcta
+</details>
+<br>
+
+## 125 <a name = "125"></a>
+
+⭐ ¿Qué es un lenguaje de programación?
+
+    A) Un lenguaje que permite comunicarse con la computadora
+    B) Un lenguaje que permite comunicarse con los humanos
+    C) Un lenguaje que permite comunicarse con los animales
+    D) Un lenguaje que permite comunicarse con los robots
+
+<details>
+<summary>Respuesta</summary>
+    A) Un lenguaje que permite comunicarse con la computadora
+</details>
+<br>
+
+⭐⭐ ¿Qué es un compilador?
+
+    A) Un programa que traduce el código fuente en un lenguaje de programación a código ejecutable en tiempo real
+    B) Un programa que traduce el código fuente en un lenguaje de programación a código ejecutable antes de la ejecución
+    C) Un programa que ejecuta el código fuente directamente sin necesidad de traducción
+    D) Un programa que ayuda a escribir código
+
+<details>
+<summary>Respuesta</summary>
+    B) Un programa que traduce el código fuente en un lenguaje de programación a código ejecutable antes de la ejecución
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué es un intérprete?
+
+    A) Un programa que traduce el código fuente en un lenguaje de programación a código ejecutable en tiempo real
+    B) Un programa que traduce el código fuente en un lenguaje de programación a código ejecutable antes de la ejecución
+    C) Un programa que ejecuta el código fuente directamente sin necesidad de traducción
+    D) Un programa que ayuda a escribir código
+    A) Un programa que traduce el código fuente en un lenguaje de programación a código ejecutable en tiempo real es la opción correcta
+
+<details>
+<summary>Respuesta</summary>
+    A) Un programa que traduce el código fuente en un lenguaje de programación a código ejecutable en tiempo real
+</details>
+<br>
+
+## 126 <a name = "126"></a>
+
+⭐ ¿Qué ventaja tiene utilizar un compilador en comparación con un interprete?
+
+    A) El código ejecutado es más rápido
+    B) Permite detectar errores en tiempo de ejecución
+    C) Mayor seguridad
+    D) Mejor rendimiento
+
+<details>
+<summary>Respuesta</summary>
+    A) El código ejecutado es más rápido
+</details>
+<br>
+
+⭐⭐ ¿Qué lenguajes de programación suelen requerir un interprete para su ejecución?
+
+    A) C++
+    B) Java
+    C) Python
+    D) C
+
+<details>
+<summary>Respuesta</summary>
+    C) Python es la opción correcta.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál es la diferencia entre un compilador y un interprete en términos de cómo manejan el código fuente?
+
+    A) Un compilador traduce el código fuente a código ejecutable antes de la ejecución, mientras que un interprete lo hace en tiempo real
+    B) Un compilador ejecuta el código directamente sin necesidad de traducción, mientras que un interprete lo traduce antes de ejecutarlo
+    C) Un compilador es solo para lenguajes de bajo nivel y un interprete solo para lenguajes de alto nivel
+    D) Un compilador es solo para lenguajes de alto nivel y un interprete solo para lenguajes de bajo nivel
+
+<details>
+<summary>Respuesta</summary>
+    A) Un compilador traduce el código fuente a código ejecutable antes de la ejecución, mientras que un interprete lo hace en tiempo real es la opción correcta
+</details>
+<br>
+
+## 131 <a name = "131"></a>
+
+⭐ ¿Qué es la optimización de código?
+
+    A) El proceso de mejorar el rendimiento y la eficiencia del código
+    B) El proceso de escribir código limpio
+    C) El proceso de hacer que el código sea más fácil de leer
+    D) El proceso de eliminar el código innecesario
+
+<details>
+<summary>Respuesta</summary>
+    A) El proceso de mejorar el rendimiento y la eficiencia del código es la opción correcta
+</details>
+<br>
+
+⭐⭐ ¿Qué es el Big O notation?
+
+    A) Una notación utilizada para medir el rendimiento de un algoritmo en términos del tamaño de la entrada
+    B) Una notación utilizada para medir el rendimiento de un sistema en términos de velocidad de procesamiento
+    C) Una notación utilizada para medir el rendimiento de un sistema en términos de memoria utilizada
+    D) Una notación utilizada para medir el rendimiento de un sistema en términos de ancho de banda utilizado
+
+<details>
+<summary>Respuesta</summary>
+    A) Una notación utilizada para medir el rendimiento de un algoritmo en términos del tamaño de la entrada es la opción correcta.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál es el objetivo principal de la optimización de código?
+
+    A) Aumentar la velocidad de ejecución
+    B) Reducir el tamaño del código
+    C) Mejorar la legibilidad
+    D) Aumentar la escalabilidad
+
+<details>
+<summary>Respuesta</summary>
+    A) Aumentar la velocidad de ejecución es la opción correcta
+</details>
+<br>
+
+## 132 <a name = "132"></a>
+
+
