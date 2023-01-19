@@ -999,5 +999,456 @@ func main() {
 
 ## 142 <a name = "142"></a>
 
+⭐ ¿Qué es una librería?
+
+    A) Un conjunto de código predefinido que se puede reutilizar en diferentes proyectos
+    B) Un sistema operativo
+    C) Un lenguaje de programación
+    D) Una herramienta de diseño
+
+<details>
+<summary>Respuesta</summary>
+    A) Un conjunto de código predefinido que se puede reutilizar en diferentes proyectos es la opción correcta
+</details>
+<br>
+
+⭐⭐ ¿Qué es una librería de terceros?
+
+    A) Una librería desarrollada por el equipo de desarrollo del proyecto
+    B) Una librería desarrollada por una empresa externa al proyecto
+    C) Una librería desarrollada por una comunidad de desarrolladores
+    D) Una librería desarrollada por el equipo de soporte del proyecto
+
+<details>
+<summary>Respuesta</summary>
+    B) Una librería desarrollada por una empresa externa al proyecto es la opción correcta
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué es una dependencia en el contexto de librerías y paquetes?
+
+    A) Un conjunto de librerías o paquetes que son necesarios para que otra librería o paquete funcione correctamente
+    B) Un conjunto de librerías o paquetes que son opcionales para que otra librería o paquete funcione correctamente
+    C) Un conjunto de librerías o paquetes que son necesarios para el sistema operativo
+    D) Un conjunto de librerías o paquetes que son necesarios para el compilador
+
+<details>
+<summary>Respuesta</summary>
+    A) Un conjunto de librerías o paquetes que son necesarios para que otra librería o paquete funcione correctamente es la opción correcta
+</details>
+<br>
+
+## 143 <a name = "143"></a>
+
+⭐ ¿Qué es la calidad de software?
+
+    A) El conjunto de características y cualidades de un software que lo hacen útil y efectivo para los usuarios
+    B) El proceso de escribir código limpio
+    C) El proceso de hacer que el código sea más fácil de leer
+    D) El proceso de eliminar el código innecesario
+
+<details>
+<summary>Respuesta</summary>
+    A) El conjunto de características y cualidades de un software que lo hacen útil y efectivo para los usuarios es la opción correcta.
+</details>
+<br>
+
+⭐⭐ ¿Qué es la flexibilidad en software?
+    A) La capacidad del software para adaptarse a cambios en los requisitos del usuario
+    B) La capacidad del software para adaptarse a cambios en el entorno de ejecución
+    C) La capacidad del software para adaptarse a cambios en el equipo de desarrollo
+    D) La capacidad del software para adaptarse a cambios en el sistema operativo
+
+<details>
+<summary>Respuesta</summary>
+    A) La capacidad del software para adaptarse a cambios en los requisitos del usuario es la opción correcta
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué es la extensibilidad en software?
+    A) La capacidad del software para ser escalado en términos de funcionalidad
+    B) La capacidad del software para ser escalado en términos de rendimiento
+    C) La capacidad del software para ser escalado en términos de usuarios
+    D) La capacidad del software para ser escalado en términos de tamaño del equipo de desarrollo
+
+<details>
+<summary>Respuesta</summary>
+    A) La capacidad del software para ser escalado en términos de funcionalidad es la opción correcta
+</details>
+<br>
+
+## 144 <a name = "144"></a>
+
+⭐ ¿Qué es la legibilidad en software?
+
+    A) La capacidad del software para ser entendido por el usuario
+    B) La capacidad del software para ser entendido por el equipo de desarrollo
+    C) La capacidad del software para ser entendido por el equipo de mantenimiento
+    D) La capacidad del software para ser entendido por todos los involucrados
+
+<details>
+<summary>Respuesta</summary>
+    D) La capacidad del software para ser entendido por todos los involucrados es la opción correcta
+</details>
+<br>
+
+⭐⭐ ¿Qué es la mantenibilidad en software?
+
+    A) La capacidad del software para ser modificado y evolucionado
+    B) La capacidad del software para ser escalado
+    C) La capacidad del software para ser reparado y corregido
+    D) La capacidad del software para ser probado y verificado
+
+<details>
+<summary>Respuesta</summary>
+    A) La capacidad del software para ser modificado y evolucionado es la opción correcta
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué sucede cuando se busca maximizar la seguridad en un software a expensas de la simplicidad?
+
+    A) El software puede ser difícil de usar y entender para el usuario final
+    B) El software puede tener un rendimiento más lento debido a la sobrecarga de medidas de seguridad
+    C) El software puede tener una mayor probabilidad de contener errores debido a la complejidad aumentada
+    D) Todas son correctas
+
+<details>
+<summary>Respuesta</summary>
+    A) Todas son correctas. 
+</details>
+<br>
+
+## 145 <a name = "145"></a>
+
+⭐ ¿Cómo el equipo de desarrollo determina cuáles características de calidad son más importantes para un proyecto específico?
+
+    A) A través de un análisis de las necesidades del usuario final
+    B) A través de un análisis de las tendencias del mercado
+    C) A través de un análisis de las limitaciones técnicas
+    D) A través de un análisis de los objetivos del equipo de desarrollo
+
+<details>
+<summary>Respuesta</summary>
+    A,B,C,D) A través de un análisis de las necesidades del usuario final, un análisis de las tendencias del mercado, un análisis de las limitaciones técnicas y un análisis de los objetivos del equipo de desarrollo son las opciones correctas.
+
+    La que hayas elegido está bien bruh
+</details>
+<br>
+
+⭐⭐ ¿Por qué es importante considerar las necesidades del proyecto al equilibrar diferentes características de calidad de software?
+
+    A) Porque cada proyecto tiene objetivos y requisitos únicos
+    B) Porque las decisiones de diseño deben ser guiadas por el contexto del proyecto
+    C) Porque no se puede maximizar todas las características de calidad de software simultáneamente
+    D) Todas son correctas
+
+<details>
+<summary>Respuesta</summary>
+    D) Todas son correctas
+</details>
+<br>
+
+⭐⭐⭐ ¿Cómo puede afectar el equilibrio entre características de calidad de software en el rendimiento de un proyecto?
+
+    A) Puede aumentar la productividad del equipo de desarrollo
+    B) Puede mejorar la satisfacción del cliente
+    C) Puede reducir el tiempo de desarrollo
+    D) Todas son correctas
+
+<details>
+<summary>Respuesta</summary>
+    D) Todas son correctas
+</details>
+<br>
+
+## 146 <a name = "146"></a>
+
+⭐ ¿Qué es un lenguaje de programación de primera generación?
+
+    A) Lenguajes de programación de alto nivel
+    B) Lenguajes de programación de bajo nivel
+    C) Lenguajes de programación de medio nivel
+    D) Lenguajes de programación interpretados
+
+<details>
+<summary>Respuesta</summary>
+    B) Lenguajes de programación de bajo nivel es la opción correcta
+</details>
+<br>
+
+⭐⭐ ¿Qué es un lenguaje de programación de tercera generación?
+
+    A) Lenguajes de programación de alto nivel
+    B) Lenguajes de programación de bajo nivel
+    C) Lenguajes de programación de medio nivel
+    D) Lenguajes de programación interpretados
+
+<details>
+<summary>Respuesta</summary>
+    A) Lenguajes de programación de alto nivel es la opción correcta
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué es un lenguaje de programación de cuarta generación?
+
+    A) Lenguajes de programación de alto nivel con una sintaxis especializada para resolver problemas específicos
+    B) Lenguajes de programación de bajo nivel con una sintaxis especializada para resolver problemas específicos
+    C) Lenguajes de programación de medio nivel con una sintaxis especializada para resolver problemas específicos
+    D) Lenguajes de programación interpretados con una sintaxis especializada para resolver problemas específicos
+
+<details>
+<summary>Respuesta</summary>
+    A) Lenguajes de programación de alto nivel con una sintaxis especializada para resolver problemas específicos es la opción correcta
+</details>
+<br>
+
+## 151 <a name = "151"></a>
+
+⭐ ¿Qué es el paradigma lógico?
+
+    A) Un enfoque en la programación en el que se utilizan reglas lógicas para representar el conocimiento y resolver problemas
+    B) Un enfoque en la programación en el que se utilizan estructuras de datos para representar el conocimiento y resolver problemas
+    C) Un enfoque en la programación en el que se utilizan algoritmos para representar el conocimiento y resolver problemas
+    D) Un enfoque en la programación en el que se utilizan patrones de diseño para representar el conocimiento y resolver problemas
+
+<details>
+<summary>Respuesta</summary>
+    A) Un enfoque en la programación en el que se utilizan reglas lógicas para representar el conocimiento y resolver problemas es la opción correcta
+</details>
+<br>
+
+⭐⭐ ¿Qué es un sistema experto?
+
+    A) Un programa de computadora que utiliza reglas lógicas para simular el conocimiento y la inteligencia humana
+    B) Un programa de computadora que utiliza estructuras de datos para simular el conocimiento y la inteligencia humana
+    C) Un programa de computadora que utiliza algoritmos para simular el conocimiento y la inteligencia humana
+    D) Un programa de computadora que utiliza patrones de diseño para simular el conocimiento y la inteligencia humana
+
+<details>
+<summary>Respuesta</summary>
+    A) Un programa de computadora que utiliza reglas lógicas para simular el conocimiento y la inteligencia humana es la opción correcta
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué es un sistema de inferencia?
+
+    A) Un programa de computadora que utiliza reglas lógicas para simular el conocimiento y la inteligencia humana
+    B) Un programa de computadora que utiliza estructuras de datos para simular el conocimiento y la inteligencia humana
+    C) Un programa de computadora que utiliza algoritmos para simular el conocimiento y la inteligencia humana
+    D) Un programa de computadora que utiliza patrones de diseño para simular el conocimiento y la inteligencia humana
+
+<details>
+<summary>Respuesta</summary>
+    A) Un programa de computadora que utiliza reglas lógicas para simular el conocimiento y la inteligencia humana es la opción correcta
+</details>
+
+## 152 <a name = "152"></a>
+
+⭐ ¿Qué hace este código escrito en Prolog?
+
+```prolog
+father(X, Y) :- parent(X, Y), male(X).
+```
+
+    A) Declara una función que toma dos argumentos y los suma
+    B) Declara una relación entre un padre y un hijo
+    C) Imprime en pantalla "Hola mundo"
+
+<details>
+<summary>Respuesta</summary>
+    B) Declara una relación entre un padre y un hijo es la opción correcta
+</details>
+<br>
+
+⭐⭐ ¿Qué hace este código escrito en Prolog?
+
+```prolog
+grandfather(X, Y) :- father(X, Z), father(Z, Y).
+```
+    A) Declara una función que toma dos argumentos y los resta
+    B) Declara una relación entre un abuelo y un nieto
+    C) Imprime en pantalla "Adiós mundo"
+    D) Declara una relación entre un padre y un hijo
+
+<details>
+<summary>Respuesta</summary>
+    B) Declara una relación entre un abuelo y un nieto es la opción correcta
+</details>
+
+⭐⭐⭐ ¿Qué hace este código escrito en Prolog?
+
+```prolog
+list_length([],0).
+list_length([_|T],N) :- list_length(T,X), N is X+1.
+```
+
+    A) Declara una función que toma dos argumentos y los multiplica
+    B) Declara una función para calcular la longitud de una lista
+    C) Declara una función para ordenar los elementos de una lista
+
+<details>
+<summary>Respuesta</summary>
+    B) Declara una función para calcular la longitud de una lista es la opción correcta
+</details>
+<br>
+
+## 153 <a name = "153"></a>
+
+⭐ ¿Qué son los hechos en Prolog?
+
+    A) Son declaraciones verdaderas o falsas sobre un sistema o un problema
+    B) Son funciones que realizan cálculos matemáticos
+    C) Son estructuras de datos utilizadas para almacenar información
+
+<details>
+<summary>Respuesta</summary>
+    A) Son declaraciones verdaderas o falsas sobre un sistema o un problema es la opción correcta
+</details>
+<br>
+
+⭐⭐ ¿Qué son las reglas en Prolog?
+
+    A) Son conjuntos de hechos relacionados entre sí que se utilizan para inferir nuevos hechos
+    B) Son funciones que realizan operaciones en estructuras de datos
+    C) Son estructuras de control de flujo utilizadas para controlar el flujo de un programa
+
+<details>
+<summary>Respuesta</summary>
+    A) Son conjuntos de hechos relacionados entre sí que se utilizan para inferir nuevos hechos es la opción correcta
+</details>
+<br>
+
+⭐⭐⭐ ¿Cómo funciona el motor de inferencia en Prolog?
+
+    A) Utiliza un algoritmo de búsqueda para encontrar un camino desde un hecho dado hasta un hecho deseado a través de reglas
+    B) Utiliza un algoritmo de ordenamiento para ordenar los hechos y reglas
+    C) Utiliza un algoritmo de compresión para comprimir los hechos y reglas
+
+<details>
+<summary>Respuesta</summary>
+A) Utiliza un algoritmo de búsqueda para encontrar un camino desde un hecho dado hasta un hecho deseado a través de reglas es la opción correcta
+</details>
+<br>
+
+## 154 <a name = "154"></a>
+
+⭐ ¿Para qué sirve este código?
+
+```python
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+```
+
+    A) Encuentra el factorial de un número
+    B) Encuentra el número máximo en una lista
+    C) Encuentra el número mínimo en una lista
+    D) Encuentra la suma de una lista
+
+<details>
+<summary>Respuesta</summary>
+    A) Encuentra el factorial de un número es la opción correcta
+</details>
+<br>
+
+⭐⭐ ¿Cuál es el output de la siguiente llamada a la función recursiva factorial(3)?
+
+```python
+def factorial(n):
+    if n <= 1:
+        return 1
+    else:
+        return n * factorial(n-1)
+```
+    A) 3
+    B) 6
+    C) 9
+    D) 12
+
+<details>
+<summary>Respuesta</summary>
+    B) 6 es la opción correcta
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál es el output de la siguiente llamada a la función recursiva fibonacci(4)?
+
+```python
+def fibonacci(n):
+    if n <= 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fibonacci(n-1) + fibonacci(n-2)
+```
+
+    A) 8
+    B) 12
+    C) 1
+    D) 3
+
+<details>
+<summary>Respuesta</summary>
+    D) 3 es la opción correcta
+</details>
+
+## 155 <a name = "155"></a>
+
+⭐ ¿Qué es una función recursiva?
+
+    A) Una función que se llama a sí misma
+    B) Una función que utiliza un ciclo
+    C) Una función que utiliza una estructura de control if-else
+    D) Una función que utiliza una estructura de control switch
+
+<details>
+<summary>Respuesta</summary>
+    A) Una función que se llama a sí misma es la opción correcta
+</details>
+
+⭐⭐ ¿Qué es un caso base en una función recursiva?
+
+    A) La condición en la que la función deja de llamarse a sí misma
+    B) La primera vez que se llama a la función
+    C) El valor de retorno de la función
+    D) La cantidad de veces que se llama a la función
+
+<details>
+<summary>Respuesta</summary>
+A) La condición en la que la función deja de llamarse a sí misma es la opción correcta
+</details>
+<br>
+
+⭐⭐⭐ ¿Cómo se puede evitar una llamada recursiva infinita?
+
+    A) Asegurando que la función tenga una condición de salida o caso base
+    B) Asegurando que la función no se llame a sí misma
+    C) Asegurando que la función llame a otra función o método
+    D) Asegurando que la función se ejecute varias veces
+
+<details>
+<summary>Respuesta</summary>
+    A) Asegurando que la función tenga una condición de salida o base es la opción correcta
+</details>
+<br>
+
+## 156 <a name = "156"></a>
+
+⭐ ¿Qué es una gramática formal?
+
+    A) Un conjunto de reglas que describen cómo se construyen las frases en un lenguaje de programación
+    B) Un conjunto de reglas que describen cómo se construyen las estructuras de datos en un lenguaje de programación
+    C) Un conjunto de reglas que describen cómo se construyen los algoritmos en un lenguaje de programación
+    D) Un conjunto de reglas que describen cómo se construyen los comentarios en un lenguaje de programación
+
+<details>
+<summary>Respuesta</summary>
+    A) Un conjunto de reglas que describen cómo se construyen las frases en un lenguaje de programación es la opción correcta
+</details>
+<br>
+
 
 
