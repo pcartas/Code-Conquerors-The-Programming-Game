@@ -1,7 +1,13 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="logo.png" alt="Project logo" style="border-radius: 50px"></a>
+ <div align="center">
+	<br>
+    <img src="logo.svg" />
+	<br>
+</div>
+
 </p>
+
 
 <h3 align="center">Code Conquerors: The Programming Game</h3>
 
