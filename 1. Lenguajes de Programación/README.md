@@ -1394,6 +1394,7 @@ def fibonacci(n):
 <summary>Respuesta</summary>
     D) 3 es la opción correcta
 </details>
+<br>
 
 ## 155 <a name = "155"></a>
 
@@ -1408,6 +1409,7 @@ def fibonacci(n):
 <summary>Respuesta</summary>
     A) Una función que se llama a sí misma es la opción correcta
 </details>
+<br>
 
 ⭐⭐ ¿Qué es un caso base en una función recursiva?
 
@@ -1437,7 +1439,20 @@ A) La condición en la que la función deja de llamarse a sí misma es la opció
 
 ## 156 <a name = "156"></a>
 
-⭐ ¿Qué es una gramática formal?
+⭐ ¿Qué es la semántica de un lenguaje de programación?
+
+    A) La parte de la teoría de los lenguajes de programación que se encarga de describir el significado de las construcciones sintácticas de un lenguaje
+    B) La parte de la teoría de los lenguajes de programación que se encarga de describir la sintaxis de un lenguaje
+    C) La parte de la teoría de los lenguajes de programación que se encarga de describir la gramática de un lenguaje
+
+<details>
+<summary>Respuesta</summary>
+    A) La parte de la teoría de los lenguajes de programación que se encarga de describir el significado de las construcciones sintácticas de un lenguaje es la opción correcta
+</details>
+<br>
+
+
+⭐⭐ ¿Qué es una gramática formal?
 
     A) Un conjunto de reglas que describen cómo se construyen las frases en un lenguaje de programación
     B) Un conjunto de reglas que describen cómo se construyen las estructuras de datos en un lenguaje de programación
@@ -1449,6 +1464,434 @@ A) La condición en la que la función deja de llamarse a sí misma es la opció
     A) Un conjunto de reglas que describen cómo se construyen las frases en un lenguaje de programación es la opción correcta
 </details>
 <br>
+
+⭐⭐⭐ ¿Qué es un autómata finito?
+
+    A) Un modelo matemático que describe un sistema que se encuentra en un estado particular y cambia de estado en respuesta a un conjunto finito de entradas
+    B) Un modelo matemático que describe un sistema que se encuentra en un estado particular y cambia de estado en respuesta a un conjunto infinito de entradas
+    C) Un modelo matemático que describe un sistema que se encuentra en un estado particular y no cambia de estado en respuesta a ninguna entrada
+    D) Un modelo matemático que describe un sistema que se encuentra en un estado particular y cambia de estado en respuesta a un conjunto aleatorio de entradas
+
+<details>
+<summary>Respuesta</summary>
+    A) Un modelo matemático que describe un sistema que se encuentra en un estado particular y cambia de estado en respuesta a un conjunto finito de entradas es la opción correcta
+</details>
+<br>
+
+## 161 <a name = "161"></a>
+
+⭐ ¿Qué es una excepción?
+
+    A) Un error en tiempo de ejecución que puede ser manejado por el programador
+    B) Un error en tiempo de compilación que puede ser manejado por el programador
+    C) Una situación anormal que puede ser manejada por el programador
+    D) Una situación normal que puede ser manejada por el programador
+
+<details>
+<summary>Respuesta</summary>
+    A) Un error en tiempo de ejecución que puede ser manejado por el programador es la opción correcta
+</details>
+<br>
+
+⭐⭐ ¿Qué es un bloque try-catch?
+
+    A) Un bloque de código utilizado para manejar excepciones
+    B) Un bloque de código utilizado para evitar excepciones
+    C) Un bloque de código utilizado para mostrar excepciones
+    D) Un bloque de código utilizado para ocultar excepciones
+
+<details>
+<summary>Respuesta</summary>
+    A) Un bloque de código utilizado para manejar excepciones es la opción correcta
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál es la diferencia entre una excepción controlada y una excepción no controlada?
+
+    A) Una excepción controlada es manejada por el programador, mientras que una excepción no controlada no lo es
+    B) Una excepción controlada es generada por el programador, mientras que una excepción no controlada es generada automáticamente
+    C) Una excepción controlada es generada por el sistema, mientras que una excepción no controlada es generada por el programador
+    D) Una excepción controlada es generada por el programador, mientras que una excepción no controlada es generada por el sistema
+
+<details>
+<summary>Respuesta</summary>
+    A) Una excepción controlada es manejada por el programador, mientras que una excepción no controlada no lo es, es la opción correcta.
+</details>
+<br>
+
+## 162 <a name = "162"></a>
+
+⭐ ¿Qué es un test unitario?
+
+A) Un conjunto de pruebas automatizadas para comprobar el comportamiento de una unidad de código específica
+B) Una herramienta para depurar código
+C) Una técnica para escribir código limpio
+D) Un método para mejorar la calidad del código
+
+<details>
+<summary>Respuesta</summary>
+    A) Un conjunto de pruebas automatizadas para comprobar el comportamiento de una unidad de código específica es la opción correcta
+</details>
+<br>
+
+⭐⭐ ¿Cuál es la ventaja de utilizar test unitarios?
+
+    A) Aumenta la velocidad de ejecución del código
+    B) Reducir el tamaño del código
+    C) Mejorar la legibilidad
+    D) Aumentar la calidad del código y detectar errores tempranamente
+
+<details>
+<summary>Respuesta</summary>
+    D) Aumentar la calidad del código y detectar errores tempranamente es la opción correcta
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué es JUnit?
+
+    A) Un framework de pruebas unitarias para Java
+    B) Un framework de pruebas unitarias para Python
+    C) Un framework de pruebas unitarias para JavaScript
+    D) Un framework de pruebas unitarias para C++
+
+<details>
+<summary>Respuesta</summary>
+    A) Un framework de pruebas unitarias para Java es la opción correcta
+</details>
+<br>
+
+## 163 <a name = "163"></a>
+
+⭐ ¿Qué es un test de integración?
+
+    A) Un conjunto de pruebas automatizadas para comprobar la interacción entre diferentes unidades de código
+    B) Una herramienta para depurar código
+    C) Una técnica para escribir código limpio
+    D) Un método para mejorar la calidad del código
+
+<details>
+<summary>Respuesta</summary>
+    A) Un conjunto de pruebas automatizadas para comprobar la interacción entre diferentes unidades de código es la opción correcta
+</details>
+<br>
+
+⭐⭐ ¿Por qué es importante realizar pruebas de integración?
+
+    A) Para asegurar que diferentes unidades de código interactúan correctamente entre sí
+    B) Para detectar errores tempranamente antes de la implementación en producción
+    C) Para facilitar el mantenimiento del código
+    D) Todas las anteriores
+
+<details>
+<summary>Respuesta</summary>
+    D) Todas las anteriores son la opción correcta
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué es un sistema de integración continua (CI)?
+
+    A) Un proceso automatizado que ejecuta pruebas de integración y de aceptación cada vez que se realiza un cambio en el código fuente
+    B) Una herramienta para depurar código
+    C) Una técnica para escribir código limpio
+    D) Un método para mejorar la calidad del código
+
+<details>
+<summary>Respuesta</summary>
+    A) Un proceso automatizado que ejecuta pruebas de integración y de aceptación cada vez que se realiza un cambio en el código fuente es la opción correcta
+</details>
+<br>
+
+## 164 <a name = "164"></a>
+
+⭐ ¿Qué es el GOTO?
+
+    A) Una palabra reservada utilizada para saltar a una etiqueta específica en el código
+    B) Una función utilizada para manejar excepciones
+    C) Una variable global
+    D) Una función para imprimir en pantalla
+
+<details>
+<summary>Respuesta</summary>
+    A) Una palabra reservada utilizada para saltar a una etiqueta específica en el código es la opción correcta
+</details>
+<br>
+
+⭐⭐ ¿Por qué se considera el uso del GOTO una mala práctica de programación?
+
+    A) Porque puede causar código difícil de seguir y entender
+    B) Porque aumenta el tamaño del código
+    C) Porque reduce la velocidad de ejecución
+    D) Porque no es compatible con todos los lenguajes de programación
+
+<details>
+<summary>Respuesta</summary>
+    A) Porque puede causar código difícil de seguir y entender es la opción correcta
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuáles son las consecuencias de utilizar palabras reservadas como nombres de variables o funciones?
+
+    A) El código puede dejar de funcionar
+    B) El código puede generar errores inesperados
+    C) El código puede ser difícil de entender
+    D) Todas las anteriores son correctas
+
+<details>
+<summary>Respuesta</summary>
+    D) Todas las anteriores son correctas es la opción correcta
+</details>
+<br>
+
+## 165 <a name = "165"></a>
+
+⭐ ¿Qué son las convenciones sintácticas?
+
+    A) Reglas establecidas para la escritura de código en un lenguaje de programación específico
+    B) Reglas establecidas para el diseño de la interfaz de usuario
+    C) Reglas establecidas para la seguridad en la programación
+    D) Reglas establecidas para la documentación del código
+
+<details>
+<summary>Respuesta</summary>
+    A) Reglas establecidas para la escritura de código en un lenguaje de programación específico es la opción correcta
+</details>
+<br>
+
+⭐⭐ ¿Por qué es importante seguir las convenciones sintácticas?
+
+    A) Para que el código sea fácil de leer y entender
+    B) Para mejorar el rendimiento del código
+    C) Para aumentar la seguridad del código
+    D) Todas las anteriores son correctas
+
+<details>
+<summary>Respuesta</summary>
+    A) Para que el código sea fácil de leer y entender es la opción correcta
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué es el formateo de código?
+
+    A) Un conjunto de convenciones sintácticas para darle una estructura al código
+    B) Una técnica para comprimir código
+    C) Una herramienta para optimizar el rendimiento del código
+    D) Una técnica para mejorar la seguridad del código
+
+<details>
+<summary>Respuesta</summary>
+    A) Un conjunto de convenciones sintácticas para darle una estructura al código es la opción correcta
+</details>
+<br>
+
+## 166 <a name = "166"></a>
+
+⭐ ¿Qué expresión regular (regex) se utilizaría para encontrar todas las apariciones de números en una cadena de texto?
+
+    A) [a-z]
+    B) [0-9]
+    C) [A-Z]
+    D) [a-zA-Z0-9]
+
+<details>
+<summary>Respuesta</summary>
+    B) [0-9] es la opción correcta
+</details>
+<br>
+
+⭐⭐ ¿Qué palabra matchea con la expresión regular (regex) "^[a-z]+$"?
+
+    A) abc123
+    B) ABC
+    C) 123
+    D) abc
+
+<details>
+<summary>Respuesta</summary>
+    D) abc es la opción correcta
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál es la expresión regular (regex) para validar un correo electrónico como mapache404@mapachemail.com?
+
+    A) ^[A-Za-z0-9.%+-]+@[A-Za-z0-9.-]+.[A-Z|a-z]{3,}$
+    B) ^[0-9]+@[A-Za-z]+.[A-Z|a-z]{3,}+.[A-Z|a-z]{3,}$
+    C) ^[A-Za-z]+@[0-9]+.[A-Z|a-z]{2,}$
+    D) ^[A-Za-z]+.[A-Z|a-z]{3,}$
+
+<details>
+<summary>Respuesta</summary>
+    A) ^[A-Za-z0-9.%+-]+@[A-Za-z0-9.-]+.[A-Z|a-z]{3,}$ es la opción correcta
+</details>
+<br>
+
+## 211 <a name = "211"></a>
+
+⭐ ¿Qué es la ambigüedad en un lenguaje de programación?
+
+    A) La capacidad de un lenguaje de programación para tener varias interpretaciones válidas del mismo código
+    B) La capacidad de un lenguaje de programación para tener varios significados para una sola palabra clave
+    C) La capacidad de un lenguaje de programación para tener varios tipos de datos para una sola variable
+    D) La capacidad de un lenguaje de programación para tener varios usos para una función
+
+<details>
+<summary>Respuesta</summary>
+    A) La capacidad de un lenguaje de programación para tener varias interpretaciones válidas del mismo código es la opción correcta
+</details>
+<br>
+
+⭐⭐ ¿Qué es un delimitador?
+
+    A) Un caracter o conjunto de caracteres utilizado para indicar el inicio o fin de una sección específica de código
+    B) Una herramienta utilizada para encontrar errores en el código
+    C) Una técnica utilizada para mejorar el rendimiento del código
+    D) Una convención de nomenclatura utilizada para nombrar variables y funciones
+
+<details>
+<summary>Respuesta</summary>
+    A) Un caracter o conjunto de caracteres utilizado para indicar el inicio o fin de una sección específica de código es la opción correcta
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué es una convención de nomenclatura?
+
+    A) Una regla establecida para nombrar variables, funciones, clases, etc.
+    B) Una regla establecida para el formato del código
+    C) Una regla establecida para la estructura del código
+    D) Una regla establecida para la indentación del código
+
+<details>
+<summary>Respuesta</summary>
+    A) Una regla establecida para nombrar variables, funciones, clases, etc. es la opción correcta
+</details>
+<br>
+
+## 212 <a name = "212"></a>
+
+⭐ ¿Qué es un tipo de datos?
+
+    A) Es un conjunto de valores y operaciones permitidas sobre ellos
+    B) Es una estructura de almacenamiento de datos
+    C) Es una herramienta de programación
+    D) Es una librería de un lenguaje de programación
+
+<details>
+<summary>Respuesta</summary>
+    A) Es un conjunto de valores y operaciones permitidas sobre ellos es la opción correcta
+</details>
+<br>
+
+⭐⭐ ¿Qué es la representación interna de un dato?
+
+    A) Es la forma en que un dato se almacena en la memoria del ordenador
+    B) Es la forma en que un dato se presenta al usuario
+    C) Es la forma en que un dato se procesa por el programa
+    D) Es la forma en que un dato se almacena en un archivo
+
+<details>
+<summary>Respuesta</summary>
+    A) Es la forma en que un dato se almacena en la memoria del ordenador es la opción correcta
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué es la inferencia de tipos?
+
+    A) Es la habilidad de un programa para determinar automáticamente el tipo de una variable en tiempo de ejecución o compilacion
+    B) Es la habilidad de un programa para cambiar automáticamente el tipo de una variable en tiempo de ejecución o compilacion
+    C) Es la habilidad de un programa para cambiar automáticamente el tipo de una variable en tiempo de ejecución
+
+<details>
+<summary>Respuesta</summary>
+    A) Es la habilidad de un programa para determinar automáticamente el tipo de una variable en tiempo de ejecucion o compilación es la opción correcta.
+</details>
+<br>
+
+## 213 <a name = "213"></a>
+
+⭐ ¿Qué es un ambiente de referencia?
+
+    A) El contexto en el que una variable es declarada y utilizada
+    B) El espacio de almacenamiento asignado a una variable
+    C) El tiempo en el que una variable es utilizada
+    D) El valor asignado a una variable
+
+<details>
+<summary>Respuesta</summary>
+    A) El contexto en el que una variable es declarada y utilizada es la opción correcta
+</details>
+<br>
+
+⭐⭐ ¿Qué es una variable global en Java?
+
+    A) Una variable que solo puede ser accedida desde un método específico
+    B) Una variable que solo puede ser accedida dentro de una clase
+    C) Una variable que puede ser accedida desde cualquier parte del programa
+    D) Una variable que solo puede ser accedida desde una función específica
+
+<details>
+<summary>Respuesta</summary>
+    C) Una variable que puede ser accedida desde cualquier parte del programa es la opción correcta
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué es una variable de instancia en Java?
+
+    A) Una variable que solo puede ser accedida desde un método específico
+    B) Una variable que solo puede ser accedida dentro de una clase
+    C) Una variable que puede ser accedida desde cualquier parte del programa
+    D) Una variable que es específica de una instancia de una clase
+
+<details>
+<summary>Respuesta</summary>
+    D) Una variable que es específica de una instancia de una clase es la opción correcta
+</details>
+<br>
+
+## 214 <a name = "214"></a>
+
+⭐ ¿Cuál es la diferencia entre un puntero y una variable en Go?
+
+    A) Un puntero guarda la dirección de memoria de una variable, mientras que una variable guarda su valor.
+    B) Un puntero no puede ser modificado, mientras que una variable si.
+    C) Un puntero solo puede apuntar a un tipo de dato específico, mientras que una variable puede contener cualquier tipo de dato.
+    D) Una variable puede ser pasada por valor como argumento a una función, mientras que un puntero solo puede ser pasado por referencia
+
+<details>
+<summary>Respuesta</summary>
+    A) Un puntero guarda la dirección de memoria de una variable, mientras que una variable guarda su valor es la opción correcta
+</details>
+<br>
+
+⭐⭐ ¿Cómo se declara un puntero en C?
+
+    A) Con el símbolo * antes del nombre de la variable
+    B) Con el símbolo & antes del nombre de la variable
+    C) Con el símbolo ^ antes del nombre de la variable
+    D) Con el símbolo @ antes del nombre de la variable
+
+<details>
+<summary>Respuesta</summary>
+    A) Con el símbolo * antes del nombre de la variable es la opción correcta
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué es un puntero de puntero en C?
+
+    A) Un puntero que apunta a otro puntero
+    B) Una variable que almacena la dirección de una variable que almacena la dirección de otra variable
+    C) Una función que recibe un puntero como argumento y devuelve otro puntero
+    D) Un puntero que puede apuntar a cualquier tipo de dato
+
+<details>
+<summary>Respuesta</summary>
+    A) Un puntero que apunta a otro puntero es la opción correcta
+</details>
+<br>
+
+
+
+
+
+
 
 
 
