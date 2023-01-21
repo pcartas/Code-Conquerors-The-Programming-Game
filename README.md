@@ -30,17 +30,16 @@
 
 Este es un juego en español similar al conocidísimo "Carrera de Mente" pero con preguntas de programación. El objetivo es responder preguntas de programación para avanzar en el tablero. El juego se puede jugar de a más de 2 jugadores. 
 
-Existen 10 categorías:
-1. Lenguajes de Programación
-2. Bases de datos
-3. Redes
-4. Arquitectura de software
-5. Estructuras de datos
-6. Algoritmos
-7. Sistemas operativos
-8. Seguridad
-9. Inteligencia artificial y machine learning
-10. Cloud computing
+Existen 9 categorías:
+1. 🟦 Programación & Leguajes (si, vamos a meter HTML acá)
+2. 🟥 Bases de datos
+3. 🟨 Redes
+4. 🟩 Arquitectura de software
+5. 🟧 Algoritmos & Estructuras de datos
+6. 🟪 Sistemas operativos
+7. ⬜ Seguridad
+8. 🟫 Inteligencia artificial & Machine learning
+9. ⬛ Infraestructura & Devops
 
 
 Actualmente el juego se encuentra en desarrollo y se encuentra en la etapa de prototipado. 
@@ -51,18 +50,7 @@ Para contribuir, pueden hacer un fork del repo y luego hacer un pull request.
 
 Primero que nada, van a encontrar en este mismo repo una carpeta con cada una de las categorías. Dentro de cada carpeta van a encontrar un archivo .md con las preguntas y respuestas.
 
-Cada color del tablero tiene asignada una categoría:
-
-1. Lenguajes de Programación: Azul 🟦
-2. Bases de datos: Rojo 🟥
-3. Redes: Amarillo 🟨
-4. Arquitectura de software: Verde 🟩
-5. Estructuras de datos: Naranja 🟧
-6. Algoritmos: Morado 🟪
-7. Sistemas operativos: Blanco ⬜
-8. Seguridad: Marrón 🟫 
-9. Inteligencia artificial y machine learning: Negro ⬛
-10. Infraestructura & Devops: Celeste 🦝
+Cada color del tablero tiene asignada una categoría. Por ejemplo, el color rojo tiene asignada la categoría de Bases de datos, el color amarillo tiene asignada la categoría de Arquitectura de software, etc. 
 
 Se utiliza un dado de 6 caras para avanzar en el tablero. Puede ser uno real o utilizando [alguna app de celular](https://play.google.com/store/apps/details?id=fr.sevenpixels.dice&hl=en&gl=US) o [en el browser](https://eslkidsgames.com/Flash/Classroom%20Dice/index.html).
 
