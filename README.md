@@ -1,12 +1,10 @@
-<p align="center">
-  <a href="" rel="noopener">
+
  <div align="center">
 	<br>
-    <img src="logo.svg" />
+    <img src="logo.png" width="200px" height="200px" border="10px" border-raidus="50px"/>
 	<br>
 </div>
 
-</p>
 
 
 <h3 align="center">Code Conquerors: The Programming Game</h3>
@@ -15,6 +13,8 @@
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 [![License](https://img.shields.io/badge/License-GNU%20GPL-blue)](/LICENSE)
+
+
 
 </div>
 
@@ -47,6 +47,18 @@ Existen 9 categorías:
 8. 🟫 Inteligencia artificial & Machine learning
 9. ⬛ Infraestructura & Devops
 
+```mermaid
+pie
+    "LenguajeProgramación & Leguajes" : 38
+    "Bases de datos" : 0
+    "Redes" : 0
+    "Arquitectura de software" : 0
+    "Algoritmos & Estructuras de datos" : 0
+    "Sistemas operativos" : 0
+    "Seguridad" : 0
+    "Inteligencia artificial & Machine learning" : 0
+    "Infraestructura & Devops" : 0
+```
 
 Actualmente el juego se encuentra en desarrollo y se encuentra en la etapa de prototipado. 
 
