@@ -47,19 +47,6 @@ Existen 9 categorías:
 8. 🟫 Inteligencia artificial & Machine learning
 9. ⬛ Infraestructura & Devops
 
-```mermaid
-pie
-    "LenguajeProgramación & Leguajes" : 38
-    "Bases de datos" : 0
-    "Redes" : 0
-    "Arquitectura de software" : 0
-    "Algoritmos & Estructuras de datos" : 0
-    "Sistemas operativos" : 0
-    "Seguridad" : 0
-    "Inteligencia artificial & Machine learning" : 0
-    "Infraestructura & Devops" : 0
-```
-
 Actualmente el juego se encuentra en desarrollo y se encuentra en la etapa de prototipado. 
 
 Para contribuir, pueden hacer un fork del repo y luego hacer un pull request.
