@@ -1887,11 +1887,511 @@ D) Un método para mejorar la calidad del código
 </details>
 <br>
 
+## 215 <a name = "215"></a>
+
+⭐ ¿Cómo funciona el garbage collector de C?
+
+    A) Utiliza el conteo de referencias
+    B) Utiliza el algoritmo de Mark-and-Sweep
+    C) Utiliza el algoritmo de copia
+    D) No tiene garbage collector
+
+<details>
+<summary>Respuesta</summary>
+    D) No tiene garbage collector.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cómo funciona el garbage collector de Golang?
+
+    A) Utiliza el conteo de referencias
+    B) Utiliza el algoritmo de Mark-and-Sweep
+    C) Utiliza el algoritmo de copia
+    D) Utiliza el algoritmo de tri-color mark and sweep con un algoritmo de barrido de raíces
+
+<details>
+<summary>Respuesta</summary>
+    D) Utiliza el algoritmo de tri-color mark and sweep con un algoritmo de barrido de raíces.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cómo funciona el garbage collector de Rust?
+
+    A) Utiliza el conteo de referencias
+    B) Utiliza el algoritmo de Mark-and-Sweep
+    C) Utiliza el algoritmo de copia
+    D) Utiliza un sistema de préstamos de memoria y un recolector de basura opcional
+
+<details>
+<summary>Respuesta</summary>
+    D) Utiliza un sistema de préstamos de memoria y un recolector de basura opcional.
+</details>
+<br>
+
+## 216 <a name = "216"></a>
+
+⭐ ¿Cuál es la principal diferencia entre el garbage collector de Golang y el de Rust?
+
+    A) Golang utiliza el conteo de referencias y Rust no
+    B) Rust utiliza el conteo de referencias y Golang no
+    C) Golang utiliza un algoritmo de barrido de raíces y Rust no
+    D) Rust utiliza un sistema de préstamos de memoria y Golang no
+
+<details>
+<summary>Respuesta</summary>
+    D) Rust utiliza un sistema de préstamos de memoria y un recolector de basura opcional, mientras que Golang no tiene un sistema de préstamos de memoria y utiliza únicamente un garbage collector.
+</details>
+<br>
+
+⭐⭐ ¿Qué es el barrido de raíces en un recolector de basura?
+
+    A) Un algoritmo para identificar objetos no alcanzables a través de referencias conocidas
+    B) Un algoritmo para identificar objetos que no han sido usados recientemente
+    C) Un algoritmo para identificar objetos duplicados en memoria
+    D) Un algoritmo para identificar objetos que han sido modificados recientemente
+
+<details>
+<summary>Respuesta</summary>
+    A) Un algoritmo para identificar objetos no alcanzables a través de referencias conocidas.
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué es un sistema de préstamos de memoria en Rust?
+
+    A) Un mecanismo para pedir prestada memoria compartida entre múltiples threads
+    B) Un mecanismo para compartir memoria de manera segura entre múltiples threads
+    C) Un mecanismo para gestionar la memoria dinámicamente sin necesidad de un recolector de basura
+    D) Un mecanismo para prestar memoria temporalmente sin necesidad de copiarla
+
+<details>
+<summary>Respuesta</summary>
+    C) Un mecanismo para gestionar la memoria dinámicamente sin necesidad de un recolector de basura.
+</details>
+<br>
+
+## 221 <a name = "221"></a>
+
+⭐ ¿Qué es el conteo de referencias?
+
+    A) Un algoritmo para identificar objetos no alcanzables a través de referencias conocidas
+    B) Un mecanismo para gestionar la memoria dinámicamente sin necesidad de un recolector de basura
+    C) Un mecanismo para contar cuántas veces un objeto es referenciado en el programa
+    D) Un mecanismo para pedir prestada memoria compartida entre múltiples threads
+
+<details>
+<summary>Respuesta</summary>
+    C) Un mecanismo para contar cuántas veces un objeto es referenciado en el programa.
+</details>
+<br>
+
+⭐⭐ ¿Cuál es la principal diferencia entre Terraform y Ansible?
+
+    A) Terraform utiliza lenguaje YAML para describir infraestructura, mientras que Ansible utiliza lenguaje HCL.
+    B) Terraform se enfoca en la orquestación de recursos de infraestructura en diferentes proveedores de nube, mientras que Ansible se enfoca en la automatización de tareas en servidores.
+    C) Ansible utiliza el modelo de infraestructura declarativa, mientras que Terraform utiliza el modelo de infraestructura imperativa.
+    D) Terraform es una herramienta más ligera y fácil de usar que Ansible.
+
+<details>
+<summary>Respuesta</summary>
+    B) Terraform se enfoca en la orquestación de recursos de infraestructura en diferentes proveedores de nube, mientras que Ansible se enfoca en la automatización de tareas en servidores.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál es la principal diferencia entre AWS CDK y AWS CloudFormation?
+
+    A) AWS CDK se enfoca en el desarrollo de aplicaciones, mientras que CloudFormation se enfoca en la orquestación de recursos de infraestructura.
+    B) AWS CDK utiliza lenguajes de programación como TypeScript o Python para describir recursos de infraestructura, mientras que CloudFormation utiliza lenguaje JSON o YAML.
+    C) AWS CDK tiene una sintaxis más fácil de aprender que CloudFormation.
+    D) AWS CDK es una herramienta de orquestación de infraestructura más poderosa que CloudFormation.
+
+<details>
+<summary>Respuesta</summary>
+    B) AWS CDK utiliza lenguajes de programación como TypeScript o Python para describir recursos de infraestructura, mientras que CloudFormation utiliza lenguaje JSON o YAML.
+</details>
+<br>
+
+## 222 <a name = "222"></a>
 
 
+⭐ ¿Cuál fue el primer lenguaje de programación de alto nivel?
 
+    A) Fortran
+    B) COBOL
+    C) Lisp
+    D) C
 
+<details>
+<summary>Respuesta</summary>
+    A) Fortran (1957).
+</details>
+<br>
 
+⭐⭐ ¿En qué se diferencian los lenguajes de programación imperativos y declarativos?
 
+    A) Los lenguajes imperativos utilizan instrucciones en un orden secuencial, mientras que los declarativos utilizan definiciones de relaciones entre entidades.
+    B) Los lenguajes imperativos se centran en la modificación de variables, mientras que los declarativos se centran en la descripción de un estado deseado.
+    C) Los lenguajes imperativos son de bajo nivel, mientras que los declarativos son de alto nivel.
+    D) Los lenguajes imperativos son orientados a objetos, mientras que los declarativos son funcionales.
 
+<details>
+<summary>Respuesta</summary>
+    B) Los lenguajes imperativos se centran en la modificación de variables, mientras que los declarativos se centran en la descripción de un estado deseado.
+</details>
+<br>
 
+⭐⭐⭐ ¿Para qué se utilizaba originalmente el lenguaje de programación COBOL?
+
+    A) Para programar sistemas operativos.
+    B) Para programar videojuegos.
+    C) Para programar aplicaciones empresariales.
+    D) Para programar sistemas de inteligencia artificial.
+
+<details>
+<summary>Respuesta</summary>
+    C) Para programar aplicaciones empresariales.
+</details>
+<br>
+
+## 223 <a name = "223"></a>
+
+⭐ ¿Cuál es el lenguaje de programación utilizado para programar el kernel de Linux?
+
+    A) C
+    B) C++
+    C) Rust
+    D) Assembly
+
+<details>
+<summary>Respuesta</summary>
+    A) C.
+</details>
+<br>
+
+⭐⭐ ¿Qué característica especial de C lo hace un lenguaje ideal para programar sistemas operativos?
+
+    A) Su capacidad de programar a bajo nivel
+    B) Su manejo de memoria manual
+    C) Su capacidad de programar sistemas distribuidos
+    D) Su capacidad de manejar concurrencia
+
+<details>
+<summary>Respuesta</summary>
+    B) Su manejo de memoria manual.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál es una de las principales características de Rust que lo hace adecuado para programar sistemas operativos?
+
+    A) Su capacidad de programar a bajo nivel
+    B) Su manejo de memoria manual
+    C) Su capacidad de programar sistemas distribuidos
+    D) Su capacidad de manejar concurrencia de forma segura
+
+<details>
+<summary>Respuesta</summary>
+    D) Su capacidad de manejar concurrencia de forma segura.
+</details>
+<br>
+
+## 224 <a name = "224"></a>
+
+⭐ ¿Qué es una closure en programación?
+
+    A) Una función que no recibe argumentos
+    B) Una función que devuelve una función
+    C) Una función que tiene acceso a variables definidas en un ámbito superior
+    D) Una función que puede ser llamada recursivamente
+
+<details>
+<summary>Respuesta</summary>
+    C) Una función que tiene acceso a variables definidas en un ámbito superior.
+</details>
+<br>
+
+⭐⭐ ¿Qué es un monad en programación funcional?
+
+    A) Una función que toma una función como argumento
+    B) Una estructura de datos que representa una computación
+    C) Una técnica para manejar el estado mutable en un programa funcional
+    D) Una técnica para representar cálculos en un contexto de programación funcional
+
+<details>
+<summary>Respuesta</summary>
+    D) Una técnica para representar cálculos en un contexto de programación funcional.
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué es el teorema CAP en sistemas distribuidos?
+
+    A) Un teorema que establece que un sistema distribuido no puede garantizar simultáneamente consistencia, disponibilidad y tolerancia a fallos.
+    B) Un teorema que establece que un sistema distribuido no puede ser escalable y tolerante a fallos al mismo tiempo.
+    C) Un teorema que establece que un sistema distribuido no puede tener una latencia baja y una alta disponibilidad al mismo tiempo.
+    D) Un teorema que establece que un sistema distribuido no puede tener una arquitectura en tres capas y ser tolerante a fallos al mismo tiempo.
+
+<details>
+<summary>Respuesta</summary>
+    A) Un teorema que establece que un sistema distribuido no puede garantizar simultáneamente consistencia, disponibilidad y tolerancia a fallos.
+</details>
+<br>
+
+## 225 <a name = "225"></a>
+
+⭐ ¿Qué es una clausura en JavaScript?
+
+    A) Una función que devuelve una función
+    B) Una función que toma una función como argumento
+    C) Una función que mantiene una referencia al estado circundante (scope) donde fue creada
+    D) Una función que se define dentro de otra función
+
+<details>
+<summary>Respuesta</summary>
+    C) Una clausura es una función que mantiene una referencia al estado circundante (scope) donde fue creada.
+</details>
+<br>
+
+⭐⭐ ¿Qué es la programación reactiva?
+
+    A) Un patrón de diseño que permite la comunicación entre objetos mediante mensajes asincrónicos
+    B) Un paradigma de programación que se enfoca en la construcción de sistemas distribuidos
+    C) Un enfoque de programación que se enfoca en el manejo de eventos y flujos de datos
+    D) Un patrón de diseño que permite encapsular el estado mutable
+
+<details>
+<summary>Respuesta</summary>
+    C) La programación reactiva es un enfoque de programación que se enfoca en el manejo de eventos y flujos de datos.
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué es la recursión de cola en programación?
+
+    A) Un algoritmo que utiliza una pila de llamadas para manejar llamadas recursivas
+    B) Una técnica que utiliza la recursión para evitar el desbordamiento de la pila de llamadas
+    C) Una optimización de la recursión que permite reutilizar la pila de llamadas
+    D) Una técnica de programación que utiliza la recursión para iterar sobre una lista
+
+<details>
+<summary>Respuesta</summary>
+    B) La recursión de cola es una técnica que utiliza la recursión para evitar el desbordamiento de la pila de llamadas.
+</details>
+<br>
+
+## 226 <a name = "226"></a>
+
+⭐ ¿Qué es la programación funcional?
+
+    A) Un paradigma de programación que enfatiza el uso de funciones puras y la inmutabilidad de los datos
+    B) Un paradigma de programación que enfatiza el uso de bucles y la mutabilidad de los datos
+    C) Un paradigma de programación que enfatiza el uso de clases y objetos
+    D) Un paradigma de programación que enfatiza el uso de la programación orientada a eventos
+
+<details>
+<summary>Respuesta</summary>
+    A) La programación funcional es un paradigma de programación que enfatiza el uso de funciones puras y la inmutabilidad de los datos, lo que permite una programación más concisa, legible y menos propensa a errores.
+</details>
+<br>
+
+⭐⭐ ¿Qué valor devuelve la expresión 3 * 4 + 5 % 2 en Python?
+
+<details>
+<summary>Respuesta</summary>
+    La expresión devuelve el valor 13.
+    <br>
+    En la expresión, primero se calcula el módulo de 5 % 2, que es igual a 1. Luego se multiplica 3 por 4, lo que da 12. Finalmente, se suma 12 y 1, lo que da 13.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál es el resultado de la expresión sizeof(int) en C en una arquitectura de 32 bits?
+
+<details>
+<summary>Respuesta</summary>
+    El resultado de la expresión `sizeof(int)` en C en una arquitectura de 32 bits es 4 bytes.
+    <br>
+    En C, el tamaño del tipo de datos `int` depende de la arquitectura en la que se esté compilando el código. En una arquitectura de 32 bits, `int` ocupa normalmente 4 bytes (32 bits), mientras que en una arquitectura de 64 bits ocupa normalmente 8 bytes (64 bits).
+</details>
+<br>
+
+## 311 <a name = "311"></a>
+
+⭐ ¿Cuál es el resultado de la expresión 1 + 2 + "3" en JavaScript?
+
+<details>
+<summary>Respuesta</summary>
+    El resultado de la expresión es "33".
+    <br>
+    En JavaScript, cuando se utiliza el operador `+` con un número y una cadena, el número se convierte automáticamente en una cadena antes de concatenarse con la otra cadena. Por lo tanto, en este caso, `1 + 2` da como resultado `3`, que se convierte en la cadena `"3"`, que luego se concatena con la otra cadena `"3"`, dando como resultado la cadena `"33"`.
+</details>
+<br>
+
+⭐⭐ ¿Cuál es el valor de la variable y después de la siguiente operación en Ruby?
+
+```ruby
+x = 2
+y = x **= 2
+```
+<details>
+<summary>Respuesta</summary>
+    El valor de la variable `y` después de la operación es `4`.
+    <br>
+    En la operación, se eleva el valor de `x` a la segunda potencia utilizando el operador de asignación de exponenciación (`**=`), que es equivalente a `x = x ** 2`. Luego, el resultado de esta operación (que es `4`) se asigna a la variable `y`. Por lo tanto, el valor de `y` es `4`.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál es el output del siguiente programa en Python?
+
+```python
+x = [1, 2, 3, 4, 5]
+x = x[-2:-4:-1]
+print(x)
+```
+
+<details>
+<summary>Respuesta</summary>
+    El output del programa es `[4, 3]`.
+    <br>
+    En el programa, se crea una lista `x` que contiene los números del 1 al 5. Luego, se asigna a `x` una sección de la lista que comienza dos elementos antes del final de la lista (`-2`) y termina dos elementos antes del final de la lista (`-4`) con un paso inverso (`-1`). Esto significa que se seleccionan los elementos 4 y 3 de la lista original. Por lo tanto, el output del programa es `[4, 3]`.
+</details>
+<br>
+
+## 312 <a name = "312"></a>
+
+⭐ ¿Cuál es la salida del siguiente programa en C?
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    int i = 0;
+    for (i = 0; i < 5; i++);
+        printf("%d\n", i);
+    return 0;
+}
+```
+
+<details>
+<summary>Respuesta</summary>
+    La salida del programa es: 5
+    <br>
+    A pesar de que parece que el programa debería imprimir los números del 0 al 4, en realidad solo imprime el número 5. Esto se debe a que hay un punto y coma (`;`) después de la declaración del bucle `for`, lo que hace que el bucle no tenga cuerpo. El cuerpo del bucle, que debería imprimir el valor de `i`, se encuentra fuera del bucle y se ejecuta una sola vez después de que el bucle ha terminado. En ese momento, el valor de `i` es 5, ya que el bucle se ejecutó cinco veces antes de salir.
+</details>
+<br>
+
+⭐⭐ ¿Cuál es el valor de la variable x después de ejecutar el siguiente código en Python?
+
+```python
+x = 10
+x = x + 5 * 3 - 2
+```
+
+<details>
+<summary>Respuesta</summary>
+    El valor de la variable `x` es 23.
+    <br>
+    Primero se multiplican 5 y 3, lo que da como resultado 15. Luego se resta 2 a 15, lo que da como resultado 13. Finalmente, se suma 13 al valor original de `x`, que era 10, lo que da como resultado 23.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál es el resultado de la siguiente operación de bits en C?
+
+```c
+unsigned int a = 0x3;  // 0000 0011 en binario
+unsigned int b = 0x5;  // 0000 0101 en binario
+unsigned int c = a & b;
+```
+<details>
+<summary>Respuesta</summary>
+    El resultado de la operación de bits es 0x1, que es igual a 0000 0001 en binario.
+    <br>
+    La operación de bits `&` (AND) compara los bits correspondientes de dos operandos y devuelve 1 en cada posición en la que ambos bits sean 1. En este caso, la operación de bits se realiza sobre los números 0x3 (0000 0011 en binario) y 0x5 (0000 0101 en binario), por lo que la operación resultante es 0000 0001 en binario, que es igual a 0x1 en hexadecimal.
+</details>
+<br>
+
+## 313 <a name = "313"></a>
+
+⭐ ¿Cuál es el resultado de la expresión 7/2 en Java?
+
+<details>
+<summary>Respuesta</summary>
+    El resultado de la expresión es 3 en Java.
+    <br>
+    En Java, la operación de división `/` entre dos números enteros redondea el resultado hacia abajo al entero más cercano. En este caso, 7 dividido por 2 da como resultado 3 con un resto de 1, pero como la operación es entre dos enteros, se descarta el resto y se devuelve solo el cociente, que es 3.
+</details>
+<br>
+
+⭐⭐ ¿Cuál es el valor de la variable x después de ejecutar el siguiente código en Python?
+
+```python
+x = 10
+x = x + "5"
+```
+
+<details>
+<summary>Respuesta</summary>
+    El código produce un error de tipo en Python. 
+    <br>
+    La variable `x` se inicializa con el valor `10`, que es un número entero. Luego, se intenta sumar la cadena `"5"` a la variable `x`, lo que produce un error de tipo, ya que no se pueden sumar un número y una cadena en Python. Para corregir el error, se puede convertir la variable `x` en una cadena antes de sumarla a la otra cadena: `x = str(x) + "5"`.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál es el resultado de la siguiente expresión regular en Perl?
+
+```perl
+"aba" =~ /a(b+)a;
+```
+
+<details>
+<summary>Respuesta</summary>
+    La expresión regular coincide con la cadena `"ababab"`.
+    <br>
+    La expresión regular se lee como sigue: primero se busca la letra "a", luego una o más letras "b" (`(b+)`), luego otra letra "a".
+</details>
+<br>
+
+## 314 <a name = "314"></a>
+
+⭐ ¿Qué hace el siguiente código en Ruby?
+
+```ruby
+(1..10).select(&:odd?)
+```
+
+<details>
+<summary>Respuesta</summary>
+    El código devuelve un arreglo que contiene los números impares del 1 al 10.
+    <br>
+    En Ruby, el método `select` se utiliza para seleccionar elementos de un arreglo que cumplan cierta condición. En este caso, `&:odd?` es una forma abreviada de escribir `{ |n| n.odd? }`, que es una función que devuelve `true` si el argumento es impar y `false` si es par. Por lo tanto, el código selecciona los elementos del rango del 1 al 10 que son impares y los devuelve en un arreglo.
+</details>
+<br>
+
+⭐⭐ ¿Cuál de las siguientes afirmaciones es correcta acerca de la programación funcional?
+
+    A) Los programas están formados por procedimientos y funciones.
+    B) Los programas se dividen en pequeñas subrutinas que se comunican mediante variables compartidas.
+    C) Los programas se construyen a partir de expresiones que no tienen efectos secundarios.
+
+<details>
+<summary>Respuesta</summary>
+    La opción C es la afirmación correcta acerca de la programación funcional.
+    <br>
+    En la programación funcional, se intenta evitar el uso de variables compartidas y procedimientos con efectos secundarios, como la modificación de variables globales o la impresión de texto en pantalla. En su lugar, se utilizan funciones que toman un conjunto de parámetros y devuelven un resultado, sin producir efectos secundarios en el entorno de ejecución. Por lo tanto, los programas se construyen a partir de expresiones que no tienen efectos secundarios, lo que facilita la comprensión y el mantenimiento del código.
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué hace el siguiente código en JavaScript?
+
+```javascript
+var x = 5;
+var y = x++;
+var z = ++x;
+```
+    A) y es igual a 5, z es igual a 7
+    B) y es igual a 6, z es igual a 7
+    C) y es igual a 5, z es igual a 6
+
+<details>
+<summary>Respuesta</summary>
+    La opción C) es la correcta: `y` es igual a 5 y `z` es igual a 6.
+    <br>
+    En este código, `x` se inicializa con el valor `5`. Luego, se utiliza el operador de incremento `++` en dos formas diferentes: primero se asigna `x` a `y` y luego se incrementa `x`, y luego se incrementa `x` y se asigna el nuevo valor a `z`. La diferencia es que el operador `++` después de la variable (`x++`) devuelve el valor original de la variable y luego incrementa su valor, mientras que el operador `++` antes de la variable (`++x`) incrementa el valor de la variable y luego devuelve su nuevo valor. Por lo tanto, `y` es igual a `5` porque `x++` devuelve el valor original de `x`, que es `5`, y luego se incrementa `x` a `6`. Luego, `++x` incrementa el valor de `x` a `7` y lo asigna a `z`.
+</details>
+<br>
