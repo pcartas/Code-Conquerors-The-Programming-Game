@@ -3735,4 +3735,272 @@ END;
 
 ## 316 <a name = "316"></a>
 
+⭐ ¿Qué característica define a Chef como lenguaje de programación?
 
+    A) Utiliza un enfoque de programación orientada a objetos.
+    B) Está diseñado para escribir programas en el contexto de la cocina.
+    C) Es un lenguaje de programación funcional.
+
+<details>
+<summary>Respuesta</summary>
+B) Está diseñado para escribir programas en el contexto de la cocina. Chef es un lenguaje de programación que utiliza la metáfora de la cocina para escribir programas. Los programas se escriben en términos de "ingredientes", "recetas" y "platos", y la sintaxis se asemeja a las instrucciones que se encontrarían en una receta de cocina.
+</details>
+<br>
+
+⭐⭐ ¿Qué tipo de lenguaje es Whitespace?
+
+    A) Un lenguaje de programación interpretado.
+    B) Un lenguaje de programación de bajo nivel.
+    C) Un lenguaje de programación esotérico.
+
+<details>
+<summary>Respuesta</summary>
+C) Un lenguaje de programación esotérico. Whitespace es un lenguaje de programación que utiliza únicamente caracteres en blanco (espacios, tabulaciones y saltos de línea) para la estructura del programa, y todos los demás caracteres se ignoran. Es conocido como un lenguaje de programación "esotérico" debido a su diseño no convencional y su falta de utilidad práctica. 
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué es Nope?
+
+    A) Un lenguaje de programación que rechaza la sintaxis tradicional.
+    B) Un lenguaje de programación que utiliza una sintaxis similar al lenguaje natural.
+    C) Un lenguaje de programación que se ejecuta en el navegador web.
+
+<details>
+<summary>Respuesta</summary>
+A) Un lenguaje de programación que rechaza la sintaxis tradicional. Nope es un lenguaje de programación que se burla de la sintaxis y las convenciones comunes de la programación. Por ejemplo, en Nope, los comentarios son texto legible en lugar de utilizar símbolos especiales, y las declaraciones de bucle y control de flujo son escritas en forma negativa (por ejemplo, "not if" en lugar de "if").
+</details>
+<br>
+
+## 321 <a name = "321"></a>
+
+⭐ ¿Cuál es la sintaxis correcta para imprimir "Hello, World!" en Chef?
+
+    A) HELLOWORLD
+    B) PUT "Hello, World!"
+    C) Ingredients:
+        72g haricot beans
+        101 eggs
+        ...
+
+<details>
+<summary>Respuesta</summary>
+    B) PUT "Hello, World!" (Chef utiliza términos culinarios para representar su sintaxis, y en este caso, el verbo "PUT" seguido de una cadena de texto imprimirá la frase "Hello, World!")
+</details>
+<br>
+
+⭐⭐ ¿Cuál de los siguientes no es un tipo de dato en Nope?
+
+    A) Yup
+    B) Nope
+    C) Maybe
+
+<details>
+<summary>Respuesta</summary>
+    A) Yup (Nope tiene dos tipos de datos: "Nope" y "Maybe", los cuales se utilizan para indicar si una variable tiene un valor o no. "Yup" no es un tipo de dato válido en Nope.)
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál es el propósito de la instrucción "zoop" en el lenguaje de programación Grass?
+
+    A) Definir una función
+    B) Iniciar un ciclo
+    C) Detener el programa
+
+<details>
+<summary>Respuesta</summary>
+    C) Detener el programa (La instrucción "zoop" en Grass es equivalente a la instrucción "exit" en otros lenguajes de programación, y se utiliza para detener el programa.)
+</details>
+<br>
+
+## 322 <a name = "322"></a>
+
+⭐ ¿Qué hace el siguiente programa en el lenguaje Chef?
+
+```sql
+Lobster Bisque
+Ingredients.
+72 g butter
+101 ml lobster
+164 g rice
+Cooking time: 21 minutes.
+Method.
+Put rice into the mixing bowl.
+Pour lobster over rice.
+Fold rice into lobster.
+Fold butter into mixture.
+Serves 1.
+```
+    A) Define una función llamada "Lobster Bisque"
+    B) Describe una receta para cocinar una sopa de langosta
+    C) Crea una lista de ingredientes para una cena
+
+<details>
+<summary>Respuesta</summary>
+    B) Describe una receta para cocinar una sopa de langosta.
+    <br>
+    El lenguaje Chef se basa en la analogía de que los programas son recetas de cocina. En este caso, el programa describe una receta para hacer sopa de langosta. El nombre del programa, "Lobster Bisque", indica el nombre de la receta. La sección "Ingredients" lista los ingredientes necesarios para la receta. La sección "Cooking time" indica el tiempo necesario para cocinar la receta. La sección "Method" describe los pasos necesarios para preparar la receta. Por último, la línea "Serves 1" indica la cantidad de porciones que se obtendrán de la receta.
+</details>
+<br>
+
+
+⭐⭐ ¿Cuál es la función de la palabra clave out en el lenguaje Grass?
+
+    A) Indica que una variable se utiliza como argumento de salida en una función.
+    B) Indica que una variable se utiliza como argumento de entrada en una función.
+    C) Indica que una variable es una variable global.
+
+<details>
+<summary>Respuesta</summary>
+    La opción B) es la correcta. 
+    <br>
+    En Grass, la palabra clave `out` se utiliza para indicar que una variable es un argumento de entrada en una función. Esto significa que la variable se pasa como argumento a la función, pero su valor no se modifica dentro de la función. La palabra clave `in` se utiliza para indicar que una variable es un argumento de salida en una función, lo que significa que su valor se modifica dentro de la función y se devuelve como resultado. Por último, la palabra clave `global` se utiliza para indicar que una variable es una variable global, es decir, una variable que se puede acceder y modificar desde cualquier parte del programa.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál es el objetivo del lenguaje de programación Chef?
+
+    A) Es un lenguaje de programación para cocinar recetas de cocina.
+    B) Es un lenguaje de programación para crear algoritmos de clasificación de platos de comida.
+    C) Es un lenguaje de programación para crear páginas web de recetas de cocina.
+
+<details>
+<summary>Respuesta</summary>
+    La opción A) es la correcta. 
+    <br>
+    Chef es un lenguaje de programación que se utiliza para escribir recetas de cocina como si fueran programas. Cada ingrediente, utensilio y paso de la receta se representa mediante una instrucción en el lenguaje, y las instrucciones se ejecutan en orden para producir la receta final. Por ejemplo, la instrucción "mix the sugar and the flour" se traduciría a una operación de mezcla en la cocina, mientras que la instrucción "put the cake in the oven for 30 minutes" se traduciría a una operación de horneado.
+</details>
+<br>
+
+## 323 <a name = "323"></a>
+
+⭐ ¿Cuál es el propósito principal de HTML?
+
+    A) Crear estilos visuales para aplicaciones web.
+    B) Representar el contenido y estructura de documentos web.
+    C) Crear aplicaciones web dinámicas.
+
+<details>
+<summary>Respuesta</summary>
+    B) Representar el contenido y estructura de documentos web.
+    <br>
+    HTML es un lenguaje de marcado que se utiliza para representar el contenido y estructura de documentos web. HTML define una serie de elementos y atributos que se utilizan para estructurar y presentar el contenido de una página web. Aunque es posible utilizar HTML para aplicar estilos visuales a una página web utilizando CSS, ese no es el propósito principal de HTML. Además, HTML no se utiliza para crear aplicaciones web dinámicas, para eso se utilizan lenguajes como JavaScript.
+</details>
+<br>
+
+⭐⭐ ¿Cuál es la diferencia entre YAML, JSON y XML?
+
+    A) YAML es menos verboso que XML y JSON.
+    B) XML es un lenguaje de marcado y JSON no lo es.
+    C) JSON no soporta tipos de datos complejos.
+
+<details>
+<summary>Respuesta</summary>
+    A) YAML es menos verboso que XML y JSON.
+    <br>
+    YAML es un formato de serialización de datos que se utiliza para representar estructuras de datos complejas en un formato legible por humanos. A diferencia de XML y JSON, YAML no utiliza etiquetas o caracteres de escape, lo que lo hace menos verboso. Además, YAML tiene soporte nativo para tipos de datos complejos como fechas, expresiones regulares y objetos. XML es un lenguaje de marcado que se utiliza principalmente para representar documentos estructurados, mientras que JSON es un formato de intercambio de datos que se utiliza para enviar datos entre aplicaciones web. JSON es más compacto que XML y utiliza una sintaxis más sencilla, pero no soporta tipos de datos complejos como YAML.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál es la sintaxis correcta para definir un objeto JSON que contenga un arreglo de objetos?
+
+    A) { "array": [ { "prop1": 1 }, { "prop2": 2 } ] }
+    B) { "array": [ "prop1": 1, "prop2": 2 ] }
+    C) { "array": { "prop1": 1, "prop2": 2 } }
+
+<details>
+<summary>Respuesta</summary>
+    A) `{ "array": [ { "prop1": 1 }, { "prop2": 2 } ] }`
+    <br>
+    Para definir un objeto JSON que contenga un arreglo de objetos, es necesario utilizar corchetes (`[]`) para indicar que se está definiendo un arreglo, y luego colocar los objetos separados por comas. En este caso, la respuesta A es la sintaxis correcta, ya que define un objeto JSON llamado "array" que contiene un arreglo de dos objetos, cada uno de los cuales tiene una propiedad llamada "prop1" y "prop2", respectivamente.
+</details>
+<br>
+
+## 324 <a name = "324"></a>
+
+⭐ ¿Cuál de las siguientes opciones es válida en YML?
+
+    A) name = John
+    B) name: John
+    C) name => John
+
+<details>
+<summary>Respuesta</summary>
+    La opción B) es la correcta.
+    <br>
+    En YML, se utiliza `:` para separar las claves de los valores en una estructura de datos. La opción A) es sintaxis de asignación de variables en otros lenguajes como Ruby y Python, mientras que la opción C) utiliza una sintaxis de hash de Ruby y no es válida en YML.
+</details>
+<br>
+
+⭐⭐ ¿Cuál de las siguientes opciones es una etiqueta de control deslizante en HTML5?
+
+```html
+A) <input type="range" min="0" max="1" step="0.1" value="0.5">
+B) <img href="image.png">
+C) <span class="highlighted" id="text">Texto</span>
+```
+
+<details>
+<summary>Respuesta</summary>
+    La opción A) es la correcta.
+    <br>
+    En HTML5, la etiqueta `<input>` se utiliza para crear elementos interactivos en un formulario. La opción A) es una etiqueta válida para un control deslizante (`type="range"`) que permite seleccionar un valor numérico en un rango (`min`, `max`) con un cierto paso (`step`) y un valor inicial (`value`). La opción B) es una etiqueta `<img>` con una propiedad inválida (`href` en lugar de `src`), mientras que la opción C) es una etiqueta `<span>` con clases y atributos válidos.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál de las siguientes opciones representa un objeto JSON válido?
+
+    A) { name: "John", age: 30 }
+    B) [ "apple", "banana", "cherry" ]
+    C) { "name": "John", "address": { "city": "New York", "state": "NY" } }
+
+<details>
+<summary>Respuesta</summary>
+    La opción C) es la correcta.
+    <br>
+    En JSON, se utilizan comillas dobles (`"`) para encerrar las claves y los valores de un objeto. La opción A) utiliza sintaxis de objetos de JavaScript, donde las claves pueden estar sin comillas y la sintaxis de `:` se utiliza en lugar de `=` para asignar valores a claves. La opción B) es un arreglo JSON válido.
+</details>
+<br>
+
+## 325 <a name = "325"></a>
+
+⭐ ¿Cuál es la estructura básica de un documento JSON válido?
+
+    A) {key: value}
+    B) {"key": "value"}
+    C) [key: value]
+
+<details>
+<summary>Respuesta</summary>
+    La opción B es la estructura básica de un documento JSON válido.
+    <br>
+    Un documento JSON válido debe comenzar y terminar con corchetes (`[]`) o llaves (`{}`). En el caso de un objeto JSON, se utiliza la estructura de llaves y pares clave-valor, como se muestra en la opción B, donde la clave "key" se asigna al valor "value" utilizando dos puntos (`:`) y ambos elementos se rodean de comillas dobles (`"`).
+</details>
+<br>
+
+⭐⭐ ¿Cuál de las siguientes etiquetas es obligatoria en un documento HTML?
+
+    A) <html>
+    B) <body>
+    C) <head>
+
+<details>
+<summary>Respuesta</summary>
+    La etiqueta `<html>` es obligatoria en un documento HTML.
+    <br>
+    La etiqueta `<html>` define el comienzo y el final del documento HTML y es necesaria para indicar al navegador que el documento está escrito en HTML. Las etiquetas `<head>` y `<body>` son opcionales, pero se recomienda incluirlas en el documento para mejorar la estructura del mismo.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál es la sintaxis correcta para definir una lista en formato YML?
+
+    A) [1, 2, 3]
+    B) {1, 2, 3}
+    C) - 1\n - 2\n - 3
+
+<details>
+<summary>Respuesta</summary>
+    La opción C es la sintaxis correcta para definir una lista en formato YML.
+    <br>
+    En YML, una lista se define utilizando un guión seguido de un espacio, y luego el elemento de la lista. Para definir una lista de números `[1, 2, 3]`, se debe escribir `- 1`, `- 2` y `- 3` en líneas separadas, como se muestra en la opción C.
+</details>
+<br>
