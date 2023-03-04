@@ -4004,3 +4004,733 @@ C) <span class="highlighted" id="text">Texto</span>
     En YML, una lista se define utilizando un guión seguido de un espacio, y luego el elemento de la lista. Para definir una lista de números `[1, 2, 3]`, se debe escribir `- 1`, `- 2` y `- 3` en líneas separadas, como se muestra en la opción C.
 </details>
 <br>
+
+## 326 <a name = "326"></a>
+
+⭐ ¿Cuál de las siguientes opciones es un tipo de datos básico en Swift?
+
+    A) String
+    B) Dictionary
+    C) Set
+
+<details>
+<summary>Respuesta</summary>
+    A) `String`.
+    <br>
+    En Swift, `String` es un tipo de datos básico que se utiliza para representar cadenas de caracteres. Por otro lado, `Dictionary` y `Set` son colecciones de datos que se utilizan para almacenar datos en una estructura de clave-valor y conjuntos, respectivamente.
+</details>
+<br>
+
+⭐⭐ ¿Cuál es la diferencia entre let y var en Swift?
+
+    A) let define una variable mutable, mientras que var define una variable inmutable
+    B) let define una constante inmutable, mientras que var define una variable mutable
+    C) No hay diferencia entre let y var en Swift
+
+<details>
+<summary>Respuesta</summary>
+    B) `let` define una constante inmutable, mientras que `var` define una variable mutable.
+    <br>
+    En Swift, `let` se utiliza para definir constantes, es decir, valores que no pueden cambiar una vez que se les ha asignado un valor. Por otro lado, `var` se utiliza para definir variables que pueden cambiar su valor a lo largo del tiempo. Por lo tanto, la diferencia entre `let` y `var` es que la primera define una constante y la segunda define una variable.
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué hace el siguiente código en Swift?
+
+```swift
+let numbers = [1, 2, 3, 4, 5]
+let squares = numbers.map { $0 * $0 }
+```
+    A) Define un arreglo con los números del 1 al 5 y luego eleva cada número al cuadrado
+    B) Define un diccionario con los números del 1 al 5 y luego eleva cada número al cuadrado
+    C) Define un conjunto con los números del 1 al 5 y luego eleva cada número al cuadrado
+
+<details>
+<summary>Respuesta</summary>
+    A) Define un arreglo con los números del 1 al 5 y luego eleva cada número al cuadrado.
+    <br>
+    En Swift, el método `map` se utiliza para transformar un arreglo en otro arreglo mediante una función que se aplica a cada elemento del arreglo original. En este caso, se define un arreglo llamado `numbers` con los números del 1 al 5, y luego se aplica la función `{ $0 * $0 }` a cada elemento del arreglo para obtener otro arreglo que contiene los cuadrados de los números del 1 al 5. Por lo tanto, la opción A es la correcta.
+</details>
+<br>
+
+## 331 <a name = "331"></a>
+
+⭐ ¿Cuál es el propósito de la instrucción MOV en el lenguaje Assembly?
+
+    A) Mover un valor de un registro a otro
+    B) Realizar una operación de suma
+    C) Cargar un valor desde la memoria a un registro
+
+<details>
+<summary>Respuesta</summary>
+    A) Mover un valor de un registro a otro.
+    <br>
+    La instrucción `MOV` se utiliza para mover un valor de un registro a otro en el lenguaje Assembly. Por ejemplo, la instrucción `MOV AX, BX` copia el contenido del registro `BX` al registro `AX`. Esta instrucción es fundamental en el lenguaje Assembly, ya que permite manipular los valores almacenados en los registros del procesador para realizar operaciones aritméticas, lógicas, de comparación, etc.
+</details>
+<br>
+
+⭐⭐ ¿Cuál es el propósito de la instrucción HLT en el lenguaje Assembly?
+
+    A) Detener el programa
+    B) Limpiar el registro de la memoria
+    C) Saltar a una dirección de memoria específica
+
+<details>
+<summary>Respuesta</summary>
+    A) Detener el programa.
+    <br>
+    La instrucción `HLT` se utiliza para detener el programa en lenguaje Assembly. Cuando el procesador encuentra una instrucción `HLT`, se detiene y espera a que se le envíe una nueva instrucción para continuar la ejecución del programa. Esta instrucción es útil para evitar que el procesador siga ejecutando instrucciones innecesarias o peligrosas en una sección del programa que ya ha terminado su trabajo.
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué hace la instrucción CALL en el lenguaje Assembly?
+
+    A) Salta a una dirección de memoria específica y guarda la dirección de retorno en la pila
+    B) Mueve un valor de un registro a otro
+    C) Multiplica dos valores y guarda el resultado en un registro
+
+<details>
+<summary>Respuesta</summary>
+    A) Salta a una dirección de memoria específica y guarda la dirección de retorno en la pila.
+    <br>
+    La instrucción `CALL` se utiliza para saltar a una subrutina o función en el lenguaje Assembly. Cuando se ejecuta una instrucción `CALL`, la dirección de retorno se guarda en la pila antes de saltar a la subrutina. Esto permite que la subrutina pueda volver al punto de origen cuando termine su trabajo, utilizando la instrucción `RET`. La instrucción `CALL` es esencial en la programación en lenguaje Assembly, ya que permite estructurar el código en bloques de subrutinas reutilizables.
+</details>
+<br>
+
+## 332 <a name = "332"></a>
+
+⭐ ¿Qué es un mnemónico en lenguaje ensamblador?
+
+    A) Un símbolo que representa un valor constante en el código.
+    B) Una etiqueta que se utiliza para identificar una ubicación de memoria.
+    C) Un nombre simbólico que se utiliza para representar una instrucción del procesador.
+
+<details>
+<summary>Respuesta</summary>
+    C) Un nombre simbólico que se utiliza para representar una instrucción del procesador.
+    <br>
+    En lenguaje ensamblador, un mnemónico es un nombre simbólico que se utiliza para representar una instrucción del procesador. Los mnemónicos suelen ser palabras cortas que describen la acción que realiza la instrucción, como `ADD` para sumar, `SUB` para restar o `MOV` para mover datos. Los mnemónicos se utilizan para escribir programas en lenguaje ensamblador de manera más legible y fácil de entender que el código de máquina correspondiente.
+</details>
+<br>
+
+⭐⭐ ¿Qué es un registro en lenguaje ensamblador?
+
+    A) Una sección de memoria que almacena datos en una estructura de árbol.
+    B) Una sección de memoria que almacena una copia de una variable.
+    C) Una ubicación de almacenamiento dentro del procesador que se utiliza para contener datos temporalmente.
+
+<details>
+<summary>Respuesta</summary>
+    C) Una ubicación de almacenamiento dentro del procesador que se utiliza para contener datos temporalmente.
+    <br>
+    Un registro en lenguaje ensamblador es una ubicación de almacenamiento de alta velocidad dentro del procesador que se utiliza para contener datos temporalmente. Los registros son más rápidos que la memoria principal y se utilizan para almacenar datos que se utilizan con frecuencia, como contadores, direcciones de memoria y valores de retorno de funciones.
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué es el direccionamiento indirecto en lenguaje ensamblador?
+
+    A) Un modo de direccionamiento en el que la dirección de un operando se almacena en un registro.
+    B) Un modo de direccionamiento en el que la dirección de un operando se especifica de manera explícita en la instrucción.
+    C) Un modo de direccionamiento en el que la dirección de un operando se almacena en la propia memoria.
+
+<details>
+<summary>Respuesta</summary>
+    A) Un modo de direccionamiento en el que la dirección de un operando se almacena en un registro.
+    <br>
+    El direccionamiento indirecto en lenguaje ensamblador es un modo de direccionamiento en el que la dirección de un operando se almacena en un registro. Para acceder al valor del operando, la instrucción utiliza el contenido del registro como dirección de memoria. El direccionamiento indirecto se utiliza con frecuencia en lenguaje ensamblador para acceder a datos en estructuras de datos, matrices y otros tipos de datos complejos.
+</details>
+<br>
+
+## 333 <a name = "333"></a>
+
+⭐ ¿Cuál es el objetivo del lenguaje de programación Ook!?
+
+    A) Permitir la programación en idioma inglés
+    B) Simplificar la creación de programas para principiantes en programación
+    C) Utilizar solamente dos símbolos para crear programas
+
+<details>
+<summary>Respuesta</summary>
+    La opción C es la correcta.
+    <br>
+    Ook! es un lenguaje de programación esotérico que utiliza únicamente dos símbolos: "Ook." y "Ook?". Cada par de "Ook." representa un incremento en el valor de la celda actual, mientras que cada par de "Ook?" representa una disminución. El objetivo del lenguaje es ser lo más simple y conciso posible, pero esto lo hace también difícil de entender y programar.
+</details>
+<br>
+
+⭐⭐ ¿Qué hace el programa de "Hello World" en el lenguaje de programación Malbolge?
+
+    A) Imprime "Hello World" en la consola
+    B) Imprime un mensaje de error en la consola
+    C) Imprime una secuencia de caracteres aparentemente aleatoria en la consola
+
+<details>
+<summary>Respuesta</summary>
+    C) Imprime una secuencia de caracteres aparentemente aleatoria en la consola.
+    <br>
+    Malbolge es un lenguaje de programación diseñado para ser extremadamente difícil de programar. Incluso un programa de "Hello World" en Malbolge produce una secuencia de caracteres aparentemente aleatoria en lugar de imprimir un mensaje legible.
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué tipo de lenguaje es Malbolge?
+
+    A) Lenguaje de programación funcional
+    B) Lenguaje de programación orientado a objetos
+    C) Lenguaje de programación esotérico
+
+<details>
+<summary>Respuesta</summary>
+    La opción C es la correcta.
+    <br>
+    Malbolge es un lenguaje de programación esotérico creado por Ben Olmstead en 1998. El lenguaje es conocido por su extrema dificultad y por ser uno de los más complicados de entender y utilizar. Malbolge utiliza una combinación de técnicas de codificación y decodificación para realizar operaciones básicas de aritmética y lógica. El nombre del lenguaje proviene de Malbolge, uno de los círculos del Infierno en la Divina Comedia de Dante Alighieri.
+</details>
+<br>
+
+## 334 <a name = "334"></a>
+
+⭐ ¿En qué año se presentó por primera vez el lenguaje de programación ArnoldC?
+
+    A) 2011
+    B) 2012
+    C) 2013
+
+<details>
+<summary>Respuesta</summary>
+    B) 2012.
+    <br>
+    ArnoldC es un lenguaje de programación diseñado para parecerse a los comandos de Arnold Schwarzenegger. Fue creado por Lauri Hartikka y presentado por primera vez en el año 2012.
+</details>
+<br>
+
+⭐⭐ ¿Qué hace el comando "Because I'm going to say please" en el lenguaje de programación Trollscript?
+
+    A) Termina el programa.
+    B) Imprime "Hello, World!" en la consola.
+    C) Crea una ventana emergente en la pantalla que dice "Por favor".
+
+<details>
+<summary>Respuesta</summary>
+    A) Termina el programa.
+    <br>
+    Trollscript es un lenguaje de programación diseñado para parecerse a los memes de Internet. "Because I'm going to say please" es un comando que aparece en muchos memes de la cultura popular y en Trollscript, se utiliza para terminar el programa.
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué hace el siguiente programa escrito en el lenguaje de programación Malbolge?
+
+```malbolge
+ (=<`$9]7<5YXz7wT.3,+O/o'K%$H"'~D|#z@}b=`{^Lx8%$Xmrkpohm-kNi;gsedcba`_^]\[ZYXWVUTSRQPONMLKJIHGFEDCBA@?>=<;:9876543s+O<oLm
+```
+
+    A) Termina el programa.
+    B) Imprime "Hello, World!" en la consola.
+    C) Crea una ventana emergente en la pantalla que dice "Por favor".
+
+<details>
+<summary>Respuesta</summary>
+    B) Imprime "Hello, World!" en la consola.
+    <br>
+    Malbolge fue muy difícil de entender cuando llegó. Pasaron dos años hasta que apareció el primer programa de Malbolge. El propio autor nunca ha escrito un programa de Malbolge.El primer programa no fue escrito por un ser humano; fue generado por un algoritmo de búsqueda de haz diseñado por Andrew Cooke e implementado en Lisp​.
+</details>
+<br>
+
+## 335 <a name = "335"></a>
+
+⭐ ¿Cuál es el método de entrada en reMorse?
+
+    A) Código Morse
+    B) Texto escrito en mayúsculas
+    C) Código binario
+
+<details>
+<summary>Respuesta</summary>
+    La opción A es correcta. reMorse es un lenguaje de programación que utiliza el código Morse como método de entrada. Las instrucciones de programación se representan mediante secuencias de puntos y guiones, y los datos se introducen como secuencias de letras y números en código Morse. reMorse es un lenguaje de programación muy limitado, pero su uso de código Morse lo convierte en una opción interesante para actividades de entrenamiento de habilidades de telegrafía.
+</details>
+<br>
+
+⭐⭐ ¿Cuál es el propósito de Trollscript?
+
+    A) Facilitar la programación de aplicaciones web
+    B) Ser un lenguaje de programación trolleo
+    C) Ser un lenguaje de programación para hacer animaciones
+
+<details>
+<summary>Respuesta</summary>
+    La opción B es correcta. Trollscript es un lenguaje de programación que tiene como objetivo principal ser una broma, ya que su sintaxis está diseñada para confundir y "trollear" a los programadores. El lenguaje tiene palabras clave que suenan como comandos de programación pero que en realidad no hacen nada, y también incluye características como el uso de emoticonos y la repetición excesiva de caracteres.
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué característica es distintiva de ArnoldC?
+
+    A) Los programas se escriben en voz alta
+    B) La sintaxis está basada en citas de películas de Arnold Schwarzenegger
+    C) Utiliza la codificación Morse para la representación de datos
+
+<details>
+<summary>Respuesta</summary>
+    La opción B es correcta. ArnoldC es un lenguaje de programación cuya sintaxis está basada en frases icónicas de Arnold Schwarzenegger en sus películas. Por ejemplo, las instrucciones de control de flujo comienzan con frases como "I'll be back" o "Hasta la vista, baby", y las variables se definen con nombres como "GetToTheChoppa" o "ItsNotATumor". Aunque puede parecer una broma, ArnoldC es un lenguaje de programación completamente funcional.
+</details>
+<br>
+
+## 336 <a name = "336"></a>
+
+⭐ ¿Qué significa el término "tipado débil"?
+
+    A) El lenguaje de programación no tiene tipos de datos.
+    B) Las conversiones de tipos se realizan de forma implícita y automática.
+    C) Las conversiones de tipos requieren una conversión explícita y pueden fallar si los tipos no son compatibles.
+
+<details>
+<summary>Respuesta</summary>
+    B) Las conversiones de tipos se realizan de forma implícita y automática.
+    <br>
+    En un lenguaje de programación con tipado débil, las conversiones de tipos se realizan de forma implícita y automática, lo que significa que el compilador o el intérprete convierten automáticamente los valores de un tipo de datos a otro cuando es necesario. Esto puede llevar a errores difíciles de detectar si no se entiende bien cómo funcionan las conversiones de tipos.
+</details>
+<br>
+
+⭐⭐ ¿Qué significa el término "tipado estático"?
+
+    A) Los tipos de las variables se determinan en tiempo de compilación.
+    B) Los tipos de las variables se determinan en tiempo de ejecución.
+    C) El lenguaje de programación no tiene tipos de datos.
+
+<details>
+<summary>Respuesta</summary>
+    A) Los tipos de las variables se determinan en tiempo de compilación.
+    <br>
+    En un lenguaje de programación con tipado estático, los tipos de las variables se determinan en tiempo de compilación, lo que significa que el compilador verifica que los tipos de las variables sean consistentes en todo el programa antes de generar el código ejecutable. Esto permite detectar errores de tipo antes de que se ejecute el programa y mejora la eficiencia del código generado.
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué significa el término "tipado dinámico"?
+
+    A) Los tipos de las variables se determinan en tiempo de compilación.
+    B) Los tipos de las variables se determinan en tiempo de ejecución.
+    C) El lenguaje de programación no tiene tipos de datos.
+
+<details>
+<summary>Respuesta</summary>
+    B) Los tipos de las variables se determinan en tiempo de ejecución.
+    <br>
+    En un lenguaje de programación con tipado dinámico, los tipos de las variables se determinan en tiempo de ejecución, lo que significa que el tipo de una variable puede cambiar durante la ejecución del programa. Esto proporciona una mayor flexibilidad al programador, pero puede llevar a errores de tipo difíciles de detectar.
+</details>
+<br>
+
+## 341 <a name = "341"></a>
+
+⭐ ¿Cuál de las siguientes opciones se considera una mala práctica en programación orientada a objetos?
+
+    A) Utilizar herencia múltiple
+    B) Utilizar interfaces para definir contratos
+    C) Utilizar patrones de diseño
+
+<details>
+<summary>Respuesta</summary>
+    A) Utilizar herencia múltiple se considera una mala práctica en programación orientada a objetos.
+    <br>
+    La herencia múltiple es la capacidad de una clase de heredar características de más de una clase padre. Sin embargo, esta característica puede llevar a problemas de diseño, como la aparición de diamantes de herencia y la complejidad innecesaria del código. En su lugar, se pueden utilizar patrones de diseño como la composición o la inyección de dependencias para lograr la reutilización de código y la extensibilidad.
+</details>
+<br>
+
+⭐⭐ ¿Cuál de las siguientes opciones se considera una mala práctica en programación orientada a objetos?
+
+    A) Utilizar variables globales
+    B) Utilizar encapsulamiento
+    C) Utilizar interfaces
+
+<details>
+<summary>Respuesta</summary>
+    A) Utilizar variables globales se considera una mala práctica en programación orientada a objetos.
+    <br>
+    Las variables globales son variables que se definen fuera de cualquier función o método y son accesibles desde cualquier parte del programa. En programación orientada a objetos, se prefiere utilizar variables de instancia o de clase, que son miembros de una clase y están restringidas a su ámbito. El uso de variables globales puede dificultar el mantenimiento y la reutilización del código, y puede provocar errores difíciles de detectar.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál de las siguientes opciones se considera una mala práctica en programación orientada a objetos?
+
+    A) Utilizar clases con demasiadas responsabilidades
+    B) Utilizar interfaces para definir comportamientos comunes
+    C) Utilizar polimorfismo para simplificar el código
+
+<details>
+<summary>Respuesta</summary>
+    A) Utilizar clases con demasiadas responsabilidades se considera una mala práctica en programación orientada a objetos.
+    <br>
+    Una buena práctica en programación orientada a objetos es seguir el principio de responsabilidad única, que establece que una clase debe tener una sola responsabilidad. Si una clase tiene demasiadas responsabilidades, se vuelve difícil de entender, mantener y probar. Además, puede violar otros principios como el de Open/Closed, que establece que una clase debe estar abierta para la extensión pero cerrada para la modificación.
+</details>
+<br>
+
+## 342 <a name = "342"></a>
+
+⭐ ¿Cuál de las siguientes opciones es una mala práctica en programación orientada a objetos?
+
+    A) Hacer que una clase tenga demasiados métodos públicos
+    B) Usar nombres de variables y métodos que sean fáciles de entender
+    C) Escribir documentar el código
+
+<details>
+<summary>Respuesta</summary>
+    A) Hacer que una clase tenga demasiados métodos públicos es una mala práctica en programación orientada a objetos.
+    <br>
+    En programación orientada a objetos, se recomienda mantener el número de métodos públicos de una clase bajo control, ya que muchos métodos pueden dificultar la comprensión de la funcionalidad de la clase y aumentar el acoplamiento entre clases. Las opciones B y C no son directamente malas prácticas en programación orientada a objetos, pero pueden dificultar la legibilidad y el mantenimiento del código.
+</details>
+<br>
+
+⭐⭐ ¿Cuál es el principal problema que se le atribuye a la herencia múltiple?
+
+    A) Aumenta la complejidad del código y puede llevar a conflictos de nombres.
+    B) Afecta la eficiencia del programa.
+    C) Hace que sea difícil mantener el código.
+
+<details>
+<summary>Respuesta</summary>
+A) Aumenta la complejidad del código y puede llevar a conflictos de nombres, lo que puede hacer que el código sea difícil de entender y mantener. Además, puede haber problemas con la ambigüedad de los métodos heredados de varias clases.
+</details>
+<br>
+
+⭐⭐⭐ ¿Por qué algunos desarrolladores argumentan que la herencia viola la encapsulación?
+
+A) Porque la herencia permite que las subclases accedan directamente a los atributos y métodos privados de la clase padre.
+B) Porque la herencia hace que la clase padre dependa de las subclases.
+C) Porque la herencia dificulta la reutilización del código.
+
+<details>
+<summary>Respuesta</summary>
+A) Porque la herencia permite que las subclases accedan directamente a los atributos y métodos privados de la clase padre, lo que puede violar la encapsulación y hacer que los cambios en la clase padre afecten a las subclases de formas inesperadas.
+</details>
+<br>
+
+## 343 <a name = "343"></a>
+
+⭐ ¿Qué es el acoplamiento en el contexto de la programación orientada a objetos?
+
+    A) La forma en que una clase se comunica con otra clase.
+    B) La dependencia entre dos o más clases.
+    C) La forma en que se construye una jerarquía de clases.
+
+<details>
+<summary>Respuesta</summary>
+    B) La dependencia entre dos o más clases.
+</details>
+<br>
+
+⭐⭐ ¿Qué es lo que hace que la herencia pueda llevar a una jerarquía de clases complicada y difícil de mantener?
+
+    A) La creación de clases demasiado grandes y complejas.
+    B) La introducción de acoplamiento en el código.
+    C) La falta de reusabilidad de código.
+
+<details>
+<summary>Respuesta</summary>
+    B) La introducción de acoplamiento en el código.
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué son los patrones de diseño basados en interfaces y cómo se relacionan con la abominación de la herencia?
+
+    A) Los patrones de diseño que se centran en la creación de clases ligeras y flexibles que pueden ser combinadas para formar objetos más complejos.
+    B) Los patrones de diseño que se centran en la separación de las responsabilidades y la creación de abstracciones que permiten la comunicación entre diferentes componentes.
+    C) Los patrones de diseño que se centran en la creación de jerarquías de clases complejas y profundas.
+
+<details>
+<summary>Respuesta</summary>
+    A) Los patrones de diseño que se centran en la creación de clases ligeras y flexibles que pueden ser combinadas para formar objetos más complejos. Estos patrones se relacionan con la abominación de la herencia porque proporcionan una alternativa a la jerarquía de clases compleja y difícil de mantener que puede surgir con la herencia.
+</details>
+<br>
+
+## 344 <a name = "344"></a>
+
+⭐ ¿Cuál de estas opciones se considera un buen comentario en el código?
+
+    A) /* Este código es feo, pero funciona */
+    B) // Hace lo mismo que el otro código, pero es más rápido
+    C) /* Inicializa la variable a cero */
+
+<details>
+<summary>Respuesta</summary>
+    C) `/* Inicializa la variable a cero */`.
+    <br>
+    Un buen comentario es aquel que proporciona información útil sobre el código, como su propósito, funcionalidad, limitaciones, etc. Los comentarios que critican el código o dan opiniones subjetivas no son útiles. Los comentarios que indican la velocidad del código tampoco son útiles, ya que pueden ser engañosos o depender de factores externos.
+</details>
+<br>
+
+⭐⭐ ¿Qué es peor en un código: comentarios inútiles o la falta de comentarios?
+
+    A) Comentarios inútiles
+    B) Falta de comentarios
+    C) Ambas son igualmente malas
+
+<details>
+<summary>Respuesta</summary>
+    B) Falta de comentarios.
+    <br>
+    Si bien los comentarios inútiles pueden dificultar la legibilidad del código, la falta de comentarios puede dificultar la comprensión del mismo, especialmente si se trata de código complejo o antiguo. Es importante que los comentarios expliquen el propósito y la funcionalidad del código de manera clara y concisa.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál es la mejor práctica al escribir comentarios en el código?
+
+    A) Escribir tantos comentarios como sea posible
+    B) Escribir comentarios solo para el código complejo
+    C) Escribir comentarios solo si el código es difícil de entender
+
+<details>
+<summary>Respuesta</summary>
+    B) Escribir comentarios solo para el código complejo.
+    <br>
+    Los comentarios deben utilizarse para aclarar el código y hacerlo más fácil de entender, pero no deben utilizarse como sustitutos de un código mal escrito. Escribir comentarios innecesarios puede dificultar la legibilidad del código, mientras que no escribir comentarios para el código complejo puede dificultar su comprensión.
+</details>
+<br>
+
+## 345 <a name = "345"></a>
+
+⭐ ¿Qué variable está mal nombrada en JavaScript?
+
+    A) dateOfBirth
+    B) customer_address
+    C) email-id
+
+<details>
+<summary>Respuesta</summary>
+    La variable mal nombrada en JavaScript es la opción C) email-id.
+    <br>
+    Según las convenciones de nombres de JavaScript, los nombres de las variables deben estar en camelCase, es decir, la primera palabra en minúscula y las palabras siguientes en mayúscula. Por lo tanto, la opción A) dateOfBirth y la opción B) customer_address son nombres válidos para variables. Sin embargo, la opción C) email-id utiliza un guión para separar las palabras, lo que no es permitido en los nombres de variables en JavaScript. Debería ser escrito como emailId en camelCase.
+</details>
+<br>
+
+⭐⭐ ¿Qué variable está mal nombrada en Python?
+
+    A) totalSum
+    B) AverageValue
+    C) total_sum_average
+
+<details>
+<summary>Respuesta</summary>
+    La variable mal nombrada en Python es la opción B) AverageValue.
+    <br>
+    Según las convenciones de nombres de Python, los nombres de las variables deben estar en minúsculas y las palabras separadas por guiones bajos. Por lo tanto, la opción A) totalSum sería un mejor nombre para una variable que representa la suma total, mientras que la opción B) AverageValue debería ser escrita como average_value. La opción C) total_sum_average es correcta según las convenciones de nombres de Python, aunque podría no ser un nombre descriptivo en todos los casos.
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué variable está mal nombrada en C++?
+
+    A) file_path
+    B) FileName
+    C) numberofitems
+
+<details>
+<summary>Respuesta</summary>
+    La variable mal nombrada en C++ es la opción B) FileName.
+    <br>
+    Según las convenciones de nombres de C++, los nombres de las variables deben empezar en minúsculas y las palabras separadas por mayúsculas. Por lo tanto, la opción A) file_path debería ser escrita como filePath, y la opción C) numberofitems debería ser escrita como numberOfItems. La opción B) FileName no sigue esta convención y debería ser escrita como fileName.
+</details>
+<br>
+
+## 346 <a name = "346"></a>
+
+⭐ ¿Qué es una mala práctica al nombrar variables en un programa?
+
+    A) Utilizar nombres que no tengan relación con su propósito
+    B) Utilizar nombres que sean demasiado largos
+    C) Utilizar nombres que estén en otro idioma
+
+<details>
+<summary>Respuesta</summary>
+    A) Utilizar nombres que no tengan relación con su propósito es una mala práctica al nombrar variables en un programa.
+    <br>
+    Las variables deben ser nombradas de forma que se entienda claramente su propósito y su contenido. Utilizar nombres que no tengan relación con su propósito puede dificultar la comprensión del código, especialmente cuando se trabaja en equipo o cuando se revisa el código más adelante.
+</details>
+<br>
+
+⭐⭐ ¿Por qué es importante indentar correctamente el código?
+
+    A) Para que el código se vea más lindo
+    B) Para que el código sea más fácil de leer y entender
+    C) Para reducir el tamaño del archivo de código fuente
+
+<details>
+<summary>Respuesta</summary>
+    B) Es importante indentar correctamente el código para que sea más fácil de leer y entender.
+    <br>
+    La indentación ayuda a identificar la estructura del código y a distinguir entre bloques de código diferentes. Esto puede ser especialmente importante en lenguajes que utilizan bloques de código para definir estructuras como bucles, condicionales y funciones. El código sin indentación puede ser difícil de seguir y entender, especialmente en programas más grandes y complejos.
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué efecto puede tener el uso de nombres inapropiados de variables y la falta de indentación en el mantenimiento del código a largo plazo?
+
+    A) Puede dificultar la lectura y el entendimiento del código
+    B) Puede hacer que el código sea más fácil de debugear
+    C) No tiene efecto en el mantenimiento del código a largo plazo
+
+<details>
+<summary>Respuesta</summary>
+    A) El uso de nombres inapropiados de variables y la falta de indentación puede dificultar la lectura y el entendimiento del código, lo que puede hacer que sea más difícil de mantener y actualizar a largo plazo.
+    <br>
+    El código que no se puede leer o entender fácilmente puede ser más propenso a errores y puede ser más difícil de actualizar o modificar cuando sea necesario. Utilizar nombres descriptivos de variables y una buena indentación puede facilitar la lectura del código y hacer que sea más fácil de mantener a largo plazo.
+</details>
+<br>
+
+## 351 <a name = "351"></a>
+
+⭐ ¿Cuál es el objetivo principal de evitar el "overengineering" en programación?
+
+    A) Reducir el costo y el tiempo de desarrollo del software.
+    B) Aumentar la complejidad y las características del software para satisfacer las expectativas del cliente.
+    C) Hacer que el software sea más difícil de entender y mantener.
+
+<details>
+<summary>Respuesta</summary>
+    A) Reducir el costo y el tiempo de desarrollo del software.
+    <br>
+    El objetivo principal de evitar el "overengineering" en programación es reducir el costo y el tiempo de desarrollo del software, al enfocarse en diseñar y desarrollar solamente las características y complejidades necesarias para cumplir con los requisitos del proyecto. Esto puede hacer que el software sea más fácil de entender y mantener, y puede ayudar a garantizar que el proyecto se entregue a tiempo y dentro del presupuesto.
+</details>
+<br>
+
+⭐⭐ ¿Qué es el "overengineering" en programación?
+
+    A) Es el proceso de diseñar y desarrollar software con demasiadas características y complejidades innecesarias.
+    B) Es el proceso de diseñar y desarrollar software con el mínimo de características y complejidades necesarias.
+    C) Es el proceso de probar y depurar software para garantizar que no tenga errores ni fallos de rendimiento.
+
+<details>
+<summary>Respuesta</summary>
+    A) Es el proceso de diseñar y desarrollar software con demasiadas características y complejidades innecesarias.
+    <br>
+    El "overengineering" en programación se refiere a la práctica de diseñar y desarrollar software con más características y complejidades de las que son necesarias para cumplir con los requisitos del proyecto. Esto puede conducir a un código más difícil de mantener, más propenso a errores y más costoso de desarrollar y mantener a largo plazo.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuáles son algunos signos de que un proyecto de software ha sido sobre-ingenierizado?
+
+    A) El código es difícil de entender y mantener.
+    B) El software tiene muchas características que nunca se utilizan.
+    C) El software tarda demasiado tiempo en desarrollarse y es costoso de mantener.
+    D) Todas las anteriores.
+
+<details>
+<summary>Respuesta</summary>
+    D) Todas las anteriores.
+    <br>
+    Los signos de que un proyecto de software ha sido sobre-ingenierizado incluyen código difícil de entender y mantener, software con muchas características que nunca se utilizan, y software que tarda demasiado tiempo en desarrollarse y es costoso de mantener. El "overengineering" puede ser un problema tanto para proyectos pequeños como para proyectos grandes y complejos, y puede llevar a retrasos en la entrega del software, presupuestos superados y una calidad inferior del producto final.
+</details>
+<br>
+
+## 352 <a name = "352"></a>
+
+⭐ Cuando se programa, ¿qué significa "reinventar la rueda"?
+
+    A) Crear algo completamente nuevo y original.
+    B) Crear algo que ya ha sido creado antes.
+    C) Crear algo que nunca se ha creado antes, pero que podría ser mejorado.
+
+<details>
+<summary>Respuesta</summary>
+    B) Crear algo que ya ha sido creado antes.
+    <br>
+    En programación, "reinventar la rueda" se refiere a escribir código para resolver un problema que ya ha sido resuelto por otros, en lugar de utilizar una solución existente. Generalmente se considera una mala práctica, ya que puede llevar a la duplicación de esfuerzos y a una mayor complejidad del código.
+</details>
+<br>
+
+⭐⭐ ¿Por qué se debe evitar reinventar la rueda en programación?
+
+    A) Porque puede llevar a la duplicación de esfuerzos y a una mayor complejidad del código.
+    B) Porque crear algo completamente nuevo es más divertido y gratificante.
+    C) Porque crear algo que nunca se ha creado antes es más desafiante.
+
+<details>
+<summary>Respuesta</summary>
+    A) Porque puede llevar a la duplicación de esfuerzos y a una mayor complejidad del código.
+    <br>
+    Al reinventar la rueda, se corre el riesgo de crear una solución que ya existe, lo que lleva a la duplicación de esfuerzos. Además, el nuevo código puede ser más complejo que la solución existente, lo que dificulta el mantenimiento y la escalabilidad del proyecto. Por lo tanto, es una buena práctica utilizar soluciones existentes siempre que sea posible.
+</details>
+<br>
+
+## 353 <a name = "353"></a>
+
+⭐ ¿Qué significa el principio DRY en programación?
+
+    A) Evitar duplicar código innecesariamente
+    B) Utilizar nombres descriptivos para las variables y funciones
+    C) Separar el código en módulos o clases
+
+<details>
+<summary>Respuesta</summary>
+    A) Evitar duplicar código innecesariamente.
+    <br>
+    El principio DRY (Don't Repeat Yourself) se refiere a la idea de que cada pieza de conocimiento o lógica en un sistema debería tener una única representación autoritativa y que esa representación debería ser mantenida en un solo lugar. En el contexto de la programación, esto significa evitar duplicar código innecesariamente, ya que la duplicación aumenta la complejidad del código y dificulta su mantenimiento.
+</details>
+<br>
+
+⭐⭐ ¿Qué beneficios ofrece seguir el principio DRY en programación?
+
+    A) Facilita el mantenimiento del código
+    B) Aumenta la complejidad del código
+    C) Mejora el rendimiento del programa
+
+<details>
+<summary>Respuesta</summary>
+    A) Facilita el mantenimiento del código.
+    <br>
+    Seguir el principio DRY facilita el mantenimiento del código, ya que cada pieza de conocimiento o lógica en el sistema tiene una única representación autoritativa y es más fácil de entender y modificar. Además, la eliminación de código duplicado puede reducir la cantidad total de código que hay que mantener, lo que puede ahorrar tiempo y esfuerzo a largo plazo.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál de las siguientes opciones es un ejemplo de violación del principio DRY?
+
+    A) Utilizar una variable global para almacenar una constante
+    B) Copiar y pegar una sección de código idéntica en varias partes del programa
+    C) Utilizar comentarios para explicar el propósito de una sección de código
+
+<details>
+<summary>Respuesta</summary>
+    B) Copiar y pegar una sección de código idéntica en varias partes del programa.
+    <br>
+    Copiar y pegar una sección de código idéntica en varias partes del programa viola el principio DRY, ya que duplica el código y aumenta la complejidad del programa. En lugar de ello, deberíamos extraer la lógica en una función o clase que pueda ser reutilizada en varias partes del programa.
+</details>
+<br>
+
+## 354 <a name = "354"></a>
+
+⭐ ¿Por qué puede ser difícil mantener un método con demasiadas líneas de código?
+
+    A) Requiere más tiempo para escribir el método
+    B) Hace que sea más difícil depurar el código si hay un error en el método
+    C) Hace que el método sea más fácil de leer y comprender
+
+<details>
+<summary>Respuesta</summary>
+    B) Hace que sea más difícil depurar el código si hay un error en el método.
+    <br>
+    Un método con demasiadas líneas de código puede hacer que sea más difícil depurar el código si hay un error en el método. Esto se debe a que puede ser difícil determinar dónde se encuentra el error en un método largo y complejo. Además, hacer cambios en el código puede ser más difícil y propenso a errores si el método es difícil de entender y modificar.
+</details>
+<br>
+
+⭐⭐ ¿Cuál es un problema potencial de tener un método con demasiadas líneas de código?
+
+    A) Dificulta la lectura y comprensión del método
+    B) Hace que el método sea más eficiente y rápido
+    C) Aumenta la legibilidad y la mantenibilidad del método
+
+<details>
+<summary>Respuesta</summary>
+    A) Dificulta la lectura y comprensión del método.
+    <br>
+    Tener un método con demasiadas líneas de código puede hacer que sea difícil de leer y comprender. Los métodos largos pueden contener demasiada información para que el lector la asimile de una sola vez. Además, puede hacer que sea más difícil depurar el código si hay un error en el método.
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué estrategia se puede utilizar para evitar tener un archivo con demasiadas líneas de código en un proyecto de software?
+
+    A) Dividir el archivo en varios archivos más pequeños
+    B) Comprimir el archivo para reducir su tamaño
+    C) Agregar comentarios detallados al archivo para mejorar su legibilidad
+
+<details>
+<summary>Respuesta</summary>
+    A) Dividir el archivo en varios archivos más pequeños.
+    <br>
+    Una estrategia común para evitar tener un archivo con demasiadas líneas de código en un proyecto de software es dividir el archivo en varios archivos más pequeños. Esto puede hacer que sea más fácil de entender y modificar el código, y también puede ayudar a mejorar la reutilización del código en otros lugares del proyecto.
+</details>
+<br>
+
+## 355 <a name = "355"></a>
+
