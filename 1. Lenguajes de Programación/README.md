@@ -4734,3 +4734,1147 @@ A) Porque la herencia permite que las subclases accedan directamente a los atrib
 
 ## 355 <a name = "355"></a>
 
+⭐ ¿Qué es un bucle de eventos?
+
+    A) Un bucle que ejecuta una secuencia de instrucciones repetidamente.
+    B) Un bucle que espera la llegada de eventos y los procesa.
+    C) Un bucle que se utiliza para iterar sobre una estructura de datos.
+
+<details>
+<summary>Respuesta</summary>
+    B) Un bucle de eventos es un bucle que espera la llegada de eventos y los procesa.
+    <br>
+    En la programación orientada a eventos, los programas suelen utilizar un bucle de eventos para esperar la llegada de eventos y procesarlos. El bucle de eventos se encarga de recibir los eventos que llegan al programa, y de llamar al manejador de eventos correspondiente para procesarlos. Una vez que el manejador de eventos ha procesado el evento, el bucle de eventos vuelve a esperar la llegada de nuevos eventos.
+</details>
+<br>
+
+⭐⭐ ¿Qué es la programación orientada a eventos?
+
+    A) Un paradigma de programación que se basa en la ejecución de procedimientos secuenciales.
+    B) Un paradigma de programación que se basa en la comunicación entre componentes a través de eventos.
+    C) Un paradigma de programación que se basa en la ejecución de procesos en paralelo.
+
+<details>
+<summary>Respuesta</summary>
+    B) La programación orientada a eventos es un paradigma de programación que se basa en la comunicación entre componentes a través de eventos.
+    <br>
+    En la programación orientada a eventos, los componentes del programa están diseñados para responder a eventos que pueden ser generados por el sistema operativo, el usuario o el propio programa. En lugar de ejecutar procedimientos secuenciales, los componentes se comunican entre sí a través de eventos, lo que permite una mayor modularidad, escalabilidad y reutilización de código.
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué es un manejador de eventos?
+
+    A) Un programa que genera eventos en un sistema.
+    B) Un programa que procesa eventos generados por un sistema.
+    C) Un programa que gestiona la memoria de un sistema.
+
+<details>
+<summary>Respuesta</summary>
+    B) Un manejador de eventos es un programa que procesa eventos generados por un sistema.
+    <br>
+    En la programación orientada a eventos, los eventos son generados por el sistema operativo, el usuario o el propio programa, y son procesados por los manejadores de eventos. Los manejadores de eventos son programas que se encargan de recibir los eventos y ejecutar el código correspondiente para manejarlos.
+</details>
+<br>
+
+## 356 <a name = "356"></a>
+
+⭐ ¿Cómo se implementa la programación orientada a eventos en JavaScript?
+
+    A) Utilizando objetos y métodos
+    B) Utilizando callbacks y funciones anónimas
+    C) Utilizando clases y objetos
+
+<details>
+<summary>Respuesta</summary>
+    B) La programación orientada a eventos se implementa en JavaScript utilizando callbacks y funciones anónimas.
+    <br>
+    En JavaScript, los callbacks son funciones que se pasan como argumentos a otras funciones. En la programación orientada a eventos, un callback se utiliza para manejar una señal emitida por un evento. Cuando se dispara un evento, se ejecuta el callback asociado a ese evento, lo que permite realizar acciones específicas en respuesta a esa señal.
+</details>
+<br>
+
+⭐⭐ ¿Qué es un evento en programación?
+
+    A) Una acción que ocurre en respuesta a una solicitud del usuario
+    B) Una parte de código que se ejecuta en respuesta a una acción del usuario
+    C) Una entidad que encapsula datos y comportamiento relacionados
+
+<details>
+<summary>Respuesta</summary>
+    A) Un evento en programación es una acción que ocurre en respuesta a una solicitud del usuario.
+    <br>
+    En programación, los eventos son utilizados para manejar interacciones con el usuario, como hacer clic en un botón o presionar una tecla. Cuando ocurre un evento, el programa responde de una manera predefinida, ejecutando un fragmento de código o realizando alguna otra acción.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuáles son los componentes fundamentales de la programación orientada a eventos?
+
+    A) Eventos, Callbacks y Promises
+    B) Eventos, Escuchadores y Emisores
+    C) Eventos, Controladores y Modelos
+
+<details>
+<summary>Respuesta</summary>
+    B) Los componentes fundamentales de la programación orientada a eventos son Eventos, Escuchadores y Emisores.
+    <br>
+    En la programación orientada a eventos, los eventos son disparados por el usuario o el sistema, y los emisores envían una señal cuando un evento ocurre. Los escuchadores, también conocidos como manejadores de eventos, están a la espera de estas señales y ejecutan código específico en respuesta a ellas.
+</details>
+<br>
+
+## 361 <a name = "361"></a>
+
+⭐ ¿Qué hace el paso de "conquistar" en el algoritmo "divide y vencerás"?
+
+A) Divide el problema en subproblemas más pequeños
+B) Combina las soluciones de los subproblemas más pequeños
+C) Resuelve los subproblemas más pequeños de forma recursiva
+
+<details>
+<summary>Respuesta</summary>
+    C) Resuelve los subproblemas más pequeños de forma recursiva.
+    <br>
+    El paso de "conquistar" en el algoritmo "divide y vencerás" implica resolver los subproblemas más pequeños de forma recursiva. En general, esto significa que el algoritmo divide el problema original en dos o más subproblemas más pequeños y resuelve cada subproblema utilizando la misma técnica "divide y vencerás".
+</details>
+<br>
+
+⭐⭐ ¿Cuál es la idea principal detrás del algoritmo "divide y vencerás"?
+
+A) Dividir un problema en subproblemas más pequeños y resolverlos de forma recursiva
+B) Sumar todos los elementos de una lista y devolver el resultado
+C) Ordenar una lista de forma recursiva dividiéndola en sublistas más pequeñas
+
+<details>
+<summary>Respuesta</summary>
+    A) Dividir un problema en subproblemas más pequeños y resolverlos de forma recursiva.
+    <br>
+    El algoritmo "divide y vencerás" se basa en la idea de resolver un problema complejo dividiéndolo en subproblemas más pequeños y resolviéndolos de forma recursiva. En general, esta técnica implica dividir el problema en dos o más subproblemas más pequeños y luego combinar las soluciones a estos subproblemas para obtener la solución al problema original.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál es la complejidad temporal del algoritmo "merge sort"?
+
+A) O(n)
+B) O(n log n)
+C) O(n^2)
+
+<details>
+<summary>Respuesta</summary>
+    B) O(n log n).
+    <br>
+    Merge sort es un algoritmo de ordenamiento basado en "divide y vencerás" que tiene una complejidad temporal de O(n log n) en el peor de los casos. Esto lo hace muy eficiente en la práctica para listas grandes.
+</details>
+<br>
+
+## 362 <a name = "362"></a>
+
+⭐ ¿Qué es el problema de "LazyInitializationException" en JPA?
+
+    A) Un problema de rendimiento donde se realizan demasiadas consultas a la base de datos.
+    B) Un problema de concurrencia donde varios hilos intentan acceder a la misma entidad al mismo tiempo.
+    C) Un problema donde se intenta acceder a una entidad relacionada que no se ha cargado previamente de manera explícita.
+
+<details>
+<summary>Respuesta</summary>
+    C) El problema de "LazyInitializationException" en JPA se produce cuando se intenta acceder a una entidad relacionada que no se ha cargado previamente de manera explícita.
+    <br>
+    Este problema se produce cuando se utiliza la carga diferida (lazy loading) para cargar las entidades relacionadas solo cuando se necesiten. Si se intenta acceder a una entidad relacionada fuera del contexto de la transacción donde se cargó, se produce una excepción de "LazyInitializationException".
+</details>
+<br>
+
+⭐⭐ ¿Qué es el problema del "N+1 selects" en JPA?
+
+    A) Un problema de rendimiento donde se realizan demasiadas consultas a la base de datos.
+    B) Un problema de concurrencia donde varios hilos intentan acceder a la misma entidad al mismo tiempo.
+    C) Un problema de seguridad donde un atacante puede ejecutar consultas maliciosas en la base de datos.
+
+<details>
+<summary>Respuesta</summary>
+    A) El problema del "N+1 selects" en JPA es un problema de rendimiento donde se realizan demasiadas consultas a la base de datos.
+    <br>
+    Este problema se produce cuando se realiza una consulta principal para recuperar una lista de entidades, y luego se realiza una consulta adicional para recuperar cada una de las entidades relacionadas. Esto resulta en un número total de consultas que es igual a "N+1", donde "N" es el número de entidades en la lista principal.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál es una solución común para el problema del "N+1 selects" en JPA?
+
+    A) Utilizar la anotación @ManyToOne en lugar de @OneToOne.
+    B) Utilizar la anotación @OneToMany en lugar de @ManyToOne.
+    C) Utilizar la instrucción JOIN FETCH en la consulta principal para recuperar todas las entidades relacionadas de una sola vez.
+
+<details>
+<summary>Respuesta</summary>
+    C) Una solución común para el problema del "N+1 selects" en JPA es utilizar la instrucción `JOIN FETCH` en la consulta principal para recuperar todas las entidades relacionadas de una sola vez.
+    <br>
+    La instrucción `JOIN FETCH` permite incluir en la consulta principal las entidades relacionadas que se deseen recuperar, en lugar de realizar una consulta adicional por cada entidad relacionada. Esto reduce significativamente el número total de consultas realizadas y mejora el rendimiento de la aplicación.
+</details>
+<br>
+
+## 363 <a name = "363"></a>
+
+⭐ ¿Cuál es una posible causa del error "Whitelabel Error Page This application has no explicit mapping for /error" en SpringBoot?
+
+    A) No hay controlador que maneje la URL solicitada.
+    B) La página de inicio del proyecto no está configurada correctamente.
+    C) La configuración de seguridad de Spring está mal configurada.
+
+<details>
+<summary>Respuesta</summary>
+    A) No hay controlador que maneje la URL solicitada.
+    <br>
+    Este error suele ocurrir cuando no hay un controlador de Spring que maneje la URL solicitada. Para solucionarlo, es necesario agregar un controlador correspondiente para la URL en cuestión.
+</details>
+<br>
+
+⭐⭐ ¿Cuál es una posible causa del error "java.lang.IllegalStateException: Could not load JDBC driver class"?
+
+    A) La URL de la base de datos es incorrecta.
+    B) La dependencia de la base de datos no está agregada al proyecto.
+    C) La configuración de seguridad de Spring está mal configurada.
+
+<details>
+<summary>Respuesta</summary>
+    B) La dependencia de la base de datos no está agregada al proyecto.
+    <br>
+    Este error suele ocurrir cuando se está utilizando una base de datos en el proyecto Spring Boot, pero la dependencia correspondiente no está agregada al archivo pom.xml (en caso de estar usando Maven) o al archivo build.gradle (en caso de estar usando Gradle). Para solucionarlo, es necesario agregar la dependencia correspondiente en el archivo de configuración del proyecto.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál es una posible solución para el error "java.lang.NoClassDefFoundError: org/springframework/boot/SpringApplication"?
+
+    A) Agregar la dependencia spring-boot-starter-web al archivo de configuración del proyecto.
+    B) Agregar la dependencia spring-boot-starter al archivo de configuración del proyecto.
+    C) Actualizar la versión de Spring Boot en el archivo de configuración del proyecto.
+
+<details>
+<summary>Respuesta</summary>
+    B) Agregar la dependencia `spring-boot-starter` al archivo de configuración del proyecto.
+    <br>
+    Este error suele ocurrir cuando no se ha agregado la dependencia `spring-boot-starter` al archivo de configuración del proyecto. Esta dependencia es necesaria para utilizar las clases y métodos de la biblioteca Spring Boot, incluyendo `SpringApplication`. Para solucionarlo, es necesario agregar la dependencia correspondiente en el archivo de configuración del proyecto.
+</details>
+<br>
+
+## 364 <a name = "364"></a>
+
+⭐ ¿Cuál es la causa más común del error StackOverflowError en Java?
+
+    A) Un error de sintaxis en el código
+    B) Un bucle infinito
+    C) Una excepción no controlada
+
+<details>
+<summary>Respuesta</summary>
+    B) Un bucle infinito.
+    <br>
+    El error `StackOverflowError` ocurre cuando la pila de llamadas se llena debido a un número excesivo de llamadas a métodos anidados. Esto suele ocurrir cuando hay un bucle infinito en el código. Para evitar este error, asegúrese de que los bucles tengan una condición de salida y que los métodos no se llamen de forma recursiva sin un caso base que detenga la recursión.
+</details>
+<br>
+
+⭐⭐ ¿Cuál es la causa más común del error NullPointerException en Java?
+
+    A) Acceder a un objeto que no ha sido inicializado
+    B) Intentar llamar a un método que no existe
+    C) Pasar un argumento incorrecto a un método
+
+<details>
+<summary>Respuesta</summary>
+    A) Acceder a un objeto que no ha sido inicializado.
+    <br>
+    El error `NullPointerException` ocurre cuando se intenta acceder a un objeto que no ha sido inicializado, es decir, que no se ha asignado a una variable. Java lanzará una excepción en tiempo de ejecución cuando se intenta acceder a una variable de objeto que es nula. Para evitar este error, asegúrese de inicializar todas las variables de objeto antes de acceder a ellas.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál es la solución recomendada para evitar problemas de concurrencia en Java?
+
+    A) Usar variables de clase en lugar de variables de instancia
+    B) Usar el patrón Singleton para todas las clases
+    C) Usar objetos bloqueados (synchronized) para controlar el acceso a variables compartidas
+
+<details>
+<summary>Respuesta</summary>
+    C) Usar objetos bloqueados (`synchronized`) para controlar el acceso a variables compartidas.
+    <br>
+    La concurrencia en Java puede llevar a problemas como las condiciones de carrera, donde varios hilos intentan acceder a los mismos recursos compartidos al mismo tiempo, lo que puede llevar a resultados inesperados. Para evitar este problema, se recomienda usar objetos bloqueados (`synchronized`) para controlar el acceso a variables compartidas. Los objetos bloqueados permiten que solo un hilo acceda a la variable compartida a la vez, lo que evita problemas de concurrencia.
+</details>
+<br>
+
+## 365 <a name = "365"></a>
+
+⭐ ¿Cuál de las siguientes opciones es una solución al error "TypeError: 'int' object is not callable" en Python?
+
+    A) Agregar un bloque de código indentado después de una línea que termina con dos puntos (:).
+    B) Convertir la variable a "Integer".
+    C) Renombrar una variable que tiene el mismo nombre que una función incorporada de Python.
+
+<details>
+<summary>Respuesta</summary>
+    La opción C es la solución al error "TypeError: 'int' object is not callable" en Python.
+    <br>
+    Este error se produce cuando se intenta llamar a una variable que tiene el mismo nombre que una función incorporada de Python, como `print`. Para solucionar este error, es necesario renombrar la variable o la función incorporada para que tengan nombres diferentes.
+</details>
+<br>
+
+⭐⭐ ¿Cuál de las siguientes opciones es una solución al error "IndentationError: expected an indented block" en Python?
+
+    A) Agregar un bloque de código indentado después de una línea que termina con dos puntos (:).
+    B) Corregir un error de sintaxis en el código.
+    C) Utilizar un editor de texto que tenga soporte para indentación de código.
+
+<details>
+<summary>Respuesta</summary>
+    La opción A es la solución al error "IndentationError: expected an indented block" en Python.
+    <br>
+    Este error se produce cuando una línea de código termina con dos puntos (`:`) y la línea siguiente no está indentada correctamente. Para solucionar este error, es necesario agregar un bloque de código indentado después de la línea que termina con dos puntos.
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué opción debe agregarse en el siguiente código para que la función func devuelva una lista con los números pares del 1 al 10?
+
+
+```python
+def func():
+    result = []
+    for i in range(1, 11):
+        if i % 2 == 0:
+            result.append(i)
+    return ____
+```
+
+A) return 
+B) i
+C) result
+
+<details>
+<summary>Respuesta</summary>
+    La opción C es la respuesta correcta.
+    <br>
+    La función `func` utiliza un ciclo `for` para iterar sobre los números del 1 al 10, y agrega los números pares a la lista `result`. Para devolver la lista de números pares, es necesario agregar la opción `return result` al final de la función.
+</details>
+<br>
+
+## 366 <a name = "366"></a>
+
+⭐ ¿Cuál es el problema común que surge en Go cuando se usa un map en varias rutinas simultáneamente?
+
+    A) Panic por asignación concurrente a un mapa
+    B) Exceso de uso de memoria
+    C) Fallos de segmentación
+
+<details>
+<summary>Respuesta</summary>
+    A) Panic por asignación concurrente a un mapa.
+    <br>
+    Los mapas en Go no son seguros para concurrencia por defecto, lo que significa que si varias rutinas acceden a un mapa al mismo tiempo sin sincronización, puede ocurrir una asignación concurrente al mapa, lo que provoca un panic. Para solucionar este problema, se puede usar la sincronización mediante mutex o utilizar un mapa concurrente proporcionado por la biblioteca estándar de Go.
+</details>
+<br>
+
+⭐⭐ ¿Cuál es el problema común que surge en Go cuando se utiliza la función append en un slice?
+
+    A) Falta de memoria
+    B) Pérdida de datos
+    C) Asignación concurrente a un slice
+
+<details>
+<summary>Respuesta</summary>
+    B) Pérdida de datos.
+    <br>
+    La función append en Go devuelve un nuevo slice que contiene los elementos originales y los nuevos elementos que se agregaron. Si se intenta agregar elementos a un slice utilizando la misma variable que se utilizó para almacenar el slice original, es posible que se produzca una pérdida de datos. Para solucionar este problema, es necesario asignar el nuevo slice devuelto por la función append a la variable del slice original.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál es el problema común que surge en Go cuando se usa el paquete net/http y se envían solicitudes POST grandes?
+
+    A) Demora en la respuesta del servidor
+    B) Panic por falta de memoria
+    C) Corrupción de datos
+
+<details>
+<summary>Respuesta</summary>
+    B) Panic por falta de memoria.
+    <br>
+    Cuando se envían solicitudes POST grandes a un servidor en Go utilizando el paquete net/http, es posible que se produzca un panic por falta de memoria. Esto se debe a que el paquete net/http intenta almacenar la solicitud completa en memoria antes de procesarla. Para solucionar este problema, se puede utilizar la función NewRequest de la biblioteca net/http, que permite enviar solicitudes POST grandes de manera eficiente utilizando la transmisión por lotes.
+</details>
+<br>
+
+## 411 <a name = "411"></a>
+
+⭐ ¿Cuál es uno de los problemas comunes en Golang que puede llevar a una race condition?
+
+    A) El uso de la palabra clave defer
+    B) El uso de goroutines sin sincronización adecuada
+    C) La falta de manejo de errores
+
+<details>
+<summary>Respuesta</summary>
+B) El uso de goroutines sin sincronización adecuada
+</details>
+<br>
+
+⭐⭐ ¿Cuál es uno de los problemas más conocidos de Golang que puede causar problemas de rendimiento en ciertas situaciones?
+
+    A) La recolección de basura
+    B) La sincronización de canales
+    C) El copiado de memoria
+
+<details>
+<summary>Respuesta</summary>
+    B) La sincronización de canales.
+    <br>
+    Uno de los problemas más conocidos de Golang es que la sincronización de canales puede ser costosa en términos de rendimiento en ciertas situaciones, especialmente cuando hay muchas goroutines que deben comunicarse a través de canales. Esto se debe a que la implementación actual de la sincronización de canales en Golang utiliza un enfoque de bloqueo de kernel que puede resultar en una gran cantidad de llamadas de sistema y cambios de contexto.
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué es el "efecto memoria caché" en Golang y cómo puede afectar al rendimiento del programa?
+
+    A) Es un problema que puede ocurrir cuando el programa utiliza demasiada memoria y comienza a hacer uso intensivo del disco duro.
+    B) Es un problema que puede ocurrir cuando la memoria asignada a un programa no se libera correctamente, lo que resulta en fugas de memoria.
+    C) Es un problema que puede ocurrir cuando las goroutines que comparten datos se ejecutan en diferentes núcleos de CPU y la lectura y escritura de datos en la memoria principal se vuelve ineficiente debido a la caché de CPU.
+
+<details>
+<summary>Respuesta</summary>
+    C) Es un problema que puede ocurrir cuando las goroutines que comparten datos se ejecutan en diferentes núcleos de CPU y la lectura y escritura de datos en la memoria principal se vuelve ineficiente debido a la caché de CPU.
+    <br>
+    El "efecto memoria caché" es un problema que puede ocurrir cuando las goroutines que comparten datos se ejecutan en diferentes núcleos de CPU y la lectura y escritura de datos en la memoria principal se vuelve ineficiente debido a la caché de CPU. Cuando una goroutine escribe en una variable, el valor de la variable se almacena en la caché de CPU de ese núcleo de CPU. Si otra goroutine intenta leer el valor de la misma variable en otro núcleo de CPU, la caché de CPU de ese núcleo de CPU debe actualizarse con el valor actualizado de la variable, lo que puede ser costoso en términos de rendimiento. Una forma de evitar este problema es utilizar mecanismos de sincronización como canales o mutexes para garantizar que solo una goroutine acceda a una variable compartida a la vez.
+</details>
+<br>
+
+## 412 <a name = "412"></a>
+
+⭐ ¿Qué es un "leak goroutine" en Golang?
+
+    A) Una goroutine que se ejecuta en bucle infinito
+    B) Una goroutine que nunca se detiene porque no hay forma de acceder a ella
+    C) Una goroutine que no se cierra adecuadamente y que consume recursos del sistema
+
+<details>
+<summary>Respuesta</summary>
+C) Una goroutine que no se cierra adecuadamente y que consume recursos del sistema
+</details>
+<br>
+
+⭐⭐ ¿Cuál de las siguientes opciones es una forma común de evitar race conditions en Golang?
+
+    A) Uso de la función panic() para forzar la finalización de una goroutine
+    B) Uso de la función recover() para recuperarse de una panic causada por una goroutine
+    C) Uso de primitivas de sincronización como mutexes o channels
+
+<details>
+<summary>Respuesta</summary>
+C) Uso de primitivas de sincronización como mutexes o channels
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué es un "data race" en Golang?
+
+    A) Un error de sintaxis que ocurre al tratar de leer datos de una estructura sin definir
+    B) Una condición en la cual al menos dos goroutines acceden a la misma variable al mismo tiempo sin sincronización adecuada
+    C) Un error de tiempo de ejecución que ocurre cuando se intenta acceder a un índice fuera del rango de un slice
+
+<details>
+<summary>Respuesta</summary>
+B) Una condición en la cual al menos dos goroutines acceden a la misma variable al mismo tiempo sin sincronización adecuada
+</details>
+<br>
+
+## 413 <a name = "413"></a>
+
+⭐ ¿Qué problema puede ocurrir cuando se utilizan muchas subconsultas en SQL?
+
+    A) Pérdida de datos.
+    B) Rendimiento lento de las consultas.
+    C) Problemas de seguridad.
+
+<details>
+<summary>Respuesta</summary>
+    B) Rendimiento lento de las consultas.
+    <br>
+    Las subconsultas en SQL pueden ser muy útiles para realizar consultas complejas, pero también pueden afectar el rendimiento de las consultas. Las subconsultas se ejecutan internamente para obtener los resultados necesarios, lo que puede llevar más tiempo que las consultas simples. Si se utilizan de manera inadecuada, las subconsultas pueden afectar el rendimiento de la base de datos y hacer que las consultas se ejecuten de manera más lenta.
+</details>
+<br>
+
+⭐⭐ ¿Cuál es la solución más común para evitar la inyección de SQL?
+
+    A) Usar validación de entrada y sanitización de datos.
+    B) Utilizar el cifrado de datos.
+    C) Implementar firewalls de aplicaciones web.
+
+<details>
+<summary>Respuesta</summary>
+    A) Usar validación de entrada y sanitización de datos.
+    <br>
+    La inyección de SQL es un ataque en el que un atacante introduce código malicioso en una consulta SQL a través de la entrada de datos del usuario. La solución más común para evitar la inyección de SQL es utilizar validación de entrada y sanitización de datos. La validación de entrada asegura que los datos de entrada sean del tipo esperado y cumplan con las restricciones necesarias, mientras que la sanitización de datos se utiliza para eliminar los caracteres potencialmente peligrosos que podrían ser utilizados en un ataque de inyección de SQL.
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué problema de SQL se resuelve al utilizar la forma normal de Boyce-Codd (BCNF)?
+
+    A) La redundancia de datos.
+    B) La falta de integridad referencial.
+    C) La dependencia transitiva.
+
+<details>
+<summary>Respuesta</summary>
+    C) La dependencia transitiva.
+    <br>
+    La forma normal de Boyce-Codd (BCNF) se utiliza en el diseño de bases de datos para evitar la dependencia transitiva, que es un problema en el que un atributo no clave depende funcionalmente de otro atributo no clave en lugar de la clave principal de la tabla. Al eliminar la dependencia transitiva, se logra una mejor organización de los datos y se evita la redundancia de datos.
+</details>
+<br>
+
+## 414 <a name = "414"></a>
+
+⭐ ¿Cuál es el principal problema de seguridad asociado a la función gets en C?
+
+    A) Puede causar un desbordamiento de búfer si se introduce más texto del que puede contener el búfer.
+    B) Puede causar un desbordamiento de pila si se introducen demasiados argumentos.
+    C) Puede causar un error de sintaxis si se introduce un carácter inválido.
+
+<details>
+<summary>Respuesta</summary>
+    A) Puede causar un desbordamiento de búfer si se introduce más texto del que puede contener el búfer.
+    <br>
+    La función `gets` en C se utiliza para leer una línea de texto desde la entrada estándar (como el teclado) y guardarla en un búfer. El problema de seguridad asociado a esta función es que no realiza comprobaciones de límites de búfer, lo que significa que puede causar un desbordamiento de búfer si se introduce más texto del que puede contener el búfer. Este desbordamiento puede ser explotado por atacantes para escribir código malicioso en el búfer y ejecutarlo en el sistema.
+</details>
+<br>
+
+⭐⭐ ¿Qué es un desbordamiento de búfer en C?
+
+    A) Es un error de sintaxis que ocurre al escribir código C incorrectamente.
+    B) Es un error de tiempo de ejecución que ocurre cuando se intenta escribir más datos de los que un búfer puede contener.
+    C) Es un error de compilación que ocurre cuando se utiliza una versión incorrecta del compilador C.
+
+<details>
+<summary>Respuesta</summary>
+    B) Es un error de tiempo de ejecución que ocurre cuando se intenta escribir más datos de los que un búfer puede contener.
+    <br>
+    Un desbordamiento de búfer es un error de programación que ocurre cuando se intenta escribir más datos en un búfer de los que puede contener. Este tipo de error es común en C debido a que el lenguaje no realiza comprobaciones de límites de búfer en tiempo de ejecución, lo que significa que los desarrolladores deben asegurarse de que sus programas no escriban más datos en un búfer de los que puede contener.
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué es un puntero salvaje en C?
+
+    A) Es un puntero que se ha desasignado incorrectamente.
+    B) Es un puntero que apunta a un objeto que ya no existe.
+    C) Es un puntero que no ha sido inicializado correctamente.
+
+<details>
+<summary>Respuesta</summary>
+    B) Es un puntero que apunta a un objeto que ya no existe.
+    <br>
+    En C, un puntero salvaje es un puntero que apunta a una dirección de memoria que ya no es válida, lo que significa que el objeto al que apunta ya no existe. Esto puede ocurrir cuando se desasigna incorrectamente un objeto o cuando se utiliza un puntero después de que el objeto al que apuntaba ha sido desasignado.
+</details>
+<br>
+
+## 415 <a name = "415"></a>
+
+⭐ ¿Por qué los punteros en C pueden ser una fuente de problemas?
+
+    A) Porque pueden generar "memory leaks".
+    B) Porque pueden provocar errores de compilación.
+    C) Porque pueden causar acceso ilegal o peligroso a la memoria.
+
+<details>
+<summary>Respuesta</summary>
+    A) Porque pueden generar "memory leaks" y;
+    C) Porque pueden causar acceso ilegal o peligroso a la memoria.
+    <br>
+    Los punteros en C son una herramienta muy poderosa que permite acceder directamente a la memoria del sistema, lo que puede ser muy útil en algunos casos. Sin embargo, también pueden ser una fuente de problemas si se utilizan incorrectamente. En particular, un puntero puede ser utilizado para acceder a una dirección de memoria que no está permitida, como cuando se accede a un puntero nulo o cuando se intenta acceder a una variable fuera de los límites de un arreglo. Esto puede provocar errores de tiempo de ejecución, fallos de seguridad o incluso "memory leaks" si no se gestiona adecuadamente la memoria asignada a través de punteros.
+</details>
+<br>
+
+⭐⭐ ¿Qué es un segmentation fault en C?
+
+    A) Un error de sintaxis en el código
+    B) Un error de semántica en el código
+    C) Un error de acceso a memoria inválido
+
+<details>
+<summary>Explicación</summary>
+    C) Un segmentation fault ocurre cuando un programa intenta acceder a una porción de memoria que no le ha sido asignada, ya sea por estar fuera de los límites del arreglo asignado o porque se intenta acceder a una dirección de memoria que no existe.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál es el resultado de la siguiente operación en C:
+
+```c
+3 / 2 * 2
+```
+
+A) 2
+B) 3
+C) 4
+
+<details>
+<summary>Explicación</summary>
+    C) La operación se evalúa de izquierda a derecha, por lo que primero se realiza la división de 3 entre 2, lo cual da como resultado 1 (el resultado se trunca a un entero), y luego se multiplica por 2, lo que resulta en 2.
+</details>
+<br>
+
+## 416 <a name = "416"></a>
+
+⭐ ¿Cuál es el resultado de la siguiente expresión en JavaScript: "2" + 2 + 3?
+
+    A) "23"
+    B) "223"
+    C) "25"
+
+<details>
+<summary>Respuesta</summary>
+    B) `"223"`
+    <br>
+    En JavaScript, cuando se utiliza el operador `+` con una cadena y un número, el número se convierte automáticamente en una cadena antes de concatenarse con la otra cadena. Por lo tanto, en este caso, `"2" + 2` da como resultado la cadena `"22"`, que luego se concatena con la otra cadena `"3"`, dando como resultado la cadena `"223"`.
+</details>
+<br>
+
+⭐⭐ ¿Cuál de las siguientes afirmaciones es verdadera sobre la coerción de tipos en JavaScript?
+
+    A) 0 es evaluado como false en una expresión booleana.
+    B) "0" es evaluado como false en una expresión booleana.
+    C) Ambas son verdaderas.
+
+<details>
+<summary>Respuesta</summary>
+    C) Ambas son verdaderas.
+    <br>
+    En JavaScript, los valores que se consideran "falsos" en una expresión booleana son los siguientes:
+    <ul>
+        <li>`false`</li>
+        <li>`0`</li>
+        <li>`""` (cadena vacía)</li>
+        <li>`null`</li>
+        <li>`undefined`</li>
+        <li>`NaN` (Not a Number)</li>
+    </ul>
+    Esto significa que tanto `0` como `"0"` son evaluados como `false` en una expresión booleana. Este comportamiento puede causar confusión y errores en algunos casos, por lo que es importante comprender bien cómo funciona la coerción de tipos en JavaScript.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál de las siguientes afirmaciones es verdadera sobre los cierres (closures) en JavaScript?
+
+    A) Los cierres permiten acceder a variables privadas desde fuera de una función.
+    B) Los cierres son ineficientes y deberían evitarse siempre que sea posible.
+    C) Los cierres pueden causar problemas de memoria si se usan de manera inadecuada.
+
+<details>
+<summary>Respuesta</summary>
+    C) Los cierres pueden causar problemas de memoria si se usan de manera inadecuada.
+    <br>
+    Los cierres son una característica poderosa de JavaScript que permiten crear funciones que "recuerdan" el entorno en el que fueron creadas, incluso después de que la función haya sido devuelta o pasada como argumento a otra función. Sin embargo, si se usan de manera inadecuada, los cierres pueden causar problemas de memoria al mantener vivas referencias a objetos que ya no son necesarios. Por lo tanto, es importante comprender bien cómo funcionan los cierres y utilizarlos de manera responsable.
+</details>
+<br>
+
+## 421 <a name = "421"></a>
+
+⭐ ¿Cuál de las siguientes opciones es un problema común en JavaScript debido a la asincronía?
+
+    A) Race condition
+    B) Deadlock
+    C) Stack overflow
+
+<details>
+<summary>Explicación</summary>
+El problema común en JavaScript debido a la asincronía es la condición de carrera (race condition), que ocurre cuando dos o más operaciones compiten por los mismos recursos y el resultado depende del orden en que se ejecutan las operaciones. Esto puede resultar en un comportamiento no determinístico y difícil de depurar. Un ejemplo común es cuando se accede a una variable compartida por dos funciones asincrónicas y se produce un comportamiento inesperado debido a que ambas funciones intentan modificar la variable al mismo tiempo.
+</details>
+<br>
+
+⭐⭐ ¿Qué es la clausura (closure) en JavaScript?
+
+    A) Es un patrón de diseño que permite encapsular datos y comportamiento relacionado en un objeto.
+    B) Es un mecanismo que permite a una función acceder a variables definidas en su ámbito externo incluso después de que la función ha terminado de ejecutarse.
+    C) Es una función que se utiliza para generar valores aleatorios en JavaScript.
+
+<details>
+<summary>Explicación</summary>
+B) La clausura (closure) en JavaScript es un mecanismo que permite a una función acceder a variables definidas en su ámbito externo, incluso después de que la función ha terminado de ejecutarse. Esto se logra mediante la creación de un ámbito léxico (lexical scope) para la función, que captura las variables que están en el alcance en el momento de la definición de la función. La clausura es un concepto importante en JavaScript, ya que permite crear funciones con estado (stateful functions) y utilizarlas en diferentes partes de una aplicación.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál es la diferencia entre "undefined" y "null" en JavaScript?
+
+    A) "Undefined" es un valor que se utiliza para indicar la ausencia de un valor asignado, mientras que "null" es un valor asignado que indica la ausencia de un objeto o valor.
+    B) "Undefined" es un valor asignado que indica la ausencia de un objeto o valor, mientras que "null" es un valor que se utiliza para indicar la ausencia de un valor asignado.
+    C) "Undefined" y "null" son lo mismo en JavaScript.
+
+<details>
+<summary>Explicación</summary>
+A) En JavaScript, "undefined" es un valor que se utiliza para indicar la ausencia de un valor asignado, mientras que "null" es un valor asignado que indica la ausencia de un objeto o valor. Por ejemplo, cuando se declara una variable pero no se le asigna un valor, su valor es "undefined". Por otro lado, cuando se desea indicar la ausencia de un objeto o valor, se puede asignar el valor "null" a la variable.
+</details>
+<br>
+
+## 422 <a name = "422"></a>
+
+⭐ ¿Qué propiedad en CSS puede causar que el texto de un elemento sea cortado en lugar de desbordarse a un renglón siguiente?
+
+    A) white-space: normal
+    B) text-wrap: none
+    C) overflow: hidden
+
+<details>
+<summary>Respuesta</summary>
+    C) La propiedad en CSS que puede causar que el texto de un elemento sea cortado en lugar de desbordarse a un renglón siguiente es `overflow: hidden`.
+    <br>
+    Cuando se establece la propiedad `overflow` en un elemento en CSS, se especifica cómo se manejará el contenido del elemento que desborda los límites del elemento. Si se establece el valor `hidden`, se oculta el contenido que desborda y no se muestra en absoluto. Para solucionar esto, se puede establecer el valor `overflow: auto` para permitir que el contenido se desborde y se muestre en una barra de desplazamiento.
+</details>
+<br>
+
+⭐⭐ ¿Cuál es el problema más común al intentar hacer que un elemento ocupe todo el ancho de su contenedor en CSS?
+
+    A) El elemento tiene un margen que lo desborda del contenedor
+    B) El elemento tiene un padding que lo desborda del contenedor
+    C) El elemento tiene un ancho fijo que lo hace más grande que el contenedor
+
+<details>
+<summary>Respuesta</summary>
+    C) El problema más común al intentar hacer que un elemento ocupe todo el ancho de su contenedor en CSS es que el elemento tenga un ancho fijo que lo hace más grande que el contenedor.
+    <br>
+    Para que un elemento ocupe todo el ancho de su contenedor en CSS, su ancho debe ser igual al ancho del contenedor. Si el elemento tiene un ancho fijo mayor que el del contenedor, se desbordará del contenedor. Para solucionar esto, se puede utilizar el valor `width: 100%` para establecer el ancho del elemento en el ancho del contenedor.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál es la causa más común de que los elementos flotantes en CSS no se comporten como se espera?
+
+    A) El contenedor no tiene una altura definida
+    B) Los elementos flotantes no tienen un ancho definido
+    C) Los elementos flotantes no tienen un margen definido
+
+<details>
+<summary>Respuesta</summary>
+    A) La causa más común de que los elementos flotantes en CSS no se comporten como se espera es que el contenedor no tiene una altura definida.
+    <br>
+    Cuando se utiliza la propiedad `float` en un elemento en CSS, este elemento se retira del flujo normal de la página, lo que puede afectar la altura del contenedor. Si el contenedor no tiene una altura definida, puede suceder que los elementos flotantes se salgan del contenedor o se superpongan con otros elementos. Para solucionar esto, se puede utilizar la propiedad `clear` en otro elemento después de los elementos flotantes, o bien se puede establecer una altura definida en el contenedor.
+</details>
+<br>
+
+## 423 <a name = "423"></a>
+
+⭐ ¿Qué significa "cascada" en "CSS"?
+
+    A) El orden en que se aplican las propiedades CSS a los elementos.
+    B) La forma en que se muestran los elementos en la página web.
+    C) La forma en que se organizan las reglas CSS en el archivo de estilo.
+
+<details>
+<summary>Respuesta</summary>
+A) El orden en que se aplican las propiedades CSS a los elementos.
+</details>
+<br>
+
+⭐⭐ ¿Cuál de las siguientes opciones es un problema común en CSS conocido como "Colapso de margen"?
+
+    A) Cuando un elemento con margen superior e inferior se coloca junto a otro elemento con margen superior e inferior, los márgenes se combinan y se muestran como un solo margen.
+    B) Cuando dos elementos con margen inferior se colocan uno encima del otro, el margen superior del elemento inferior se colapsa con el margen inferior del elemento superior.
+    C) Cuando un elemento flotante se coloca al lado de un elemento con un margen, el margen se colapsa con el margen del elemento siguiente.
+
+<details>
+<summary>Respuesta</summary>
+B) Cuando dos elementos con margen inferior se colocan uno encima del otro, el margen superior del elemento inferior se colapsa con el margen inferior del elemento superior.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál es la diferencia entre las propiedades "display: inline-block" y "display: block" en CSS?
+
+    A) "display: inline-block" es similar a "display: block", pero el elemento se comporta como un elemento en línea, permitiendo que otros elementos se coloquen a su lado.
+    B) "display: block" muestra el elemento como un bloque de ancho completo que se extiende hasta los bordes del contenedor, mientras que "display: inline-block" muestra el elemento como un bloque con el comportamiento de un elemento en línea.
+    C) No hay diferencia, ambas propiedades muestran el elemento como un bloque de ancho completo que se extiende hasta los bordes del contenedor.
+
+<details>
+<summary>Respuesta</summary>
+B) "display: block" muestra el elemento como un bloque de ancho completo que se extiende hasta los bordes del contenedor, mientras que "display: inline-block" muestra el elemento como un bloque con el comportamiento de un elemento en línea.
+</details>
+<br>
+
+## 424 <a name = "424"></a>
+
+⭐ ¿Cuál de las siguientes opciones es una forma común de solucionar el problema de Angular que causa el error "No provider for HttpClient"?
+
+    A) Importar el módulo HttpClientModule
+    B) Importar el módulo FormsModule
+    C) Importar el módulo RouterModule
+
+<details>
+<summary>Respuesta</summary>
+    A) Importar el módulo `HttpClientModule`.
+    <br>
+    El error "No provider for HttpClient" ocurre cuando se intenta utilizar el servicio `HttpClient` en un componente sin haber importado previamente el módulo `HttpClientModule`. Una solución común a este problema es importar el módulo `HttpClientModule` en el módulo correspondiente.
+</details>
+<br>
+
+⭐⭐ ¿Cuál de las siguientes opciones es una forma común de solucionar el problema de Angular que causa el error "Can't bind to 'ngModel' since it isn't a known property of 'input'"?
+
+    A) Importar el módulo FormsModule
+    B) Importar el módulo HttpClientModule
+    C) Importar el módulo RouterModule
+
+<details>
+<summary>Respuesta</summary>
+    A) Importar el módulo `FormsModule`.
+    <br>
+    El error "Can't bind to 'ngModel' since it isn't a known property of 'input'" ocurre cuando se intenta utilizar la directiva `ngModel` en un componente sin haber importado previamente el módulo `FormsModule`. Una solución común a este problema es importar el módulo `FormsModule` en el módulo correspondiente.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál de las siguientes opciones es una forma común de solucionar el problema de Angular que causa el error "Expression has changed after it was checked"?
+
+    A) Utilizar el ciclo de vida ngAfterViewInit
+    B) Utilizar la detección de cambios manual (ChangeDetectorRef)
+    C) Utilizar la opción --aot en el comando de compilación
+
+<details>
+<summary>Respuesta</summary>
+    B) Utilizar la detección de cambios manual (`ChangeDetectorRef`).
+    <br>
+    El error "Expression has changed after it was checked" ocurre cuando se intenta actualizar un valor en el componente de Angular después de que la detección de cambios ya se ha realizado. Una forma común de solucionar este problema es utilizar la detección de cambios manual (`ChangeDetectorRef`) para forzar la actualización de los valores en el componente en el momento adecuado.
+</details>
+<br>
+
+## 425 <a name = "425"></a>
+
+⭐ ¿Cuál es uno de los problemas comunes en ReactJS que puede provocar una mala experiencia de usuario debido a la lentitud de la aplicación?
+
+    A) Uso excesivo de Redux
+    B) Actualización innecesaria del estado
+    C) Falta de memoización
+
+<details>
+<summary>Respuesta</summary>
+    B) Actualización innecesaria del estado puede provocar una mala experiencia de usuario debido a la lentitud de la aplicación en ReactJS.
+    <br>
+    Como mencioné anteriormente, una actualización innecesaria del estado puede provocar que ReactJS tenga que actualizar el DOM innecesariamente, lo que puede ralentizar la aplicación. Para evitar esto, es importante optimizar el rendimiento del estado y asegurarse de que solo se actualice cuando sea necesario.
+</details>
+<br>
+
+⭐⭐ ¿Cuál es uno de los problemas comunes en ReactJS que puede provocar que una página se ralentice o incluso se bloquee?
+
+    A) Demasiados componentes funcionales
+    B) Uso excesivo de Redux
+    C) Actualización innecesaria del estado
+
+<details>
+<summary>Respuesta</summary>
+    C) Actualización innecesaria del estado puede provocar que una página se ralentice o incluso se bloquee en ReactJS.
+    <br>
+    En ReactJS, una actualización innecesaria del estado puede ocurrir cuando se actualiza el estado de un componente, pero los cambios no afectan a la salida final del componente. Esto puede provocar que ReactJS tenga que actualizar el DOM innecesariamente, lo que puede ralentizar o incluso bloquear la página.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál es uno de los principales problemas de seguridad en ReactJS que puede permitir la ejecución de código malicioso en una aplicación?
+
+    A) Inyección de dependencias
+    B) Cross-site scripting (XSS)
+    C) Uso incorrecto de cookies
+
+<details>
+<summary>Respuesta</summary>
+    B) Cross-site scripting (XSS) es uno de los principales problemas de seguridad en ReactJS que puede permitir la ejecución de código malicioso en una aplicación.
+    <br>
+    En un ataque de XSS, un atacante puede insertar código malicioso en una página web para engañar a los usuarios y hacer que ejecuten el código sin saberlo. En ReactJS, esto puede ocurrir si se renderiza HTML sin sanitizar, lo que permite que se inserten scripts maliciosos en la página. Para evitar esto, es importante sanitizar el HTML antes de renderizarlo en la página.
+</details>
+<br>
+
+## 426 <a name = "426"></a>
+
+⭐ ¿Qué problema de caché puede ocurrir al utilizar la función random.choice de Python?
+
+    A) La función devuelve siempre el mismo valor
+    B) La función devuelve valores que no están realmente aleatorizados
+    C) No hay problemas de caché asociados con esta función
+
+<details>
+<summary>Respuesta</summary>
+    A) La función devuelve siempre el mismo valor.
+    <br>
+    En Python, la función `random.choice` se utiliza para seleccionar aleatoriamente un elemento de una lista. Si se utiliza esta función en un bucle o en varias llamadas de función, puede producirse un problema de caché en el que la función devuelve siempre el mismo valor en lugar de un valor aleatorio diferente en cada llamada. Para evitar este problema, se recomienda inicializar el generador de números aleatorios antes de llamar a la función utilizando `random.seed()` o `random.shuffle()`.
+</details>
+<br>
+
+
+⭐⭐ ¿Qué problema de caché se produce cuando se utiliza una lista mutable como valor predeterminado en un parámetro de función en Python?
+
+    A) El valor predeterminado se comparte entre todas las llamadas de la función
+    B) El valor predeterminado se crea como una copia separada para cada llamada de la función
+    C) No se produce ningún problema de caché en este caso
+
+<details>
+<summary>Respuesta</summary>
+    A) El valor predeterminado se comparte entre todas las llamadas de la función.
+    <br>
+    En Python, los valores predeterminados de los parámetros de función se evalúan en el momento de la definición de la función y se almacenan en caché. Si el valor predeterminado es un objeto mutable, como una lista, ese objeto se comparte entre todas las llamadas de la función, en lugar de crearse como una copia separada para cada llamada. Esto puede llevar a comportamientos inesperados cuando se modifica el objeto dentro de la función.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál de las siguientes afirmaciones es verdadera acerca de cómo se comporta el operador is en Python cuando se comparan dos objetos?
+
+    A) El operador is compara los valores de los objetos
+    B) El operador is compara las identidades de los objetos
+    C) El comportamiento del operador is depende de la implementación de Python utilizada
+
+<details>
+<summary>Respuesta</summary>
+    B) El operador `is` compara las identidades de los objetos.
+    <br>
+    En Python, el operador `is` se utiliza para comprobar si dos objetos tienen la misma identidad, es decir, si son el mismo objeto en la memoria. Esto es diferente de comparar si dos objetos tienen el mismo valor, que se realiza utilizando el operador `==`. El operador `is` siempre devuelve `True` si se comparan dos referencias al mismo objeto, incluso si los valores de los objetos son diferentes.
+</details>
+<br>
+
+## 431 <a name = "431"></a>
+
+⭐ ¿Cuál es la diferencia entre una excepción y un error en Python?
+
+    A) Un error es un evento imprevisible que impide que un programa se ejecute correctamente, mientras que una excepción es una condición que ocurre durante la ejecución normal de un programa
+    B) Un error es una condición que ocurre durante la ejecución normal de un programa, mientras que una excepción es un evento imprevisible que impide que un programa se ejecute correctamente
+    C) No hay diferencia entre una excepción y un error en Python
+
+<details>
+<summary>Respuesta</summary>
+    A) Un error es un evento imprevisible que impide que un programa se ejecute correctamente, mientras que una excepción es una condición que ocurre durante la ejecución normal de un programa.
+    <br>
+    En Python, un error es una condición que impide que un programa se ejecute correctamente, mientras que una excepción es una condición que ocurre durante la ejecución normal de un programa, como una división por cero o un índice fuera de rango. Las excepciones pueden ser "atrapadas" y manejadas en el código, mientras que los errores no pueden ser manejados directamente y a menudo requieren que se corrija el código del programa para solucionar el problema.
+</details>
+<br>
+
+⭐⭐ ¿Qué es un decorador en Python y cómo se usa?
+
+    A) Un decorador es una función que agrega funcionalidad a otra función, y se utiliza para modificar el comportamiento de una función existente sin modificar su código
+    B) Un decorador es una clase que agrega funcionalidad a otra clase, y se utiliza para crear clases más complejas a partir de clases simples
+    C) Un decorador es un módulo que se utiliza para agregar características adicionales a un programa Python
+
+<details>
+<summary>Respuesta</summary>
+    A) Un decorador es una función que agrega funcionalidad a otra función, y se utiliza para modificar el comportamiento de una función existente sin modificar su código.
+    <br>
+    En Python, un decorador es una función que agrega funcionalidad a otra función sin modificar su código. Los decoradores se utilizan a menudo para añadir funcionalidades como la comprobación de errores, la medición del tiempo de ejecución y la autenticación a una función existente. Los decoradores se definen utilizando la sintaxis @decorator_name y se colocan inmediatamente encima de la definición de la función que se va a decorar.
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué es el GIL en Python y cómo afecta el rendimiento de los programas de Python?
+
+    A) El GIL es un bloqueo global de intérprete que evita que varios hilos de Python se ejecuten simultáneamente
+    B) El GIL es un optimizador de código en tiempo de ejecución que mejora el rendimiento de los programas de Python
+    C) El GIL es un módulo de Python que permite el acceso a la biblioteca de subprocesos del sistema operativo
+
+<details>
+<summary>Respuesta</summary>
+    A) El GIL es un bloqueo global de intérprete que evita que varios hilos de Python se ejecuten simultáneamente y puede afectar el rendimiento de los programas de Python.
+    <br>
+    En Python, el GIL (Global Interpreter Lock) es un mecanismo que evita que varios hilos de Python se ejecuten simultáneamente. Esto significa que, aunque Python admite hilos, solo un hilo puede ejecutarse a la vez dentro del mismo proceso de Python. El GIL puede afectar el rendimiento de los programas de Python que realizan operaciones intensivas de CPU, ya que solo un hilo puede ejecutarse en un momento dado, aunque se utilicen varios hilos.
+</details>
+<br>
+
+## 432 <a name = "432"></a>
+
+⭐ ¿Cuál es uno de los problemas más comunes asociados con el uso de la función eval() en PHP?
+
+    A) Exposición de datos sensibles
+    B) Vulnerabilidades de inyección de SQL
+    C) Vulnerabilidades de inyección de código
+
+<details>
+<summary>Respuesta</summary>
+    El problema más común asociado con el uso de la función `eval()` en PHP es la opción C) vulnerabilidades de inyección de código.
+    <br>
+    La función `eval()` en PHP ejecuta el código pasado como una cadena de texto, lo que puede permitir que un atacante inyecte código malicioso en una aplicación web. Por lo tanto, el uso de `eval()` debe evitarse siempre que sea posible.
+</details>
+<br>
+
+⭐⭐ ¿Cuál de las siguientes es una vulnerabilidad conocida de PHP que permite la ejecución remota de código?
+
+    A) Heartbleed
+    B) Shellshock
+    C) PHP File Inclusion Vulnerability
+
+<details>
+<summary>Respuesta</summary>
+    La vulnerabilidad conocida de PHP que permite la ejecución remota de código es la opción C) PHP File Inclusion Vulnerability.
+    <br>
+    Esta vulnerabilidad se produce cuando se permite al usuario introducir rutas de archivo arbitrarias en una aplicación web y no se realizan comprobaciones adecuadas de seguridad. Esto puede permitir que un atacante incluya y ejecute código malicioso en el servidor.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál de las siguientes opciones es un problema común en la configuración de PHP?
+
+    A) Permitir que los usuarios puedan ejecutar código PHP en cualquier directorio.
+    B) No tener suficiente memoria disponible para ejecutar los scripts PHP.
+    C) Usar una versión antigua de PHP que ya no es compatible con la aplicación.
+
+<details>
+<summary>Respuesta</summary>
+    La opción B) no tener suficiente memoria disponible para ejecutar los scripts PHP, es un problema común en la configuración de PHP.
+    <br>
+    Si no se tiene suficiente memoria disponible para ejecutar los scripts PHP, se pueden producir errores de memoria insuficiente y los scripts pueden no funcionar correctamente. Para solucionar este problema, se pueden aumentar los límites de memoria en la configuración de PHP o optimizar el código para que use menos memoria.
+</details>
+<br>
+
+## 433 <a name = "433"></a>
+
+⭐ ¿Cuál de las siguientes opciones es una mala práctica común en la gestión de errores en PHP?
+
+    A) Mostrar los errores de PHP en el sitio web público.
+    B) No registrar los errores de PHP en un archivo de registro.
+    C) No manejar los errores de PHP de manera consistente en todo el sitio web.
+
+<details>
+<summary>Respuesta</summary>
+    La opción A) Mostrar los errores de PHP en el sitio web público, es una mala práctica común en la gestión de errores en PHP.
+    <br>
+    Si se muestran los errores de PHP en el sitio web público, se pueden revelar detalles del sistema que podrían ser explotados por los atacantes. Para evitar esto, se deben configurar las opciones de visualización de errores en el archivo de configuración de PHP para que los errores se registren en lugar de mostrarse en el sitio web público.
+</details>
+<br>
+
+⭐⭐ ¿Cuál de las siguientes opciones es una mala práctica común en PHP?
+
+    A) No escapar los datos ingresados por el usuario antes de enviarlos a la base de datos.
+    B) Usar una versión antigua de PHP que ya no recibe actualizaciones de seguridad.
+    C) No validar los datos ingresados por el usuario antes de procesarlos.
+
+<details>
+<summary>Respuesta</summary>
+    La opción A) no escapar los datos ingresados por el usuario antes de enviarlos a la base de datos, es una mala práctica común en PHP.
+    <br>
+    Si no se escapan los datos ingresados por el usuario antes de enviarlos a la base de datos, se pueden producir ataques de inyección SQL, en los que un atacante podría ejecutar código malicioso en la base de datos. Para prevenir este tipo de ataques, se deben escapar o validar todos los datos ingresados por el usuario antes de procesarlos.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál de las siguientes opciones es una mala práctica común en el uso de variables globales en PHP?
+
+    A) No inicializar las variables globales antes de usarlas.
+    B) Usar demasiadas variables globales en un script PHP.
+    C) No declarar las variables globales como "global" dentro de una función.
+
+<details>
+<summary>Respuesta</summary>
+    La opción C) no declarar las variables globales como "global" dentro de una función, es una mala práctica común en el uso de variables globales en PHP.
+    <br>
+    Si no se declara una variable global dentro de una función, se crea una nueva variable local con el mismo nombre, en lugar de modificar la variable global existente. Para evitar este problema, se deben declarar todas las variables globales como "global" dentro de una función antes de usarlas.
+</details>
+<br>
+
+## 434 <a name = "434"></a>
+
+⭐ ¿Cuál es una posible solución para reducir el consumo de memoria en aplicaciones web basadas en JSP?
+
+    A) Usar menos objetos de sesión y solicitud.
+    B) Usar más objetos de sesión y solicitud.
+    C) Eliminar completamente el uso de objetos de sesión y solicitud.
+
+<details>
+<summary>Respuesta</summary>
+    A) Usar menos objetos de sesión y solicitud.
+    <br>
+    Una posible solución para reducir el consumo de memoria en aplicaciones web basadas en JSP es limitar el uso de objetos de sesión y solicitud y asegurarse de eliminarlos adecuadamente cuando ya no sean necesarios. Además, se pueden implementar patrones de diseño que reduzcan la creación de objetos innecesarios y aumenten la eficiencia de la aplicación.
+</details>
+<br>
+
+⭐⭐ ¿Cuál es el problema principal con el uso de JSP?
+
+    A) Aumento en el consumo de memoria.
+    B) Mayor complejidad en la creación de aplicaciones web.
+    C) Dependencia de la plataforma.
+
+<details>
+<summary>Respuesta</summary>
+    A) Aumento en el consumo de memoria.
+    <br>
+    Uno de los principales problemas con el uso de JSP es el aumento en el consumo de memoria debido a la creación de múltiples objetos en memoria para cada solicitud. Cada vez que se solicita una página JSP, se crea un nuevo objeto de página y se compila en una clase Java. Además, los objetos de sesión y solicitud también aumentan el consumo de memoria.
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué es la fragmentación de la memoria y cómo puede afectar a las aplicaciones web basadas en JSP?
+
+    A) Es la acumulación de objetos de sesión que no se eliminan de la memoria.
+    B) Es la división de la memoria en pequeños fragmentos debido a la creación y eliminación constante de objetos.
+    C) Es la falta de sincronización en el acceso a la memoria compartida.
+
+<details>
+<summary>Respuesta</summary>
+    B) Es la división de la memoria en pequeños fragmentos debido a la creación y eliminación constante de objetos.
+    <br>
+    La fragmentación de la memoria se produce cuando la memoria disponible se divide en pequeños fragmentos debido a la creación y eliminación constante de objetos en la memoria. Esto puede ser un problema en las aplicaciones web basadas en JSP que crean y eliminan muchos objetos en la memoria. Si la fragmentación de la memoria se vuelve demasiado grave, puede provocar que la aplicación falle o se ejecute lentamente debido a la falta de memoria disponible.
+</details>
+<br>
+
+## 435 <a name = "435"></a>
+
+⭐ ¿Cuál de las siguientes opciones es un problema común al utilizar punteros en C++?
+
+A) Fallos de segmentación
+B) Stackoverflow
+C) Index out of range
+
+<details>
+<summary>Respuesta</summary>
+    A) Fallos de segmentación
+    <br>
+    Los fallos de segmentación son un problema común al utilizar punteros en C++. Ocurren cuando se intenta acceder a una parte de la memoria que no está permitida, como cuando se intenta leer o escribir en una dirección de memoria que no ha sido asignada al programa. Esto puede suceder si se utiliza un puntero que no ha sido inicializado, o si se utiliza un puntero para acceder a un objeto que ya ha sido liberado.
+</details>
+<br>
+
+⭐⭐ ¿Cuál de las siguientes opciones es un problema común al utilizar plantillas en C++?
+
+    A) Mayor complejidad del código
+    B) Menor flexibilidad del código
+    C) Mayor consumo de memoria
+
+<details>
+<summary>Respuesta</summary>
+    A) Mayor complejidad del código
+    <br>
+    Las plantillas pueden aumentar la complejidad del código en C++, ya que se generan múltiples versiones de las funciones o clases que se utilizan con diferentes tipos de datos. Esto puede hacer que el código sea más difícil de entender y mantener. Sin embargo, las plantillas también proporcionan una mayor flexibilidad al permitir la reutilización de código para diferentes tipos de datos.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál de las siguientes opciones es un problema común al utilizar herencia múltiple en C++?
+
+    A) Conflicto de nombres
+    B) Uso excesivo de memoria
+    C) Fallos de segmentación
+
+<details>
+<summary>Respuesta</summary>
+    A) Conflicto de nombres
+    <br>
+    El conflicto de nombres es un problema común al utilizar herencia múltiple en C++. Ocurre cuando una clase derivada tiene miembros con el mismo nombre que las clases base, lo que puede llevar a ambigüedades en el código. Para resolver este problema, se pueden utilizar calificadores de alcance para especificar a qué clase pertenece cada miembro.
+</details>
+<br>
+
+## 436 <a name = "436"></a>
+
+⭐ ¿Cuál de las siguientes opciones describe mejor el problema de "Kotlin SAM Conversion"?
+
+    A) La conversión SAM de Kotlin puede ser confusa y puede llevar a errores.
+    B) La conversión SAM de Kotlin es muy eficiente pero no se puede utilizar con clases genéricas.
+    C) La conversión SAM de Kotlin no funciona en sistemas operativos Linux.
+
+<details>
+<summary>Respuesta</summary>
+    A) La conversión SAM de Kotlin puede ser confusa y puede llevar a errores.
+    <br>
+    La conversión SAM (Single Abstract Method) de Kotlin permite que los objetos de función se traten como implementaciones de interfaces de un solo método. Aunque es una característica útil, puede ser confusa y puede llevar a errores. Por ejemplo, si se espera un tipo de función con un solo parámetro y se pasa una función con dos parámetros, el compilador puede no lanzar un error, lo que puede causar errores en tiempo de ejecución.
+</details>
+<br>
+
+⭐⭐ ¿Cuál de las siguientes opciones describe mejor el problema de "Kotlin Null Safety"?
+
+    A) Las variables no pueden ser declaradas como nulas, lo que puede causar errores en tiempo de ejecución si no se maneja adecuadamente.
+    B) Las variables pueden ser declaradas como nulas, lo que puede causar errores de compilación si no se manejan adecuadamente.
+    C) Kotlin no tiene soporte para nulls.
+
+<details>
+<summary>Respuesta</summary>
+    A) Las variables no pueden ser declaradas como nulas, lo que puede causar errores en tiempo de ejecución si no se maneja adecuadamente.
+    <br>
+    Kotlin utiliza una técnica llamada "null safety" para prevenir errores de referencia nula en tiempo de ejecución. Por defecto, las variables en Kotlin no pueden ser declaradas como nulas. En cambio, se utiliza el tipo "nullable" para indicar que una variable puede ser nula. Esto ayuda a prevenir errores en tiempo de ejecución, pero también puede causar errores si no se maneja adecuadamente.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál es el problema que resuelve el operador "elvis" en Kotlin?
+
+    A) El operador "elvis" resuelve el problema de referencia nula en tiempo de ejecución.
+    B) El operador "elvis" resuelve el problema de manejo de excepciones en tiempo de ejecución.
+    C) El operador "elvis" no resuelve ningún problema en particular.
+
+<details>
+<summary>Respuesta</summary>
+    A) El operador "elvis" resuelve el problema de referencia nula en tiempo de ejecución.
+    <br>
+    En Kotlin, el operador "elvis" (?:) se utiliza para proporcionar un valor predeterminado en caso de que una expresión sea nula. Por ejemplo, la expresión `val x: String? = null` seguida de `val y = x ?: "default"` asignará "default" a la variable `y` en lugar de lanzar una excepción de referencia nula. Esto resuelve el problema de referencia nula en tiempo de ejecución.
+</details>
+<br>
+
+## 441 <a name = "441"></a>
