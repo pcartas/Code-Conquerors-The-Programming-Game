@@ -4824,9 +4824,9 @@ A) Porque la herencia permite que las subclases accedan directamente a los atrib
 
 ⭐ ¿Qué hace el paso de "conquistar" en el algoritmo "divide y vencerás"?
 
-A) Divide el problema en subproblemas más pequeños
-B) Combina las soluciones de los subproblemas más pequeños
-C) Resuelve los subproblemas más pequeños de forma recursiva
+    A) Divide el problema en subproblemas más pequeños
+    B) Combina las soluciones de los subproblemas más pequeños
+    C) Resuelve los subproblemas más pequeños de forma recursiva
 
 <details>
 <summary>Respuesta</summary>
@@ -4838,9 +4838,9 @@ C) Resuelve los subproblemas más pequeños de forma recursiva
 
 ⭐⭐ ¿Cuál es la idea principal detrás del algoritmo "divide y vencerás"?
 
-A) Dividir un problema en subproblemas más pequeños y resolverlos de forma recursiva
-B) Sumar todos los elementos de una lista y devolver el resultado
-C) Ordenar una lista de forma recursiva dividiéndola en sublistas más pequeñas
+    A) Dividir un problema en subproblemas más pequeños y resolverlos de forma recursiva
+    B) Sumar todos los elementos de una lista y devolver el resultado
+    C) Ordenar una lista de forma recursiva dividiéndola en sublistas más pequeñas
 
 <details>
 <summary>Respuesta</summary>
@@ -4852,9 +4852,9 @@ C) Ordenar una lista de forma recursiva dividiéndola en sublistas más pequeña
 
 ⭐⭐⭐ ¿Cuál es la complejidad temporal del algoritmo "merge sort"?
 
-A) O(n)
-B) O(n log n)
-C) O(n^2)
+    A) O(n)
+    B) O(n log n)
+    C) O(n^2)
 
 <details>
 <summary>Respuesta</summary>
@@ -5297,9 +5297,9 @@ B) Una condición en la cual al menos dos goroutines acceden a la misma variable
 3 / 2 * 2
 ```
 
-A) 2
-B) 3
-C) 4
+    A) 2
+    B) 3
+    C) 4
 
 <details>
 <summary>Explicación</summary>
@@ -5878,3 +5878,647 @@ C) Index out of range
 <br>
 
 ## 441 <a name = "441"></a>
+
+⭐ ¿Qué significa HCL en el contexto de la programación?
+
+    A) High-level Code Language
+    B) HashiCorp Configuration Language
+    C) Hyperlink Control Library
+
+<details>
+<summary>Respuesta</summary>
+    B) HashiCorp Configuration Language.
+    <br>
+    HCL es un lenguaje de configuración utilizado por varias herramientas de HashiCorp, como Terraform y Consul. HCL se utiliza para definir la infraestructura y la configuración de la aplicación, lo que permite describir la arquitectura de la aplicación de una manera clara y concisa.
+</details>
+<br>
+
+⭐⭐ ¿Qué otros lenguajes se utilizan comúnmente junto con HCL?
+
+    A) Python y Java
+    B) YAML y JSON
+    C) Ruby y PHP
+
+<details>
+<summary>Respuesta</summary>
+    B) YAML y JSON.
+    <br>
+    HCL se utiliza comúnmente junto con lenguajes como YAML y JSON. Estos lenguajes se utilizan para definir la configuración y la infraestructura en varios servicios en la nube y herramientas de orquestación, y HCL se utiliza a menudo como una forma de definir y configurar recursos específicos dentro de esas herramientas.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál de las siguientes opciones describe mejor un problema común en HCL?
+
+    A) Las variables pueden ser sobrescritas accidentalmente
+    B) HCL no es compatible con JSON y YAML
+    C) HCL no admite estructuras de datos complejas
+
+<details>
+<summary>Respuesta</summary>
+    A) Las variables pueden ser sobrescritas accidentalmente.
+    <br>
+    Un problema común en HCL es que las variables pueden ser sobrescritas accidentalmente debido a la falta de mecanismos para prevenir esto. Este problema puede causar errores y problemas en la configuración de la infraestructura y se debe abordar con buenas prácticas de programación, como la organización cuidadosa de variables y la implementación de controles de versiones adecuados.
+</details>
+<br>
+
+## 442 <a name = "442"></a>
+
+⭐ ¿Qué significa el error "FAILED! => {"msg": "Failed to lock apt for exclusive operation"?
+
+A) El paquete no se puede instalar porque ya está instalado en una versión más reciente.
+B) Ansible no tiene permiso para ejecutar apt.
+C) Otro proceso está usando apt y bloqueando la instalación.
+
+<details>
+<summary>Respuesta</summary>
+    C) Otro proceso está usando apt y bloqueando la instalación.
+</details>
+<br>
+
+⭐⭐ ¿Cuál es el problema común que puede ocurrir al ejecutar un playbook de Ansible en un grupo de hosts y cómo se soluciona?
+
+    A) Algunos hosts no están disponibles, lo que hace que la ejecución del playbook falle. Para solucionarlo, se puede utilizar el parámetro --limit para especificar los hosts que se desean ejecutar.
+
+    B) El playbook tiene una sintaxis incorrecta, lo que hace que la ejecución falle. Para solucionarlo, se debe revisar y corregir la sintaxis del playbook.
+
+    C) La versión de Ansible instalada en los hosts no es compatible con la versión utilizada para ejecutar el playbook, lo que puede causar errores en la ejecución. Para solucionarlo, se debe instalar la versión correcta de Ansible en los hosts o en el host desde el que se está ejecutando el playbook.
+
+<details>
+<summary>Respuesta</summary>
+    A) Algunos hosts no están disponibles, lo que hace que la ejecución del playbook falle. Para solucionarlo, se puede utilizar el parámetro `--limit` para especificar los hosts que se desean ejecutar.
+    <br>
+    El parámetro `--limit` permite especificar un subconjunto de hosts en los que se ejecutará el playbook, lo que permite evitar errores de conexión o de ejecución en hosts que no están disponibles. Si algunos hosts están temporalmente no disponibles, se puede omitir su ejecución utilizando este parámetro.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál es el problema común que puede ocurrir al utilizar Ansible para instalar paquetes en sistemas operativos diferentes y cómo se soluciona?
+
+    A) Los nombres de paquetes son diferentes en cada sistema operativo, lo que puede causar errores en la instalación. Para solucionarlo, se pueden definir variables de Ansible con los nombres de los paquetes según el sistema operativo utilizado.
+
+    B) Los permisos de instalación de paquetes son diferentes en cada sistema operativo, lo que puede causar errores en la instalación. Para solucionarlo, se deben definir permisos adecuados para el usuario o el grupo que ejecuta el playbook.
+
+    C) Las dependencias de paquetes son diferentes en cada sistema operativo, lo que puede causar errores en la instalación. Para solucionarlo, se deben definir las dependencias necesarias para cada paquete en el playbook.
+
+<details>
+<summary>Respuesta</summary>
+    A) Los nombres de paquetes son diferentes en cada sistema operativo, lo que puede causar errores en la instalación. Para solucionarlo, se pueden definir variables de Ansible con los nombres de los paquetes según el sistema operativo utilizado.
+    <br>
+    Los nombres de paquetes pueden variar según el sistema operativo utilizado, lo que puede hacer que los playbooks de Ansible que instalan paquetes fallen en algunos sistemas. Para solucionar este problema, se pueden definir variables de Ansible con los nombres de los paquetes según el sistema operativo utilizado, de manera que los paquetes correctos se instalen en cada sistema.
+</details>
+<br>
+
+## 443 <a name = "443"></a>
+
+⭐ ¿Qué es el "lifetime" en Rust?
+
+    A) Es una propiedad que indica la duración de una referencia.
+    B) Es un concepto de programación orientada a objetos que indica la duración de un objeto.
+    C) Es una técnica para prevenir los ataques de inyección de código.
+
+<details>
+<summary>Respuesta</summary>
+    A) Es una propiedad que indica la duración de una referencia.
+    <br>
+    En Rust, el "lifetime" se utiliza para indicar la duración de una referencia, es decir, el tiempo que una referencia es válida y puede ser utilizada para acceder a un objeto. El "lifetime" se define mediante el uso de anotaciones especiales en el código, y es verificado por el "borrow checker" para prevenir problemas de concurrencia.
+</details>
+<br>
+
+⭐⭐ ¿Cuál de las siguientes opciones es una causa común de los errores "borrow checker" en Rust?
+
+    A) Tener referencias a una variable mutable y otra inmutable al mismo tiempo.
+    B) Olvidar liberar un recurso asignado dinámicamente.
+    C) Declarar una variable como mutable pero no asignarle un valor.
+
+<details>
+<summary>Respuesta</summary>
+    A) Tener referencias a una variable mutable y otra inmutable al mismo tiempo.
+    <br>
+    En Rust, el "borrow checker" es el componente que se encarga de garantizar que no haya problemas de concurrencia con el acceso a los datos. Uno de los errores comunes que puede generar es cuando se tienen referencias a una variable mutable y otra inmutable al mismo tiempo, lo que puede generar problemas de acceso concurrente y mutación de datos.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál de las siguientes opciones es un problema común en Rust relacionado con la gestión de memoria?
+
+    A) Las referencias nulas.
+    B) La sobrecarga del garbage collector.
+    C) Los problemas de stack overflow.
+
+<details>
+<summary>Respuesta</summary>
+    A) Las referencias nulas.
+    <br>
+    En Rust, se utiliza el concepto de "ownership" para gestionar la memoria y prevenir errores de concurrencia. Las referencias nulas son un problema común en Rust, ya que la gestión de memoria se realiza manualmente y es necesario asegurarse de que todas las referencias sean válidas antes de utilizarlas. Si se hace referencia a un objeto nulo, se producirá un error en tiempo de ejecución.
+</details>
+<br>
+
+## 444 <a name = "444"></a>
+
+⭐ ¿Qué es la recursión en la programación?
+
+    A) Un error en el código que hace que se produzca un comportamiento inesperado o incorrecto.
+    B) Un método de resolución de problemas en el que se divide un problema en subproblemas más pequeños y se resuelve cada subproblema utilizando el mismo método.
+    C) Un problema en el que el programa entra en un bucle infinito y no se puede detener.
+
+<details>
+<summary>Respuesta</summary>
+    B) La recursión es un método de resolución de problemas en el que se divide un problema en subproblemas más pequeños y se resuelve cada subproblema utilizando el mismo método.
+    <br>
+    La recursión se utiliza comúnmente en muchos lenguajes de programación, y es especialmente útil para resolver problemas que se pueden dividir en subproblemas más pequeños y similares. En una función recursiva, la función se llama a sí misma para resolver el subproblema, y esto continúa hasta que se llega a un caso base, que es un caso trivial que se puede resolver directamente sin llamar a la función recursivamente. La recursión puede ser una herramienta muy poderosa para la programación, pero también puede ser peligrosa si no se maneja adecuadamente, ya que puede llevar a un consumo excesivo de memoria o a una profundidad de recursión demasiado grande.
+</details>
+<br>
+
+⭐⭐ ¿Qué es una race condition?
+
+    A) Un error en el código que hace que se produzca una excepción.
+    B) Un problema en el que dos o más hilos de ejecución intentan acceder y manipular el mismo recurso compartido al mismo tiempo, lo que puede llevar a resultados inesperados o erróneos.
+    C) Un problema en el que el programa entra en un bucle infinito y no se puede detener.
+
+<details>
+<summary>Respuesta</summary>
+    B) Una race condition es un problema en el que dos o más hilos de ejecución intentan acceder y manipular el mismo recurso compartido al mismo tiempo, lo que puede llevar a resultados inesperados o erróneos.
+    <br>
+    Las race conditions son un tipo común de problema en los sistemas de programación concurrente y paralela, y pueden ser difíciles de detectar y depurar. Pueden surgir cuando múltiples hilos acceden a un recurso compartido, como una variable o un archivo, sin sincronización adecuada o protección de exclusión mutua.
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué es un deadlock?
+
+    A) Un error en el código que hace que se produzca una excepción.
+    B) Un problema en el que un hilo de ejecución se queda atascado en un bucle infinito y no puede avanzar.
+    C) Un problema en el que dos o más hilos de ejecución se bloquean mutuamente, esperando indefinidamente que el otro libere un recurso que necesita para continuar.
+
+<details>
+<summary>Respuesta</summary>
+    C) Un deadlock es un problema en el que dos o más hilos de ejecución se bloquean mutuamente, esperando indefinidamente que el otro libere un recurso que necesita para continuar.
+    <br>
+    Los deadlocks pueden ocurrir en sistemas de programación concurrente y paralela en los que múltiples hilos o procesos compiten por recursos limitados, como semáforos, cerraduras o archivos. Si dos o más hilos se bloquean mientras esperan que el otro libere un recurso que necesitan, puede producirse un estado de espera circular o deadlock, en el que ninguno de los hilos puede continuar.
+</details>
+<br>
+
+## 445 <a name = "445"></a>
+
+⭐ ¿Qué es una variable en la programación?
+
+    A) Un operador que realiza una operación aritmética en dos valores.
+    B) Un elemento de programación que almacena un valor o una referencia a un valor.
+    C) Una estructura de control que permite que un programa repita un bloque de código varias veces.
+
+<details>
+<summary>Respuesta</summary>
+    B) Una variable es un elemento de programación que almacena un valor o una referencia a un valor.
+    <br>
+    Las variables son un concepto fundamental en muchos lenguajes de programación, y se utilizan para almacenar información que puede cambiar durante la ejecución del programa. Las variables pueden contener diferentes tipos de datos, como números, cadenas de texto, objetos y referencias a otros valores o estructuras de datos. Las variables también pueden tener diferentes ámbitos o alcances, que determinan dónde se puede acceder a la variable y cómo se puede utilizar en el programa.
+</details>
+<br>
+
+⭐⭐ ¿Qué es un buffer overflow?
+
+    A) Cuando un programa intenta acceder a una región de memoria que no le pertenece.
+    B) Cuando un programa es demasiado grande para caber en la memoria disponible.
+    C) Cuando un programa escribe datos en un buffer más allá de su límite, sobrescribiendo datos en la memoria adyacente.
+
+<details>
+<summary>Respuesta</summary>
+    C) Cuando un programa escribe datos en un buffer más allá de su límite, sobrescribiendo datos en la memoria adyacente.
+    <br>
+    Un buffer overflow (o desbordamiento de búfer en español) se produce cuando un programa escribe datos en un buffer (un área de memoria reservada para almacenar datos temporales) más allá de su límite, sobrescribiendo datos en la memoria adyacente. Esto puede corromper la memoria del programa y llevar a comportamientos impredecibles o a fallos de seguridad.
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué es la memoria heap en la programación?
+
+    A) Una región de memoria especial que se utiliza para almacenar variables globales en el programa.
+    B) Una región de memoria especial que se utiliza para almacenar variables locales en el programa.
+    C) Una región de memoria dinámica que se utiliza para almacenar objetos y datos que se crean durante la ejecución del programa.
+
+<details>
+<summary>Respuesta</summary>
+    C) La memoria heap es una región de memoria dinámica que se utiliza para almacenar objetos y datos que se crean durante la ejecución del programa.
+    <br>
+    La memoria heap es una parte importante del modelo de memoria de muchos lenguajes de programación, y se utiliza para almacenar datos que se crean y se eliminan dinámicamente durante la ejecución del programa. A diferencia de la memoria stack, que se utiliza para almacenar variables locales y se gestiona automáticamente por el sistema, la memoria heap se gestiona manualmente mediante la asignación y liberación explícita de memoria a través de llamadas al sistema o funciones especiales del lenguaje de programación. El uso correcto de la memoria heap es importante para evitar fugas de memoria y otros problemas de gestión de memoria en el programa.
+</details>
+<br>
+
+## 446 <a name = "446"></a>
+
+⭐ ¿Qué es un problema de timeout en programación?
+
+    A) Un problema que ocurre cuando un programa no puede terminar su ejecución.
+    B) Un problema que ocurre cuando un programa consume demasiados recursos de memoria.
+    C) Un problema que ocurre cuando un programa espera demasiado tiempo para recibir una respuesta.
+
+<details>
+<summary>Respuesta</summary>
+    C) Un problema que ocurre cuando un programa espera demasiado tiempo para recibir una respuesta.
+    <br>
+    Un problema de timeout ocurre cuando un programa espera durante un tiempo prolongado a que se complete una tarea o se reciba una respuesta, y este tiempo de espera es mayor al que se considera razonable para la operación que se está realizando. Los problemas de timeout son comunes en programación de redes y en aplicaciones que interactúan con servicios externos a través de internet.
+</details>
+<br>
+
+⭐⭐  ¿Cuál es un problema común en la programación de interfaces de usuario?
+
+    A) Problemas de compatibilidad con diferentes sistemas operativos.
+    B) Problemas de rendimiento.
+    C) Problemas de concurrencia.
+
+<details>
+<summary>Respuesta</summary>
+    A) Problemas de compatibilidad con diferentes sistemas operativos.
+    <br>
+    Al programar interfaces de usuario, uno de los mayores desafíos es asegurarse de que la interfaz funcione correctamente en diferentes sistemas operativos y dispositivos. Esto se debe a que cada sistema operativo tiene su propia forma de representar y manejar los elementos de la interfaz, y puede haber diferencias en las capacidades y limitaciones de los dispositivos en los que se ejecuta el programa.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cómo arreglarías este bug en Python? La función calculate_age debe devolver la edad de una persona a partir de su fecha de nacimiento, pero no funciona correctamente:
+
+```python
+import datetime
+
+def calculate_age(birth_date):
+    today = datetime.date.today()
+    age = today.year - birth_date.year - ((today.month, today.day) < (birth_date.month, birth_date.day))
+    return age
+
+# Ejemplo de uso
+birth_date = datetime.date(1990, 12, 31)
+age = calculate_age(birth_date)
+print(age)  # Debería imprimir 32, pero imprime 31
+```
+
+    A) Cambiar today = datetime.date.today() por today = datetime.datetime.now().date()
+
+    B) Cambiar ((today.month, today.day) < (birth_date.month, birth_date.day)) por today.month < birth_date.month or (today.month == birth_date.month and today.day < birth_date.day)
+
+    C) Añadir 1 a la edad calculada en age = today.year - birth_date.year - ((today.month, today.day) < (birth_date.month, birth_date.day))
+
+<details>
+<summary>Respuesta</summary>
+    B) Cambiar ((today.month, today.day) < (birth_date.month, birth_date.day)) por today.month < birth_date.month or (today.month == birth_date.month and today.day < birth_date.day).
+    <br>
+    El problema en la implementación original es que la comparación entre tuplas de `(month, day)` no funciona correctamente en todos los casos, por lo que el cálculo de la edad puede ser incorrecto. La opción B soluciona este problema reemplazando la comparación de tuplas por una expresión lógica que verifica si el mes actual es menor que el mes de nacimiento, o si son iguales pero el día actual es menor que el día de nacimiento. Esto proporciona una verificación más precisa de si la persona ya cumplió años o no.
+</details>
+<br>
+
+## 451 <a name = "451"></a>
+
+⭐ ¿Cuál es el problema con el siguiente código en Python que intenta imprimir la fecha actual?
+
+```python
+import datetime
+
+now = datetime.date.today()
+print(now)
+```
+    A) No se ha importado el módulo datetime correctamente
+    B) La variable now contiene un objeto de fecha en lugar de una cadena de texto
+    C) Falta convertir la fecha en una cadena de texto antes de imprimirla
+
+<details>
+<summary>Respuesta</summary>
+    C) Falta convertir la fecha en una cadena de texto antes de imprimirla.
+    <br>
+    En el código, la variable `now` contiene un objeto de fecha, que no se puede imprimir directamente utilizando la función `print()`. Para imprimir la fecha, primero debemos convertirla en una cadena de texto utilizando el método `strftime()`. Por ejemplo, el siguiente código arregla el problema:
+
+    
+   ```python
+    import datetime
+
+    now = datetime.date.today()
+    now_str = now.strftime('%d/%m/%Y')
+    print(now_str)
+   ```
+</details>
+<br>
+
+
+⭐⭐ ¿Cómo arreglarías este bug en Java? La función parse_date debe convertir una cadena de fecha en un objeto java.util.Date, pero no funciona correctamente:
+
+```java
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class DateUtils {
+  public static Date parse_date(String str_date) throws ParseException {
+    SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+    return formatter.parse(str_date);
+  }
+
+  // Ejemplo de uso
+  public static void main(String[] args) throws ParseException {
+    String str_date = "2022-01-16";
+    Date date = parse_date(str_date);
+    System.out.println(date);  // Debería imprimir Sun Jan 16 00:00:00 CST 2022, pero imprime Sat Jan 15 18:00:00 CST 2022
+  }
+}
+```
+
+    A) Agregar formatter.setTimeZone(TimeZone.getTimeZone("UTC")); después de SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+
+    B) Cambiar "yyyy-MM-dd" por "yyyy-MM-dd'T'HH:mm:ss'Z'" en SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+
+    C) Agregar formatter.setLenient(false); después de SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+
+<details>
+<summary>Respuesta</summary>
+    A) Agregar `formatter.setTimeZone(TimeZone.getTimeZone("UTC"));` después de `SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");`.
+    <br>
+    El problema en la implementación original es que la conversión de la cadena de fecha en un objeto `Date` se realiza utilizando la zona horaria local, lo que puede producir resultados incorrectos en diferentes zonas horarias. La opción A soluciona este problema configurando la zona horaria del `SimpleDateFormat` en UTC, lo que garantiza que la conversión se realice correctamente independientemente de la zona horaria del sistema. 
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál es el problema con el siguiente código en JavaScript que intenta agregar un elemento a un arreglo?
+
+```javascript
+var arr = [1, 2, 3];
+arr.push(4);
+console.log(arr);
+```
+
+    A) El método push() agrega el elemento al inicio del arreglo en lugar de al final
+
+    B) El método push() retorna el índice del elemento agregado en lugar del arreglo completo
+
+    C) El método funciona correctamente
+
+<details>
+<summary>Respuesta</summary>
+    C) El método funciona correctamente
+    <br>
+    En JavaScript, el método `push()` agrega un elemento al final de un arreglo y modifica el arreglo original. No retorna un nuevo arreglo. Por lo tanto, el código está funcionando correctamente. La función `console.log()` imprime el arreglo completo en la consola, que debería ser [1, 2, 3, 4].
+</details>
+<br>
+
+## 452 <a name = "452"></a>
+
+⭐ ¿Qué es lo que hace que el siguiente código de Python falle al intentar agregar una cadena a un número entero?
+
+```python
+num = 5
+print("El número es: " + num)
+```
+
+    A) Faltaría convertir la variable num a cadena.
+    B) Debería usarse una coma en lugar del signo más.
+    C) Debería usarse una f-string en lugar de concatenación de cadenas.
+
+<details>
+<summary>Respuesta</summary>
+    A) Faltaría convertir la variable num a cadena.
+    <br>
+    En Python, no se pueden concatenar cadenas y números directamente. Debemos convertir la variable `num` a una cadena antes de intentar concatenarla con la cadena. Podemos hacer esto usando la función `str()`. La solución correcta es: `print("El número es: " + str(num))`.
+</details>
+<br>
+
+
+⭐⭐ ¿Cuál es el problema en el siguiente código Python que intenta calcular la suma de dos números ingresados por el usuario?
+
+```python
+num1 = input("Ingrese el primer número: ")
+num2 = input("Ingrese el segundo número: ")
+resultado = num1 + num2
+print("La suma de los dos números es: " + resultado)
+```
+
+    A) Los números ingresados por el usuario no son números enteros
+    B) La función input() devuelve una cadena en lugar de un número entero
+    C) Se está utilizando la concatenación de cadenas en lugar de la suma de números
+    D) Todas son correctas
+
+<details>
+<summary>Respuesta</summary>
+    D) Todas son correctas
+    <br>
+    El problema en el código es que la función `input()` devuelve una cadena, y no un número entero, por lo que al realizar la operación `num1 + num2`, Python está concatenando dos cadenas en lugar de sumar dos números. Tampoco hay control de que efectivamente el usuario haya ingresado números (y que sean enteros).
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué debería agregarse a este código en C para imprimir correctamente los caracteres Unicode?
+
+```C
+#include <stdio.h>
+
+int main() {
+    printf("%s", "こんにちは");
+    return 0;
+}
+```
+    A) Agregar una declaración de codificación en la primera línea del archivo.
+    B) Cambiar %s por %ls en la llamada a printf.
+    C) Usar puts en lugar de printf.
+
+<details>
+<summary>Respuesta</summary>
+    B) Cambiar %s por %ls en la llamada a printf.
+    <br>
+    En C, el modificador `%s` se utiliza para imprimir cadenas de caracteres de un byte. Sin embargo, el texto "こんにちは" está en japonés y utiliza caracteres de dos bytes (codificados en UTF-8). Para imprimir correctamente los caracteres Unicode, debemos utilizar el modificador `%ls` en lugar de `%s`. El modificador `%ls` se utiliza para imprimir cadenas de caracteres de dos bytes, como las cadenas de caracteres de tipo `wchar_t`.
+</details>
+<br>
+
+## 453 <a name = "453"></a>
+
+⭐ ¿Cómo se puede obtener la longitud de una cadena en Java?
+
+    A) Usando el método count() de las cadenas.
+    B) Usando el método length() de las cadenas.
+    C) Usando el método size() de las cadenas.
+
+<details>
+<summary>Respuesta</summary>
+    B) Usando el método `length()` de las cadenas.
+    <br>
+    En Java, para obtener la longitud de una cadena se utiliza el método `length()`. El método `count()` no existe en Java, mientras que el método `size()` se utiliza para obtener el tamaño de colecciones como listas, conjuntos y mapas.
+</details>
+<br>
+
+⭐⭐ ¿Cómo se puede clonar un objeto en JavaScript?
+
+    A) Usando el método clone() de los objetos.
+    B) Usando el operador de asignación (=) para copiar el objeto.
+    C) Usando la función Object.assign().
+
+<details>
+<summary>Respuesta</summary>
+    C) Usando la función `Object.assign()`.
+    <br>
+    En JavaScript, para clonar un objeto se puede utilizar la función `Object.assign()`, que crea una copia superficial (shallow copy) del objeto de origen y la asigna al objeto de destino. También se puede utilizar la sintaxis de propagación (`...`) introducida en ECMAScript 6 para crear una copia profunda (deep copy) del objeto.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál es la forma correcta de comparar dos cadenas en JavaScript?
+
+    A) Usando el operador ==.
+    B) Usando el operador ===.
+    C) Usando el método compare() de las cadenas.
+
+<details>
+<summary>Respuesta</summary>
+    B) Usando el operador `===`.
+    <br>
+    En JavaScript, el operador `===` se utiliza para comparar dos cadenas de forma estricta, es decir, se compara tanto el valor como el tipo de las cadenas. El operador `==` se utiliza para comparar dos cadenas de forma laxa, lo que significa que solo se compara el valor de las cadenas. El método `compare()` no existe en JavaScript.
+</details>
+<br>
+
+## 454 <a name = "454"></a>
+
+⭐ ¿Cuál es la forma correcta de concatenar dos arreglos en Java?
+
+A) Usando el método concat() de la clase Array.
+B) Usando el operador + para concatenar los elementos de los arreglos.
+C) Usando el método join() de la clase Array.
+
+<details>
+<summary>Respuesta</summary>
+    A) Usando el método `concat()` de la clase `Array`.
+    <br>
+    En Java, se puede concatenar dos arreglos utilizando el método `concat()` de la clase `Array`. Este método devuelve un nuevo arreglo que contiene los elementos de ambos arreglos concatenados. El operador `+` se utiliza para concatenar cadenas en Java, no arreglos. El método `join()` se utiliza para unir los elementos de una matriz en una cadena.
+</details>
+<br>
+
+⭐⭐ ¿Cuál es la forma correcta de comparar dos cadenas de caracteres en C++?
+
+    A) Usando el operador ==.
+    B) Usando la función compare().
+    C) Usando la función strcmp().
+
+<details>
+<summary>Respuesta</summary>
+    C) Usando la función `strcmp()`.
+    <br>
+    En C++, la forma correcta de comparar dos cadenas de caracteres es utilizando la función `strcmp()`, que compara los contenidos de dos cadenas y devuelve un valor entero que indica si son iguales o no. El operador `==` compara solamente los punteros a las cadenas, no sus contenidos. La función `compare()` se utiliza en C++ para comparar cadenas de la clase `string`, no para cadenas de caracteres.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál es la forma correcta de declarar una constante en Python?
+
+    A) Con la palabra clave let.
+    B) Con la palabra clave const.
+    C) Con la palabra clave constante.
+
+<details>
+<summary>Respuesta</summary>
+    No hay una respuesta correcta para esta pregunta, ya que Python no tiene una palabra clave específica para declarar constantes. Por convención, las constantes en Python se nombran en mayúsculas y se separan con guiones bajos. Por ejemplo, se podría declarar una constante llamada PI de la siguiente manera:
+    <br>
+
+    PI = 3.14159
+
+</details>
+<br>
+
+## 455 <a name = "455"></a>
+
+⭐ ¿Cuál es el resultado de la siguiente expresión en Python?
+
+```python
+[1, 2, 3] + [4, 5, 6]
+```
+    A) [1, 2, 3, 4, 5, 6].
+    B) [(1, 4), (2, 5), (3, 6)].
+    C) TypeError: can only concatenate list (not "tuple") to list.
+
+<details>
+<summary>Respuesta</summary>
+    A) `[1, 2, 3, 4, 5, 6]`.
+    <br>
+    En Python, el operador `+` se utiliza para concatenar listas. Por lo tanto, la expresión `[1, 2, 3] + [4, 5, 6]` devuelve una lista que contiene los elementos de ambas listas concatenados, es decir, `[1, 2, 3, 4, 5, 6]`.
+</details>
+<br>
+
+⭐⭐ ¿Cuál de las siguientes opciones es verdadera sobre las variables en Python?
+
+    A) Las variables en Python deben declararse antes de usarse.
+    B) En Python, las variables pueden cambiar de tipo durante la ejecución del programa.
+    C) Los nombres de las variables en Python no pueden comenzar con un número.
+
+<details>
+<summary>Respuesta</summary>
+    B) En Python, las variables pueden cambiar de tipo durante la ejecución del programa. y
+    C) Los nombres de las variables en Python no pueden comenzar con un número.
+    <br>
+    En Python, no es necesario declarar una variable antes de usarla. Python es un lenguaje de programación de tipado dinámico, lo que significa que las variables pueden cambiar de tipo durante la ejecución del programa. Por ejemplo, se puede asignar un valor entero a una variable y luego cambiar su valor a una cadena en un momento posterior. Sin embargo, los nombres de las variables en Python deben cumplir con ciertas reglas de nomenclatura, y no pueden comenzar con un número.
+</details>
+<br>
+
+⭐⭐⭐ ¿Cuál es la salida del siguiente código en Python?
+
+```python
+x = [1, 2, 3]
+y = x
+y.append(4)
+print(x)
+```
+
+    A) [1, 2, 3, 4]
+    B) [1, 2, 3]
+    C) 4
+
+<details>
+<summary>Respuesta</summary>
+    A) `[1, 2, 3, 4]`
+    <br>
+    En Python, las listas son objetos mutables, lo que significa que pueden modificarse después de haber sido creadas. Cuando se crea una variable y se le asigna una lista, en realidad se crea una referencia a la lista. En este caso, `y` se asigna a la misma lista que `x`. Por lo tanto, cuando se modifica `y`, también se modifica `x`. Al agregar el valor `4` a `y`, también se agrega a `x`, y la salida del código es `[1, 2, 3, 4]`.
+</details>
+<br>
+
+
+
+## 456 <a name = "456"></a>
+
+
+⭐ ¿Cuál es la diferencia entre == y === en JavaScript?
+
+    A) == compara los valores sin tener en cuenta el tipo de datos, mientras que === compara los valores y el tipo de datos.
+    B) == compara los valores y el tipo de datos, mientras que === compara los valores sin tener en cuenta el tipo de datos.
+    C) No hay diferencia entre == y ===.
+
+<details>
+<summary>Respuesta</summary>
+    A) `==` compara los valores sin tener en cuenta el tipo de datos, mientras que `===` compara los valores y el tipo de datos.
+    <br>
+    En JavaScript, `==` es un operador de igualdad suave que compara dos valores sin tener en cuenta el tipo de datos. Por ejemplo, `5 == "5"` devuelve `true`. `===`, por otro lado, es un operador de igualdad estricto que compara dos valores y el tipo de datos. Por ejemplo, `5 === "5"` devuelve `false` porque los tipos de datos son diferentes. En general, es recomendable utilizar `===` en lugar de `==` para evitar errores sutiles de tipo.
+</details>
+<br>
+
+⭐⭐ ¿Cuál es la diferencia entre una clase y un objeto en Java?
+
+    A) Una clase es una instancia de un objeto.
+    B) Una clase define las propiedades y métodos de un objeto, mientras que un objeto es una instancia de una clase.
+    C) Una clase y un objeto son lo mismo en Java.
+
+<details>
+<summary>Respuesta</summary>
+    B) Una clase define las propiedades y métodos de un objeto, mientras que un objeto es una instancia de una clase.
+    <br>
+    En Java, una clase es una plantilla o molde que define las propiedades y métodos que tendrá un objeto creado a partir de ella. Es decir, una clase define qué atributos y comportamientos tendrá un objeto de esa clase. Por otro lado, un objeto es una instancia de una clase, es decir, una versión concreta de esa plantilla con valores específicos para sus atributos. En resumen, una clase es una descripción de un objeto, mientras que un objeto es una instancia específica de esa descripción.
+</details>
+<br>
+
+⭐⭐⭐ ¿Qué hace el siguiente código en C++?
+
+```c++
+#include <iostream>
+
+int main() {
+    int x = 5;
+    int y = 10;
+    int *ptr = &x;
+    *ptr += 2;
+    ptr = &y;
+    (*ptr)++;
+    std::cout << x << std::endl;
+    std::cout << y << std::endl;
+    return 0;
+}
+```
+    A) Imprime 7 y 11.
+    B) Imprime 5 y 10.
+    C) Imprime 7 y 10.
+    D) Imprime 5 y 11.
+
+<details>
+<summary>Respuesta</summary>
+    A) Imprime `7` y `11`.
+    <br>
+    El código crea dos variables enteras `x` e `y`, y un puntero `ptr` que apunta a `x`. Luego, se incrementa el valor apuntado por `ptr` en `2`, lo que hace que `x` sea igual a `7`. Después, se cambia la dirección que apunta `ptr` para que apunte a `y`. A continuación, se incrementa el valor apuntado por `ptr` en `1`, lo que hace que `y` sea igual a `11`. Finalmente, se imprimen los valores de `x` e `y`, que son `7` y `11`, respectivamente.
+</details>
+<br>
