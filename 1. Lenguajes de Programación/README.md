@@ -1,6 +1,6 @@
 # Juego
 
-## 1. Lenguajes de programación
+# 1. Lenguajes de programación
 
 |[111](#111) |[112](#112) |[113](#113) |[114](#114) |[115](#115) |[116](#116)|
 
@@ -97,6 +97,8 @@
 <details>
 <summary>Respuesta</summary>
     A) Guido van Rossum 
+    <br>
+    papafrita
 </details>
 <br>
 
@@ -171,7 +173,7 @@
 
 ## 113 <a name = "113"></a>
 
-⭐⭐ ¿Qué es una clase abstracta en Java?
+⭐ ¿Qué es una clase abstracta en Java?
 
     A) Una clase que no puede ser instanciada
     B) Una clase que extiende a otra clase
@@ -184,7 +186,7 @@
 </details>
 <br>
 
-⭐⭐⭐ ¿Qué es una interfaz en Java?
+⭐⭐ ¿Qué es una interfaz en Java?
 
     A) Una clase que define un conjunto de métodos que deben ser implementados por las clases que la implementan
     B) Una clase que solo puede ser heredada por una sola clase
@@ -5038,9 +5040,9 @@ def func():
     return ____
 ```
 
-A) return 
-B) i
-C) result
+    A) return 
+    B) i
+    C) result
 
 <details>
 <summary>Respuesta</summary>
@@ -7806,5 +7808,39 @@ public class MyGame extends ApplicationAdapter {
     A) Muestra una imagen en la pantalla.
     <br>
     La función `render()` en este fragmento de código de LibGDX en Java establece el color de fondo, borra el búfer de color y luego dibuja una imagen en la pantalla utilizando un objeto `SpriteBatch`. La imagen se carga en la función `create()` y se dibuja en las coordenadas (50, 50) en la función `render()`. Este código no crea una animación, carga o reproduce una pista de audio ni implementa un sistema de colisiones.
+</details>
+<br>
+
+⭐⭐⭐ En el siguiente fragmento de código en C para un sistema embebido basado en un microcontrolador AVR, ¿qué hace la función main()?
+
+```c
+#include <avr/io.h>
+#include <util/delay.h>
+
+#define LED_PIN (1 << PB0)
+
+int main(void) {
+    DDRB |= LED_PIN;
+
+    while (1) {
+        PORTB |= LED_PIN;
+        _delay_ms(500);
+        PORTB &= ~LED_PIN;
+        _delay_ms(500);
+    }
+
+    return 0;
+}
+```
+    A) Lee datos desde un sensor externo y los guarda en una memoria EEPROM.
+    B) Configura una comunicación serie entre el microcontrolador y un módulo Bluetooth.
+    C) Enciende y apaga un LED conectado al pin PB0 con un intervalo de 500 ms.
+    D) Controla un motor de corriente continua mediante un controlador de motor.
+
+<details>
+<summary>Respuesta</summary>
+    C) Enciende y apaga un LED conectado al pin PB0 con un intervalo de 500 ms.
+    <br>
+    El código configura el pin PB0 como salida utilizando la operación `|=` y el registro `DDRB`. Luego, en un bucle infinito, enciende el LED conectado al pin PB0 mediante la operación `|=` y el registro `PORTB`, espera 500 ms utilizando `_delay_ms()`, apaga el LED mediante la operación `&= ~` y el registro `PORTB`, y vuelve a esperar 500 ms. Este código no lee datos desde un sensor, configura una comunicación serie ni controla un motor.
 </details>
 <br>

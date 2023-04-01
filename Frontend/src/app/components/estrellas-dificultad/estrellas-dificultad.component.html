@@ -1,0 +1,11 @@
+<ion-buttons>
+  <ion-button (click)="seleccionarDificultad(1)">
+    <ion-icon name="star" [color]="dificultad >= 1 ? 'primary' : 'medium'"></ion-icon>
+  </ion-button>
+  <ion-button (click)="seleccionarDificultad(2)">
+    <ion-icon name="star" [color]="dificultad >= 2 ? 'primary' : 'medium'"></ion-icon>
+  </ion-button>
+  <ion-button (click)="seleccionarDificultad(3)">
+    <ion-icon name="star" [color]="dificultad >= 3 ? 'primary' : 'medium'"></ion-icon>
+  </ion-button>
+</ion-buttons>

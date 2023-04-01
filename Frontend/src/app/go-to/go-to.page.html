@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>GO TO</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button expand="block" (click)="throwDice()">Tirar Dados</ion-button>
+        <p *ngIf="randomNumber">Número: {{ randomNumber }}</p>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <p>o inserta un Numero, recuerda que debe ser de 3 cífras y cada cifra debe ser un 
+          Número entre 1 y 6 (como si tiraras 3 dados de 6 caras)
+        </p>
+        <ion-item>
+          <ion-label position="floating">Número de 3 cifras</ion-label>
+          <ion-input [(ngModel)]="inputNumber" type="number" min="100" max="999"></ion-input>
+        </ion-item>
+        <ion-button expand="block" [disabled]="!isValidNumber()" (click)="goToDifficulty()">Ir a Dificultad</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
